@@ -10,7 +10,7 @@ st.set_page_config(
 
 # --- SIDEBAR NAVI ---
 st.sidebar.title("🔥 Burner Missionen")
-auswahl = st.sidebar.radio("Wähle Kombination:", list(MISSION_DATA.keys()))
+auswahl = st.sidebar.radio("Wähle eine Kombination:", list(MISSION_DATA.keys()))
 daten = MISSION_DATA[auswahl]
 
 # --- HAUPTFLÄCHE (Fokus auf die 3 Kernbereiche) ---
