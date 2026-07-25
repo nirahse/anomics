@@ -8,15 +8,32 @@ st.set_page_config(
     layout="wide"
 )
 
-# 2. Titel links in die obere Top-Bar (Navigationsleiste) einfügen
-st.logo(
-    image="🔥", # Du kannst hier ein Emoji oder eine Bild-URL nutzen
-    icon_image="🔥",
+# 2. Das Logo direkt ganz oben auf der Hauptfläche anzeigen
+# (use_container_width=False sorgt dafür, dass es in Originalgröße bleibt)
+#st.image("logo_title.png", use_container_width=False)
+
+# CSS-Trick: Abstände für das Hauptfenster UND die Sidebar reduzieren
+st.markdown(
+    """
+    <style>
+        /* 1. Abstand oben im Hauptfenster entfernen */
+        .block-container {
+            padding-top: 1.5rem !important;
+            padding-bottom: 0rem !important;
+        }
+        
+        /* 2. NEU: Abstand oben in der linken Sidebar entfernen */
+        .stSidebarUserContent {
+            padding-top: 0.5rem !important;
+        }
+    </style>
+    """,
+    unsafe_allow_html=True
 )
 
 # --- SIDEBAR NAVI ---
 st.sidebar.title("🔥 Burner Missionen")
-auswahl = st.sidebar.radio("Wähle eine Kombination:", list(MISSION_DATA.keys()))
+auswahl = st.sidebar.radio("Wähle einen Guide:", list(MISSION_DATA.keys()))
 daten = MISSION_DATA[auswahl]
 
 # --- HAUPTFLÄCHE (Fokus auf die 3 Kernbereiche) ---
@@ -24,23 +41,25 @@ st.title(f"🚀 {auswahl}")
 st.markdown("---")
 
 # Layout mit 3 Spalten: Flugshow, Fit, Flugplan
-col_flugshow, col_fit, col_flugplan = st.columns([1.2, 1.0, 1.2])
+col_fit, col_flugplan, col_flugshow = st.columns([1.0, 1.2, 1.2])
 
-# 1. Kategorie: FLUGSHOW
-with col_flugshow:
-    st.header("📹 1. Flugshow")
-    st.video(daten["flugshow_url"])
-
-# 2. Kategorie: FIT
+# 1. Kategorie: FIT
 with col_fit:
-    st.header("🛠️ 2. Fit")
+    st.header("🛠️ Fit")
     st.code(daten["fit"], language="text")
 
-# 3. Kategorie: FLUGPLAN
+# 2. Kategorie: FLUGPLAN
 with col_flugplan:
-    st.header("📋 3. Flugplan")
+    st.header("📋 Flugplan")
     for schritt in daten["flugplan"]:
         st.markdown(schritt)
+
+# 3. Kategorie: FLUGSHOW
+with col_flugshow:
+    st.header("📹 Flugshow")
+    st.video(daten["flugshow_url"])
+
+
 
 st.markdown("---")
 
