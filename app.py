@@ -12,7 +12,6 @@ st.set_page_config(
 st.logo(
     image="🔥", # Du kannst hier ein Emoji oder eine Bild-URL nutzen
     icon_image="🔥",
-    title="EVE Guide - Anomische Missionen" # Das ist dein Text für die Top-Bar!
 )
 
 # --- SIDEBAR NAVI ---
