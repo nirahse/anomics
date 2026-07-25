@@ -39,7 +39,7 @@ with col_flugplan:
 st.markdown("---")
 
 # --- DETAILS (Eingeklappt für interessierte Spieler) ---
-st.subheader("🧠 Deep Dive & Hintergrund-Infos")
+st.subheader("🧠 Hintergrund-Infos")
 
 with st.expander("Skills"):
     st.markdown("Skill-Anforderungen für Anomische Missionen sind in der Regel sehr hoch. :orange[Das ist nichts für Anfänger-Charaktere.] Hier sind die empfohlenen Skills.")
