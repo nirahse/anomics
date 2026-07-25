@@ -8,6 +8,13 @@ st.set_page_config(
     layout="wide"
 )
 
+# 2. Titel links in die obere Top-Bar (Navigationsleiste) einfügen
+st.logo(
+    image="🔥", # Du kannst hier ein Emoji oder eine Bild-URL nutzen
+    icon_image="🔥",
+    title="EVE Guide - Anomische Missionen" # Das ist dein Text für die Top-Bar!
+)
+
 # --- SIDEBAR NAVI ---
 st.sidebar.title("🔥 Burner Missionen")
 auswahl = st.sidebar.radio("Wähle eine Kombination:", list(MISSION_DATA.keys()))
