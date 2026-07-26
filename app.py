@@ -85,5 +85,3 @@ with st.expander("Schadensprofile & Resistenzen"):
 
 with st.expander("Implantate"):
     st.write(daten["details_implants"])
-
-

@@ -79,7 +79,7 @@ Occult S x2000
     # --- TEAM Enyo - Nergal ---
     #
     "Team Enyo vs Nergal": {
-            "flugshow_url": "https://youtu.be/K9Nccq41K28", # Dein YouTube-Video
+            "flugshow_url": "https://youtu.be/IYEPW7bdMJ0", # Dein YouTube-Video
             "fit": """[Nergal, Burner Team: Enyo]
 Centii A-Type Small Armor Repairer
 Entropic Radiation Sink II
