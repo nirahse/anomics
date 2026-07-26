@@ -50,13 +50,13 @@ with col_fit:
 
 # 2. Kategorie: FLUGPLAN
 with col_flugplan:
-    st.header("📋 Flugplan")
+    st.header("📋 Taktik")
     for schritt in daten["flugplan"]:
         st.markdown(schritt)
 
 # 3. Kategorie: FLUGSHOW
 with col_flugshow:
-    st.header("📹 Flugshow")
+    st.header("📹 Beispiel")
     st.video(daten["flugshow_url"])
 
 
@@ -77,7 +77,7 @@ with st.expander("Skills"):
         hide_index=True          # Versteckt Zeilennummern
     )
 
-with st.expander("Warum ist das Fit so gewählt? (Theorie & Module)"):
+with st.expander("Warum ist das Fit so gewählt?"):
     st.write(daten["details_warum_fit"])
 
 with st.expander("Schadensprofile & Resistenzen"):
