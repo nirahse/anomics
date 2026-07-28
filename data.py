@@ -33,7 +33,7 @@ Occult S x2000
             "**1:** Occult S laden.",
             "**2:** Sprungtor nutzen.",
             "**3:** Cruor aufschalten.",
-            "**4:** Kurs auf Cruor setzen.",
+            "**4:** 4.5 km Abstand halten.",
             "**5:** Beide Webifier AN.",
             "**6:** Feuern und zerstören.",
             "**7:** Wertvollen Loot mitnehmen."
