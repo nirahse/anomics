@@ -2,6 +2,78 @@
 
 MISSION_DATA = {
     #
+    # --- AGENT Blood Raider - Nergal ---
+    #
+    "Agent Blood Raider vs Nergal": {
+        "flugshow_url": "https://youtu.be/c8wK3phVkdE", # Dein YouTube-Video
+        "fit": """[Nergal, Burner Agent: Blood Raiders]
+Centii A-Type Small Armor Repairer
+Entropic Radiation Sink II
+Centum A-Type EM Energized Membrane
+Vigor Compact Micro Auxiliary Power Core
+
+Stasis Webifier II
+Stasis Webifier II
+'Censer' Medium Cap Battery
+
+Veles Light Entropic Disintegrator
+
+Small Auxiliary Nano Pump II
+Small Capacitor Control Circuit II
+
+
+
+Warrior II x5
+
+Occult S x2000
+
+    """
+    ,
+        "flugplan": [
+            "**1:** Occult S laden.",
+            "**2:** Sprungtor nutzen.",
+            "**3:** Cruor aufschalten.",
+            "**4:** Kurs auf Cruor setzen.",
+            "**5:** Beide Webifier AN.",
+            "**6:** Feuern und zerstören.",
+            "**7:** Wertvollen Loot mitnehmen."
+        ],
+        # Optionale Details (Standardmäßig eingeklappt)
+        "details_warum_fit": "Die Nergal glänzt durch enormen Schaden nachdem die Waffe voll hochgespult ist. Es braucht also etwas Zeit bis der Tank des Gegners bricht. Dadurch wird die Mission extrem einfach. Das Fit wirkt dem starken Energie-Neutralisierer des Gegners entegen. Dafür ist eine große Batterie eingebaut und ein Power Core um diese mit genug Strom zu versorgen. Die Panzerung ist gegen den EM Schaden des Gegners verstärkt.",
+        "details_resistenzen": "Gegner macht EM-Schaden, deswegen fitten wir die Centum A-Type EM Energized Membrane. Die Disintegrator Waffe macht Thermal- und Explosiv-Schaden aber mehr als genug, so dass die Resistenzen der XXX nicht stören. ",
+        "details_implants": "Es sind keine Implantate notwendig. Du kannst Dir aber das Leben mit der Nergal leichter machen, wenn Du den Armor-Tank durch Implantate verstärkst. Ein Mid-grade Asklepian Set ist perfekt und unterstützt auch andere Armor-Tank Schiffe in Missionen. Zusätzlich könntest Du auch Implantate für mehr Gun-Feuerkraft einsetzen.",
+        "details_skills": [
+            {"Kategorie": "Assault Frigates", "Skill": "Precursor Fregatten", "Stufe": "V"},
+            {"Kategorie": "Spaceship Command", "Skill": "Precursor Fregatten", "Stufe": "V"},
+            {"Kategorie": "Armor", "Skill": "Hull Upgrades", "Stufe": "V"},
+            {"Kategorie": "Armor", "Skill": "Mechanics", "Stufe": "V"},
+            {"Kategorie": "Armor", "Skill": "Repair Systems", "Stufe": "V"},
+            {"Kategorie": "Navigation", "Skill": "Acceleration Control", "Stufe": "V"},
+            {"Kategorie": "Navigation", "Skill": "Navigation", "Stufe": "V"},
+            {"Kategorie": "Engineering", "Skill": "Advanced Weapon Upgrades", "Stufe": "IV"},
+            {"Kategorie": "Engineering", "Skill": "Capacitor Management", "Stufe": "V"},
+            {"Kategorie": "Engineering", "Skill": "Capacitor Systems Operation", "Stufe": "V"},
+            {"Kategorie": "Engineering", "Skill": "CPU Management", "Stufe": "V"},
+            {"Kategorie": "Engineering", "Skill": "Power Grid Management", "Stufe": "V"},
+            {"Kategorie": "Engineering", "Skill": "Weapon Upgrades", "Stufe": "V"},
+            {"Kategorie": "Gunnery", "Skill": "Controlled Bursts", "Stufe": "V"},
+            {"Kategorie": "Gunnery", "Skill": "Gunnery", "Stufe": "V"},
+            {"Kategorie": "Gunnery", "Skill": "Motion Prediction", "Stufe": "V"},
+            {"Kategorie": "Gunnery", "Skill": "Rapid Firing", "Stufe": "V"},
+            {"Kategorie": "Gunnery", "Skill": "Sharpshooter", "Stufe": "V"},
+            {"Kategorie": "Gunnery", "Skill": "Small Precursor Weaponr", "Stufe": "V"},
+            {"Kategorie": "Gunnery", "Skill": "Small Disintegrator Specialization", "Stufe": "IV"},
+            {"Kategorie": "Gunnery", "Skill": "Surgical Strike", "Stufe": "V"},
+            {"Kategorie": "Rigging", "Skill": "Armor Rigging", "Stufe": "IV"},
+            {"Kategorie": "Drones", "Skill": "Drone Durability", "Stufe": "V"},
+            {"Kategorie": "Drones", "Skill": "Drone Interfacing", "Stufe": "V"},
+            {"Kategorie": "Drones", "Skill": "Drone Navigation", "Stufe": "V"},
+            {"Kategorie": "Drones", "Skill": "Drone Sharpshooting", "Stufe": "V"},
+            {"Kategorie": "Drones", "Skill": "Gallente Drone Specialization", "Stufe": "III"},
+            {"Kategorie": "Drones", "Skill": "Light Drone Operation", "Stufe": "V"},
+        ]
+    },
+    #
     # --- TEAM Vengeance - Nergal ---
     #
     "Team Vengeance vs Nergal": {
@@ -32,11 +104,11 @@ Occult S x2000
             "**1:** Occult S laden, Armor Hardener und Repairer AN.",
             "**2:** Sprungtor nutzen.",
             "**3:** Afterburner AN, 4.5km Abstand zur Vengeance halten.",
-            "**5:** Vengeance aufschalten.",
-            "**6:** *(< 14km)* Webifier AN.",
-            "**7:** *(< 7km)* Auf Vengeance feuern und zerstören. Logistik-Fregatten ignorieren.",
-            "**8:** Zu viel Schaden kassiert? **:orange[Armor Hardener überhitzen]**",
-            "**9:** Wertvollen Loot mitnehmen."
+            "**4:** Vengeance aufschalten.",
+            "**5:** *(< 14km)* Webifier AN.",
+            "**6:** *(< 7km)* Auf Vengeance feuern und zerstören. Logistik-Fregatten ignorieren.",
+            "**7:** Zu viel Schaden kassiert? **:orange[Armor Hardener überhitzen]**",
+            "**8:** Wertvollen Loot mitnehmen."
         ],
         # Optionale Details (Standardmäßig eingeklappt)
         "details_warum_fit": "Die Nergal glänzt durch enormen Schaden nachdem die Waffe voll hochgespult ist. Es braucht also etwas Zeit, aber selbst die zwei Logistik-Fregatten des Teams können dem nicht standhalten. Dadurch wird die Mission extrem einfach. Das Fit ist ausgelegt, den Hauptgegner mit dem Webifier zu verlangsamen, um den Abstand kontrollieren zu können. Die Schadensart des Gegners ist EM, gegen die wir ein gutes Resistenzmodul mitnehmen.",
@@ -149,7 +221,7 @@ Occult S x2000
         ]
     },
     #
-    # --- TEAM Enyo - Nergal ---
+    # --- Base Talos - Nergal ---
     #
     "Base Talos vs Nergal": {
             "flugshow_url": "https://youtu.be/-2gsLViGDOo", # Dein YouTube-Video
