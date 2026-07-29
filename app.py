@@ -31,6 +31,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
+
 # --- SIDEBAR NAVI ---
 st.sidebar.title("🔥 Burner Missionen")
 auswahl = st.sidebar.radio("Wähle einen Guide:", list(MISSION_DATA.keys()))
