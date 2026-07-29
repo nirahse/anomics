@@ -1,80 +1,7 @@
 # data.py
 
 MISSION_DATA = {
-    #
-    # --- AGENT Guristas - Nergal ---
-    #
-    "Agent Guristas vs Nergal": {
-        "flugshow_url": "https://youtu.be/GEnn2QDD1xE", # Dein YouTube-Video
-        "fit": """[Nergal, Burner Agent: Guristas]
-Centii A-Type Small Armor Repairer
-Overdrive Injector System II
-Overdrive Injector System II
-Centus X-Type Kinetic Armor Hardener
-
-True Sansha Warp Scrambler
-Republic Fleet Small Cap Battery
-Coreli A-Type 5MN Microwarpdrive
-
-Veles Light Entropic Disintegrator
-
-Small Auxiliary Nano Pump II
-Small Capacitor Control Circuit II
-
-
-
-
-Occult S x2000
-    
-    """
-    ,
-        "flugplan": [
-            "**1:** Occult S laden.",
-            "**2:** Armor Hardener + Repairer AN.",
-            "**3:** Sprungtor nutzen.",
-            "**4:** Kurs auf 4.5km Abstand + MWD AN (1 normaler Zyklus).",
-            "**5:** MWD Überhitzen (für max. 3 Zyklen, mitzählen!).",
-            "**6:** Worm aufschalten.",
-            "**7:** *(<11km)*: Warp Scrambler AN, MWD aus.",
-            "**8:** Feuern und Worm zerstören."
-            "**9:** Wertvollen Loot mitnehmen.",
-            ":orange[**Notausgang:**] Wenn der Scrambler durch das Überhitzen durchbrennt: Rep laufen lassen, MWD AUS, Client schliessen (Alt+F4), 10 min warten, wieder einloggen (ihr landet am Gate zur Mission), Schiff reparieren und neu versuchen"
-        ],
-        # Optionale Details (Standardmäßig eingeklappt)
-        "details_warum_fit": "Die Nergal glänzt durch enormen Schaden nachdem die Waffe voll hochgespult ist. Es braucht also etwas Zeit bis der Tank des Gegners bricht, besonders bei der Worm, denn die hat einen ganz ordentlichen Tank. Das Fit ist ausgelegt, die Worm einzufangen und ihren MWD auszuschalten. Die Worm fliegt mit 3.5km/s und versucht, auf 30 km Abstand zu bleiben. Wir fangen sie mit dem überhitzen MWD. Der bringt uns auf ca. 4.5km/s und nutzen dann den Warp Scrambler.",
-        "details_resistenzen": "Gegner macht Kinetik-Schaden, deswegen fitten wir den Centus X-Type Kinetic Armor Hardener. Die Disintegrator Waffe macht Thermal- und Explosiv-Schaden aber mehr als genug, so dass die Resistenzen der Worm nicht stören. ",
-        "details_implants": "Es sind keine Implantate notwendig. Du kannst Dir aber das Leben mit der Nergal leichter machen, wenn Du den Armor-Tank durch Implantate verstärkst. Ein Mid-grade Asklepian Set ist perfekt und unterstützt auch andere Armor-Tank Schiffe in Missionen. Zusätzlich könntest Du auch Implantate für mehr Gun-Feuerkraft einsetzen.",
-        "details_skills": [
-            {"Kategorie": "Assault Frigates", "Skill": "Precursor Fregatten", "Stufe": "V"},
-            {"Kategorie": "Spaceship Command", "Skill": "Precursor Fregatten", "Stufe": "V"},
-            {"Kategorie": "Armor", "Skill": "Hull Upgrades", "Stufe": "V"},
-            {"Kategorie": "Armor", "Skill": "Mechanics", "Stufe": "V"},
-            {"Kategorie": "Armor", "Skill": "Repair Systems", "Stufe": "V"},
-            {"Kategorie": "Navigation", "Skill": "Acceleration Control", "Stufe": "V"},
-            {"Kategorie": "Navigation", "Skill": "Navigation", "Stufe": "V"},
-            {"Kategorie": "Engineering", "Skill": "Advanced Weapon Upgrades", "Stufe": "IV"},
-            {"Kategorie": "Engineering", "Skill": "Capacitor Management", "Stufe": "V"},
-            {"Kategorie": "Engineering", "Skill": "Capacitor Systems Operation", "Stufe": "V"},
-            {"Kategorie": "Engineering", "Skill": "CPU Management", "Stufe": "V"},
-            {"Kategorie": "Engineering", "Skill": "Power Grid Management", "Stufe": "V"},
-            {"Kategorie": "Engineering", "Skill": "Weapon Upgrades", "Stufe": "V"},
-            {"Kategorie": "Gunnery", "Skill": "Controlled Bursts", "Stufe": "V"},
-            {"Kategorie": "Gunnery", "Skill": "Gunnery", "Stufe": "V"},
-            {"Kategorie": "Gunnery", "Skill": "Motion Prediction", "Stufe": "V"},
-            {"Kategorie": "Gunnery", "Skill": "Rapid Firing", "Stufe": "V"},
-            {"Kategorie": "Gunnery", "Skill": "Sharpshooter", "Stufe": "V"},
-            {"Kategorie": "Gunnery", "Skill": "Small Precursor Weaponr", "Stufe": "V"},
-            {"Kategorie": "Gunnery", "Skill": "Small Disintegrator Specialization", "Stufe": "IV"},
-            {"Kategorie": "Gunnery", "Skill": "Surgical Strike", "Stufe": "V"},
-            {"Kategorie": "Rigging", "Skill": "Armor Rigging", "Stufe": "IV"},
-            {"Kategorie": "Drones", "Skill": "Drone Durability", "Stufe": "V"},
-            {"Kategorie": "Drones", "Skill": "Drone Interfacing", "Stufe": "V"},
-            {"Kategorie": "Drones", "Skill": "Drone Navigation", "Stufe": "V"},
-            {"Kategorie": "Drones", "Skill": "Drone Sharpshooting", "Stufe": "V"},
-            {"Kategorie": "Drones", "Skill": "Gallente Drone Specialization", "Stufe": "III"},
-            {"Kategorie": "Drones", "Skill": "Light Drone Operation", "Stufe": "V"},
-        ]
-    },
+    # ---------------------------------------------------------------------------------------
     #
     # --- AGENT Blood Raiders - Nergal ---
     #
@@ -147,20 +74,21 @@ Occult S x2000
             {"Kategorie": "Drones", "Skill": "Light Drone Operation", "Stufe": "V"},
         ]
     },
+    # ---------------------------------------------------------------------------------------
     #
-    # --- TEAM Vengeance - Nergal ---
+    # --- AGENT Guristas - Nergal ---
     #
-    "Team Vengeance vs Nergal": {
-        "flugshow_url": "https://youtu.be/ZpVujwTAP_w", # Dein YouTube-Video
-        "fit": """[Nergal, Burner Team: Vengeance]
+    "Agent Guristas vs Nergal": {
+        "flugshow_url": "https://youtu.be/GEnn2QDD1xE", # Dein YouTube-Video
+        "fit": """[Nergal, Burner Agent: Guristas]
 Centii A-Type Small Armor Repairer
-Centus C-Type EM Armor Hardener
-Entropic Radiation Sink II
-Entropic Radiation Sink II
+Overdrive Injector System II
+Overdrive Injector System II
+Centus X-Type Kinetic Armor Hardener
 
-Coreli A-Type 1MN Afterburner
-Federation Navy Stasis Webifier
+True Sansha Warp Scrambler
 Republic Fleet Small Cap Battery
+Coreli A-Type 5MN Microwarpdrive
 
 Veles Light Entropic Disintegrator
 
@@ -169,24 +97,26 @@ Small Capacitor Control Circuit II
 
 
 
-Hobgoblin II x5
 
 Occult S x2000
-"""
-,
+    
+    """
+    ,
         "flugplan": [
-            "**1:** Occult S laden, Armor Hardener und Repairer AN.",
-            "**2:** Sprungtor nutzen.",
-            "**3:** Afterburner AN, 4.5km Abstand zur Vengeance halten.",
-            "**4:** Vengeance aufschalten.",
-            "**5:** *(< 14km)* Webifier AN.",
-            "**6:** *(< 7km)* Auf Vengeance feuern und zerstören. Logistik-Fregatten ignorieren.",
-            "**7:** Zu viel Schaden kassiert? **:orange[Armor Hardener überhitzen]**",
-            "**8:** Wertvollen Loot mitnehmen."
+            "**1:** Occult S laden.",
+            "**2:** Armor Hardener + Repairer AN.",
+            "**3:** Sprungtor nutzen.",
+            "**4:** Kurs auf 4.5km Abstand + MWD AN (1 normaler Zyklus).",
+            "**5:** MWD Überhitzen (für max. 3 Zyklen, mitzählen!).",
+            "**6:** Worm aufschalten.",
+            "**7:** *(<11km)*: Warp Scrambler AN, MWD aus.",
+            "**8:** Feuern und Worm zerstören."
+            "**9:** Wertvollen Loot mitnehmen.",
+            ":orange[**Notausgang:**] Wenn der Scrambler durch das Überhitzen durchbrennt: Rep laufen lassen, MWD AUS, Client schliessen (Alt+F4), 10 min warten, wieder einloggen (ihr landet am Gate zur Mission), Schiff reparieren und neu versuchen"
         ],
         # Optionale Details (Standardmäßig eingeklappt)
-        "details_warum_fit": "Die Nergal glänzt durch enormen Schaden nachdem die Waffe voll hochgespult ist. Es braucht also etwas Zeit, aber selbst die zwei Logistik-Fregatten des Teams können dem nicht standhalten. Dadurch wird die Mission extrem einfach. Das Fit ist ausgelegt, den Hauptgegner mit dem Webifier zu verlangsamen, um den Abstand kontrollieren zu können. Die Schadensart des Gegners ist EM, gegen die wir ein gutes Resistenzmodul mitnehmen.",
-        "details_resistenzen": "Gegner macht EM-Schaden, deswegen fitten wir den EM Armor Hardener. Die Disintegrator Waffe macht Thermal- und Explosiv-Schaden aber mehr als genug, so dass die Resistenzen der Vengeance nicht stören. ",
+        "details_warum_fit": "Die Nergal glänzt durch enormen Schaden nachdem die Waffe voll hochgespult ist. Es braucht also etwas Zeit bis der Tank des Gegners bricht. Das hilft besonders bei der Worm, denn die hat einen ganz ordentlichen Tank. Das Fit ist ausgelegt, die Worm einzufangen und ihren MWD auszuschalten. Die Worm fliegt mit 3.5km/s und versucht, auf 30 km Abstand zu bleiben. Wir fangen sie ein, indem wir extra schnell werden. Mit dem überhitzten MWD kommen wir auf ca. 4.5km/s. Bei unter 11km Abstand schalten wir den MWD der Worm mit unserem Warp Scrambler aus.",
+        "details_resistenzen": "Gegner macht Kinetik-Schaden, deswegen fitten wir den Centus X-Type Kinetic Armor Hardener. Die Disintegrator Waffe macht Thermal- und Explosiv-Schaden aber mehr als genug, so dass die Resistenzen der Worm nicht stören. ",
         "details_implants": "Es sind keine Implantate notwendig. Du kannst Dir aber das Leben mit der Nergal leichter machen, wenn Du den Armor-Tank durch Implantate verstärkst. Ein Mid-grade Asklepian Set ist perfekt und unterstützt auch andere Armor-Tank Schiffe in Missionen. Zusätzlich könntest Du auch Implantate für mehr Gun-Feuerkraft einsetzen.",
         "details_skills": [
             {"Kategorie": "Assault Frigates", "Skill": "Precursor Fregatten", "Stufe": "V"},
@@ -220,6 +150,7 @@ Occult S x2000
         ]
     },
 
+    # ---------------------------------------------------------------------------------------
     #
     # --- TEAM Enyo - Nergal ---
     #
@@ -294,6 +225,82 @@ Occult S x2000
             {"Kategorie": "Drones", "Skill": "Light Drone Operation", "Stufe": "V"},
         ]
     },
+    
+    # ---------------------------------------------------------------------------------------
+    #
+    # --- TEAM Vengeance - Nergal ---
+    #
+    "Team Vengeance vs Nergal": {
+        "flugshow_url": "https://youtu.be/ZpVujwTAP_w", # Dein YouTube-Video
+        "fit": """[Nergal, Burner Team: Vengeance]
+Centii A-Type Small Armor Repairer
+Centus C-Type EM Armor Hardener
+Entropic Radiation Sink II
+Entropic Radiation Sink II
+
+Coreli A-Type 1MN Afterburner
+Federation Navy Stasis Webifier
+Republic Fleet Small Cap Battery
+
+Veles Light Entropic Disintegrator
+
+Small Auxiliary Nano Pump II
+Small Capacitor Control Circuit II
+
+
+
+Hobgoblin II x5
+
+Occult S x2000
+"""
+,
+        "flugplan": [
+            "**1:** Occult S laden, Armor Hardener und Repairer AN.",
+            "**2:** Sprungtor nutzen.",
+            "**3:** Afterburner AN, 4.5km Abstand zur Vengeance halten.",
+            "**4:** Vengeance aufschalten.",
+            "**5:** *(< 14km)* Webifier AN.",
+            "**6:** *(< 7km)* Auf Vengeance feuern und zerstören. Logistik-Fregatten ignorieren.",
+            "**7:** Zu viel Schaden kassiert? **:orange[Armor Hardener überhitzen]**",
+            "**8:** Wertvollen Loot mitnehmen."
+        ],
+        # Optionale Details (Standardmäßig eingeklappt)
+        "details_warum_fit": "Die Nergal glänzt durch enormen Schaden nachdem die Waffe voll hochgespult ist. Es braucht also etwas Zeit, aber selbst die zwei Logistik-Fregatten des Teams können dem nicht standhalten. Dadurch wird die Mission extrem einfach. Das Fit ist ausgelegt, den Hauptgegner mit dem Webifier zu verlangsamen, um den Abstand kontrollieren zu können. Die Schadensart des Gegners ist EM, gegen die wir ein gutes Resistenzmodul mitnehmen.",
+        "details_resistenzen": "Gegner macht EM-Schaden, deswegen fitten wir den EM Armor Hardener. Die Disintegrator Waffe macht Thermal- und Explosiv-Schaden aber mehr als genug, so dass die Resistenzen der Vengeance nicht stören. ",
+        "details_implants": "Es sind keine Implantate notwendig. Du kannst Dir aber das Leben mit der Nergal leichter machen, wenn Du den Armor-Tank durch Implantate verstärkst. Ein Mid-grade Asklepian Set ist perfekt und unterstützt auch andere Armor-Tank Schiffe in Missionen. Zusätzlich könntest Du auch Implantate für mehr Gun-Feuerkraft einsetzen.",
+        "details_skills": [
+            {"Kategorie": "Assault Frigates", "Skill": "Precursor Fregatten", "Stufe": "V"},
+            {"Kategorie": "Spaceship Command", "Skill": "Precursor Fregatten", "Stufe": "V"},
+            {"Kategorie": "Armor", "Skill": "Hull Upgrades", "Stufe": "V"},
+            {"Kategorie": "Armor", "Skill": "Mechanics", "Stufe": "V"},
+            {"Kategorie": "Armor", "Skill": "Repair Systems", "Stufe": "V"},
+            {"Kategorie": "Navigation", "Skill": "Acceleration Control", "Stufe": "V"},
+            {"Kategorie": "Navigation", "Skill": "Navigation", "Stufe": "V"},
+            {"Kategorie": "Engineering", "Skill": "Advanced Weapon Upgrades", "Stufe": "IV"},
+            {"Kategorie": "Engineering", "Skill": "Capacitor Management", "Stufe": "V"},
+            {"Kategorie": "Engineering", "Skill": "Capacitor Systems Operation", "Stufe": "V"},
+            {"Kategorie": "Engineering", "Skill": "CPU Management", "Stufe": "V"},
+            {"Kategorie": "Engineering", "Skill": "Power Grid Management", "Stufe": "V"},
+            {"Kategorie": "Engineering", "Skill": "Weapon Upgrades", "Stufe": "V"},
+            {"Kategorie": "Gunnery", "Skill": "Controlled Bursts", "Stufe": "V"},
+            {"Kategorie": "Gunnery", "Skill": "Gunnery", "Stufe": "V"},
+            {"Kategorie": "Gunnery", "Skill": "Motion Prediction", "Stufe": "V"},
+            {"Kategorie": "Gunnery", "Skill": "Rapid Firing", "Stufe": "V"},
+            {"Kategorie": "Gunnery", "Skill": "Sharpshooter", "Stufe": "V"},
+            {"Kategorie": "Gunnery", "Skill": "Small Precursor Weaponr", "Stufe": "V"},
+            {"Kategorie": "Gunnery", "Skill": "Small Disintegrator Specialization", "Stufe": "IV"},
+            {"Kategorie": "Gunnery", "Skill": "Surgical Strike", "Stufe": "V"},
+            {"Kategorie": "Rigging", "Skill": "Armor Rigging", "Stufe": "IV"},
+            {"Kategorie": "Drones", "Skill": "Drone Durability", "Stufe": "V"},
+            {"Kategorie": "Drones", "Skill": "Drone Interfacing", "Stufe": "V"},
+            {"Kategorie": "Drones", "Skill": "Drone Navigation", "Stufe": "V"},
+            {"Kategorie": "Drones", "Skill": "Drone Sharpshooting", "Stufe": "V"},
+            {"Kategorie": "Drones", "Skill": "Gallente Drone Specialization", "Stufe": "III"},
+            {"Kategorie": "Drones", "Skill": "Light Drone Operation", "Stufe": "V"},
+        ]
+    },
+    
+    # ---------------------------------------------------------------------------------------
     #
     # --- Base Talos - Nergal ---
     #
