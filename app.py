@@ -60,7 +60,6 @@ with col_flugshow:
     st.video(daten["flugshow_url"])
 
 
-
 st.markdown("---")
 
 # --- DETAILS (Eingeklappt für interessierte Spieler) ---
@@ -85,5 +84,4 @@ with st.expander("Schadensprofile & Resistenzen"):
 
 with st.expander("Implantate"):
     st.write(daten["details_implants"])
-
 
