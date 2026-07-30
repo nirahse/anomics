@@ -111,7 +111,7 @@ Occult S x2000
             "**5:** MWD Überhitzen (für max. 3 Zyklen, mitzählen!).",
             "**6:** Worm aufschalten.",
             "**7:** *(<11km)*: Warp Scrambler AN, MWD aus.",
-            "**8:** Feuern und Worm zerstören."
+            "**8:** Feuern und Worm zerstören.",
             "**9:** Wertvollen Loot mitnehmen.",
             ":orange[**Notausgang:**] Wenn der Scrambler oder der MWD durch das Überhitzen durchbrennt: Rep laufen lassen, MWD AUS/offline, Client schliessen (Alt+F4), 10 min warten, wieder einloggen (ihr landet am Gate zur Mission), Schiff reparieren und neu versuchen. Es gibt Berichte, dass diese Taktik leider nicht immer erfolgreich ist."
         ],
