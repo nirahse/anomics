@@ -103,6 +103,7 @@ Occult S x2000
     """
     ,
         "flugplan": [
+            ":red[**Warnung:** Die Taktik kann durch ungünstigen Hitzeschaden fehlschlagen.]",
             "**1:** Occult S laden.",
             "**2:** Armor Hardener + Repairer AN.",
             "**3:** Sprungtor nutzen.",
