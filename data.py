@@ -112,7 +112,7 @@ Occult S x2000
             "**7:** *(<11km)*: Warp Scrambler AN, MWD aus.",
             "**8:** Feuern und Worm zerstören."
             "**9:** Wertvollen Loot mitnehmen.",
-            ":orange[**Notausgang:**] Wenn der Scrambler durch das Überhitzen durchbrennt: Rep laufen lassen, MWD AUS, Client schliessen (Alt+F4), 10 min warten, wieder einloggen (ihr landet am Gate zur Mission), Schiff reparieren und neu versuchen"
+            ":orange[**Notausgang:**] Wenn der Scrambler der der MWD durch das Überhitzen durchbrennt: Rep laufen lassen, MWD AUS/offline, Client schliessen (Alt+F4), 10 min warten, wieder einloggen (ihr landet am Gate zur Mission), Schiff reparieren und neu versuchen. Es gibt Berichte, dass diese Taktik leider nicht immer erfolgreich ist."
         ],
         # Optionale Details (Standardmäßig eingeklappt)
         "details_warum_fit": "Die Nergal glänzt durch enormen Schaden nachdem die Waffe voll hochgespult ist. Es braucht also etwas Zeit bis der Tank des Gegners bricht. Das hilft besonders bei der Worm, denn die hat einen ganz ordentlichen Tank. Das Fit ist ausgelegt, die Worm einzufangen und ihren MWD auszuschalten. Die Worm fliegt mit 3.5km/s und versucht, auf 30 km Abstand zu bleiben. Wir fangen sie ein, indem wir extra schnell werden. Mit dem überhitzten MWD kommen wir auf ca. 4.5km/s. Bei unter 11km Abstand schalten wir den MWD der Worm mit unserem Warp Scrambler aus.",
