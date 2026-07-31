@@ -5,6 +5,79 @@ MISSION_DATA = {
     #
     # --- AGENT Blood Raiders - Nergal ---
     #
+    "Agent Angel Cartel vs Nergal": {
+        "flugshow_url": "https://youtu.be/Yg3qu6zAP-w", # Dein YouTube-Video
+        "fit": """[Nergal, Burner Agent: Angel]
+Centii A-Type Small Armor Repairer
+Multispectrum Energized Membrane II
+Overdrive Injector System II
+Centum A-Type Explosive Energized Membrane
+
+Coreli A-Type 1MN Afterburner
+Stasis Webifier II
+Stasis Webifier II
+
+Veles Light Entropic Disintegrator
+
+Small Auxiliary Nano Pump II
+Small Capacitor Control Circuit II
+
+
+
+
+Occult S x2500
+    """
+    ,
+        "flugplan": [
+            "**1:** Occult S laden, Armor Repairer AN.",
+            "**2:** Sprungtor nutzen.",
+            "**3:** Doppelklick ins All (Weg von der Station für einen geraden Kurs).",
+            "**4:** Afterburner AN.",
+            "**5:** Dramiel aufschalten und Feuer!",
+            "**6:** Beide Webifier aktivieren.",
+            "**7:** Abstand bei ca. 4,5 km per *Keep at Range* halten.",
+            "**8:** Warten bis Gegner zerstört ist.",
+            "**9:** Wrack plündern und wertvollen Loot mitnehmen."
+        ],
+        # Optionale Details (Standardmäßig eingeklappt)
+        "details_warum_fit": "Mit diesem Fit behältst du die volle Distanzkontrolle. Trotz des Webs der gegnerischen Dramiel muss deine Nergal mindestens 401 m/s fliegen. Das ist exakt die Geschwindigkeit, auf die deine zwei eigenen Webs die Dramiel herunterbremsen. Um dieses Tempo zu garantieren, nutzt du den Afterburner und das Overdrive Injector System. Den extrem hohen Explosivschaden der Dramiel fängst du dabei mit einer Centum A-Type Explosive Energized Membrane ab.",
+        "details_resistenzen": "Gegner macht hauptsächlich Explosiv-Schaden, dazu ein wenig EM und Kinetik. Die mittelmäßige Thermal-Resistenz der Dramiel nutz unsere Waffe gut aus. ",
+        "details_implants": "Es sind keine Implantate notwendig. Du kannst Dir aber das Leben mit der Nergal leichter machen, wenn Du den Armor-Tank durch Implantate verstärkst. Ein Mid-grade Asklepian Set ist perfekt und unterstützt auch andere Armor-Tank Schiffe in Missionen. Zusätzlich könntest Du auch Implantate für mehr Gun-Feuerkraft einsetzen.",
+        "details_skills": [
+            {"Kategorie": "Assault Frigates", "Skill": "Precursor Fregatten", "Stufe": "V"},
+            {"Kategorie": "Spaceship Command", "Skill": "Precursor Fregatten", "Stufe": "V"},
+            {"Kategorie": "Armor", "Skill": "Hull Upgrades", "Stufe": "V"},
+            {"Kategorie": "Armor", "Skill": "Mechanics", "Stufe": "V"},
+            {"Kategorie": "Armor", "Skill": "Repair Systems", "Stufe": "V"},
+            {"Kategorie": "Navigation", "Skill": "Acceleration Control", "Stufe": "V"},
+            {"Kategorie": "Navigation", "Skill": "Navigation", "Stufe": "V"},
+            {"Kategorie": "Engineering", "Skill": "Advanced Weapon Upgrades", "Stufe": "IV"},
+            {"Kategorie": "Engineering", "Skill": "Capacitor Management", "Stufe": "V"},
+            {"Kategorie": "Engineering", "Skill": "Capacitor Systems Operation", "Stufe": "V"},
+            {"Kategorie": "Engineering", "Skill": "CPU Management", "Stufe": "V"},
+            {"Kategorie": "Engineering", "Skill": "Power Grid Management", "Stufe": "V"},
+            {"Kategorie": "Engineering", "Skill": "Weapon Upgrades", "Stufe": "V"},
+            {"Kategorie": "Gunnery", "Skill": "Controlled Bursts", "Stufe": "V"},
+            {"Kategorie": "Gunnery", "Skill": "Gunnery", "Stufe": "V"},
+            {"Kategorie": "Gunnery", "Skill": "Motion Prediction", "Stufe": "V"},
+            {"Kategorie": "Gunnery", "Skill": "Rapid Firing", "Stufe": "V"},
+            {"Kategorie": "Gunnery", "Skill": "Sharpshooter", "Stufe": "V"},
+            {"Kategorie": "Gunnery", "Skill": "Small Precursor Weaponr", "Stufe": "V"},
+            {"Kategorie": "Gunnery", "Skill": "Small Disintegrator Specialization", "Stufe": "IV"},
+            {"Kategorie": "Gunnery", "Skill": "Surgical Strike", "Stufe": "V"},
+            {"Kategorie": "Rigging", "Skill": "Armor Rigging", "Stufe": "IV"},
+            {"Kategorie": "Drones", "Skill": "Drone Durability", "Stufe": "V"},
+            {"Kategorie": "Drones", "Skill": "Drone Interfacing", "Stufe": "V"},
+            {"Kategorie": "Drones", "Skill": "Drone Navigation", "Stufe": "V"},
+            {"Kategorie": "Drones", "Skill": "Drone Sharpshooting", "Stufe": "V"},
+            {"Kategorie": "Drones", "Skill": "Gallente Drone Specialization", "Stufe": "III"},
+            {"Kategorie": "Drones", "Skill": "Light Drone Operation", "Stufe": "V"},
+        ]
+    },
+    # ---------------------------------------------------------------------------------------
+    #
+    # --- AGENT Blood Raiders - Nergal ---
+    #
     "Agent Blood Raiders vs Nergal": {
         "flugshow_url": "https://youtu.be/c8wK3phVkdE", # Dein YouTube-Video
         "fit": """[Nergal, Burner Agent: Blood Raiders]
