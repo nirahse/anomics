@@ -85,7 +85,12 @@ if gefilterte_keys:
     # 3. Kategorie: FLUGSHOW
     with col_flugshow:
         st.header("📹 Beispiel")
-        st.video(daten["flugshow_url"])
+        #st.video(daten["flugshow_url"])
+        if daten["flugshow_url"]:
+            st.video(daten["flugshow_url"])
+        else:
+            st.info("📺 Das Video für diesen Guide ist aktuell noch in Arbeit und folgt in Kürze!")
+
 
     st.markdown("---")
 

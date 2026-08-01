@@ -305,6 +305,81 @@ Optimal Range Script x1
 
     # ---------------------------------------------------------------------------------------
     #
+    # --- AGENT Serpentis - Nergal ---
+    #
+    "Agent Serpentis vs Nergal": {
+        "flugshow_url": "", # <-- YouTube-Video
+        "fit": """
+[Nergal, Burner Agent: Serpentis]
+Centii A-Type Small Armor Repairer
+Entropic Radiation Sink II
+Centus C-Type Kinetic Armor Hardener
+Centus C-Type Kinetic Armor Hardener
+
+Federation Navy Stasis Webifier
+Federation Navy Stasis Webifier
+Republic Fleet Small Cap Battery
+
+Veles Light Entropic Disintegrator
+Small Tractor Beam I
+
+Small Auxiliary Nano Pump II
+Small Capacitor Control Circuit II
+
+
+
+Warrior II x5
+
+Baryon Exotic Plasma S x2000    
+        """,
+        "flugplan": [
+            "**:red[Vorläufige Version]**",
+            "**1:** Baryon Exotic Plasma S laden, Armor Hardener und Repairer AN.",
+            "**2:** Sprungtor aktivieren.",
+            "**3:** Kurs auf Gegner setzen (Annähern).",
+            "**4:** Gegner aufschalten.",
+            "**5:** Feuern und zerstören.",
+            ":orange[**Tank zu schwach:** Beide Armor Hardener überhitzen.]",
+            "**6:** Wertvollen Loot aus Wrack plündern.",
+        ],
+        # Optionale Details (Standardmäßig eingeklappt)
+        "details_warum_fit": "Der Gegner hat einen extrem starken Webifier, der dich praktisch auf der Stelle festnagelt. Zum Glück will er dich auf nah genug umkreisen, so dass er für die Baryon Munition in Reichweite ist. Die beiden Webfier unterstützen deine Waffe bei der Nachführung. Gegen den hohen Schaden des Gegners sind zwei Kinetik Armor Hardener eingebaut, die Du nofalls beide für eine ganze Weile problemlos überhitzen kannst. Der Traktor-Strahl ist nicht wirklich wichtig, aber beschleunigt das Looten ein wenig.",
+        "details_resistenzen": "Gegner macht im Wesentlichen Kinetik-Schaden, deswegen fitten wir die zwei Centus C-Type Kinetic Armor Hardener. Die Disintegrator Waffe macht Thermal- und Explosiv-Schaden der gut gegen den Armor-Tank der passabel wirkt. ",
+        "details_implants": "Es sind keine Implantate notwendig. Unterstütze den Tank notfalls mit einem Booster oder durch Überhitzen der Armor Hardener. Du kannst Dir aber das Leben mit der Nergal leichter machen, wenn Du den Armor-Tank durch Implantate verstärkst. Ein Mid-grade Asklepian Set ist perfekt und unterstützt auch andere Armor-Tank Schiffe in Missionen. Zusätzlich könntest Du auch Implantate für mehr Gun-Feuerkraft einsetzen.",
+        "details_skills": [
+            {"Kategorie": "Assault Frigates", "Skill": "Precursor Fregatten", "Stufe": "V"},
+            {"Kategorie": "Spaceship Command", "Skill": "Precursor Fregatten", "Stufe": "V"},
+            {"Kategorie": "Armor", "Skill": "Hull Upgrades", "Stufe": "V"},
+            {"Kategorie": "Armor", "Skill": "Mechanics", "Stufe": "V"},
+            {"Kategorie": "Armor", "Skill": "Repair Systems", "Stufe": "V"},
+            {"Kategorie": "Navigation", "Skill": "Acceleration Control", "Stufe": "V"},
+            {"Kategorie": "Navigation", "Skill": "Navigation", "Stufe": "V"},
+            {"Kategorie": "Engineering", "Skill": "Advanced Weapon Upgrades", "Stufe": "IV"},
+            {"Kategorie": "Engineering", "Skill": "Capacitor Management", "Stufe": "V"},
+            {"Kategorie": "Engineering", "Skill": "Capacitor Systems Operation", "Stufe": "V"},
+            {"Kategorie": "Engineering", "Skill": "CPU Management", "Stufe": "V"},
+            {"Kategorie": "Engineering", "Skill": "Power Grid Management", "Stufe": "V"},
+            {"Kategorie": "Engineering", "Skill": "Weapon Upgrades", "Stufe": "V"},
+            {"Kategorie": "Gunnery", "Skill": "Controlled Bursts", "Stufe": "V"},
+            {"Kategorie": "Gunnery", "Skill": "Gunnery", "Stufe": "V"},
+            {"Kategorie": "Gunnery", "Skill": "Motion Prediction", "Stufe": "V"},
+            {"Kategorie": "Gunnery", "Skill": "Rapid Firing", "Stufe": "V"},
+            {"Kategorie": "Gunnery", "Skill": "Sharpshooter", "Stufe": "V"},
+            {"Kategorie": "Gunnery", "Skill": "Small Precursor Weaponr", "Stufe": "V"},
+            {"Kategorie": "Gunnery", "Skill": "Small Disintegrator Specialization", "Stufe": "IV"},
+            {"Kategorie": "Gunnery", "Skill": "Surgical Strike", "Stufe": "V"},
+            {"Kategorie": "Rigging", "Skill": "Armor Rigging", "Stufe": "IV"},
+            {"Kategorie": "Drones", "Skill": "Drone Durability", "Stufe": "V"},
+            {"Kategorie": "Drones", "Skill": "Drone Interfacing", "Stufe": "V"},
+            {"Kategorie": "Drones", "Skill": "Drone Navigation", "Stufe": "V"},
+            {"Kategorie": "Drones", "Skill": "Drone Sharpshooting", "Stufe": "V"},
+            {"Kategorie": "Drones", "Skill": "Gallente Drone Specialization", "Stufe": "III"},
+            {"Kategorie": "Drones", "Skill": "Light Drone Operation", "Stufe": "V"},
+        ]
+    },
+
+    # ---------------------------------------------------------------------------------------
+    #
     # --- TEAM Enyo - Nergal ---
     #
     "Team Enyo vs Nergal": {
