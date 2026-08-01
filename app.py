@@ -92,22 +92,22 @@ if gefilterte_keys:
     # --- DETAILS (Eingeklappt für interessierte Spieler) ---
     st.subheader("🧠 Hintergrund-Infos")
 
-    with st.expander("Skills"):
-        st.markdown("Skill-Anforderungen für Anomische Missionen sind in der Regel sehr hoch. :orange[Das ist nichts für Anfänger-Charaktere.] Hier sind die empfohlenen Skills.")
-            
-        df_skills = pd.DataFrame(daten["details_skills"])
-        
-        st.dataframe(
-            df_skills, 
-            use_container_width=True, # volle Breite des Aufklappmenüs
-            hide_index=True          # Versteckt Zeilennummern
-        )
-
     with st.expander("Warum ist das Fit so gewählt?"):
         st.write(daten["details_warum_fit"])
 
     with st.expander("Schadensprofile & Resistenzen"):
         st.write(daten["details_resistenzen"])
+
+    with st.expander("Skills"):
+            st.markdown("Skill-Anforderungen für Anomische Missionen sind in der Regel sehr hoch. :orange[Das ist nichts für Anfänger-Charaktere.] Hier sind die empfohlenen Skills.")
+                
+            df_skills = pd.DataFrame(daten["details_skills"])
+            
+            st.dataframe(
+                df_skills, 
+                use_container_width=True, # volle Breite des Aufklappmenüs
+                hide_index=True          # Versteckt Zeilennummern
+            )
 
     with st.expander("Implantate"):
         st.write(daten["details_implants"])

@@ -308,8 +308,9 @@ Optimal Range Script x1
     # --- TEAM Enyo - Nergal ---
     #
     "Team Enyo vs Nergal": {
-            "flugshow_url": "https://youtu.be/IYEPW7bdMJ0", # Dein YouTube-Video
-            "fit": """[Nergal, Burner Team: Enyo]
+        "flugshow_url": "https://youtu.be/IYEPW7bdMJ0", # Dein YouTube-Video
+        "fit": """
+[Nergal, Burner Team: Enyo]
 Centii A-Type Small Armor Repairer
 Entropic Radiation Sink II
 Entropic Radiation Sink II
@@ -329,10 +330,7 @@ Small Capacitor Control Circuit II
 Warrior II x5
 
 Occult S x2000
-
-
-"""
-,
+        """,
         "flugplan": [
             "**1:** Occult S laden, Armor Hardener und Repairer AN.",
             "**2:** Sprungtor nutzen.",
@@ -344,9 +342,86 @@ Occult S x2000
             "**8:** Wertvollen Loot mitnehmen."
         ],
         # Optionale Details (Standardmäßig eingeklappt)
-        "details_warum_fit": "Die Nergal glänzt durch enormen Schaden nachdem die Waffe voll hochgespult ist. Es braucht also etwas Zeit, aber selbst die zwei Logistik-Fregatten des Teams können dem nicht standhalten. Dadurch wird die Mission extrem einfach. Das Fit ist ausgelegt, den Hauptgegner mit dem Webifier zu verlangsamen, um den Abstand kontrollieren zu können. Die Schadensart des Gegners ist Thermal und Kinetik. Von Haus aus hat die Nergal eine hohe Thermal-Resistenz. Wir schließen das Kinetik Loch in der Armor-Resistenz mit dem guten Resistenzhardener.",
+        "details_warum_fit": "Die Nergal glänzt durch enormen Schaden nachdem die Waffe voll hochgespult ist. Es braucht also etwas Zeit, aber selbst die zwei Logistik-Fregatten des Teams können dem nicht standhalten. Das Fit ist ausgelegt, den Hauptgegner mit dem Webifier zu verlangsamen, um den Abstand kontrollieren zu können. Die Schadensart des Gegners ist Thermal und Kinetik. Von Haus aus hat die Nergal eine hohe Thermal-Resistenz. Wir schließen das Kinetik Loch in der Armor-Resistenz mit dem guten Resistenzhardener.",
         "details_resistenzen": "Gegner macht Thermal- und Kinetik-Schaden, deswegen fitten wir den Kinetik Armor Hardener. Die Disintegrator Waffe macht Thermal- und Explosiv-Schaden aber mehr als genug, so dass die Resistenzen der Enyo nicht stören.",
         "details_implants": "Es sind keine Implantate notwendig. Du kannst Dir aber das Leben mit der Nergal leichter machen, wenn Du den Armor-Tank durch Implantate verstärkst. Ein Mid-grade Asklepian Set ist perfekt und unterstützt auch andere Armor-Tank Schiffe in Missionen. Zusätzlich könntest Du auch Implantate für mehr Gun-Feuerkraft einsetzen.",
+        "details_skills": [
+            {"Kategorie": "Assault Frigates", "Skill": "Precursor Fregatten", "Stufe": "V"},
+            {"Kategorie": "Spaceship Command", "Skill": "Precursor Fregatten", "Stufe": "V"},
+            {"Kategorie": "Armor", "Skill": "Hull Upgrades", "Stufe": "V"},
+            {"Kategorie": "Armor", "Skill": "Mechanics", "Stufe": "V"},
+            {"Kategorie": "Armor", "Skill": "Repair Systems", "Stufe": "V"},
+            {"Kategorie": "Navigation", "Skill": "Acceleration Control", "Stufe": "V"},
+            {"Kategorie": "Navigation", "Skill": "Navigation", "Stufe": "V"},
+            {"Kategorie": "Engineering", "Skill": "Advanced Weapon Upgrades", "Stufe": "IV"},
+            {"Kategorie": "Engineering", "Skill": "Capacitor Management", "Stufe": "V"},
+            {"Kategorie": "Engineering", "Skill": "Capacitor Systems Operation", "Stufe": "V"},
+            {"Kategorie": "Engineering", "Skill": "CPU Management", "Stufe": "V"},
+            {"Kategorie": "Engineering", "Skill": "Power Grid Management", "Stufe": "V"},
+            {"Kategorie": "Engineering", "Skill": "Weapon Upgrades", "Stufe": "V"},
+            {"Kategorie": "Gunnery", "Skill": "Controlled Bursts", "Stufe": "V"},
+            {"Kategorie": "Gunnery", "Skill": "Gunnery", "Stufe": "V"},
+            {"Kategorie": "Gunnery", "Skill": "Motion Prediction", "Stufe": "V"},
+            {"Kategorie": "Gunnery", "Skill": "Rapid Firing", "Stufe": "V"},
+            {"Kategorie": "Gunnery", "Skill": "Sharpshooter", "Stufe": "V"},
+            {"Kategorie": "Gunnery", "Skill": "Small Precursor Weaponr", "Stufe": "V"},
+            {"Kategorie": "Gunnery", "Skill": "Small Disintegrator Specialization", "Stufe": "IV"},
+            {"Kategorie": "Gunnery", "Skill": "Surgical Strike", "Stufe": "V"},
+            {"Kategorie": "Rigging", "Skill": "Armor Rigging", "Stufe": "IV"},
+            {"Kategorie": "Drones", "Skill": "Drone Durability", "Stufe": "V"},
+            {"Kategorie": "Drones", "Skill": "Drone Interfacing", "Stufe": "V"},
+            {"Kategorie": "Drones", "Skill": "Drone Navigation", "Stufe": "V"},
+            {"Kategorie": "Drones", "Skill": "Drone Sharpshooting", "Stufe": "V"},
+            {"Kategorie": "Drones", "Skill": "Minmatar Drone Specialization", "Stufe": "III"},
+            {"Kategorie": "Drones", "Skill": "Light Drone Operation", "Stufe": "V"},
+        ]
+    },
+
+    # ---------------------------------------------------------------------------------------
+    #
+    # --- TEAM Jaguar - Nergal ---
+    #
+    "Team Jaguar vs Nergal": {
+        "flugshow_url": "https://youtu.be/S-DfpMZt9sU", # Dein YouTube-Video
+        "fit": """
+[Nergal, Burner Team: Jaguar]
+Centii A-Type Small Armor Repairer
+Capacitor Power Relay II
+Entropic Radiation Sink II
+Centus C-Type Explosive Armor Hardener
+
+Coreli A-Type 1MN Afterburner
+Federation Navy Stasis Webifier
+Federation Navy Stasis Webifier
+
+Veles Light Entropic Disintegrator
+
+Small Auxiliary Nano Pump II
+Small Capacitor Control Circuit II
+
+
+
+Warrior II x5
+
+Occult S x2000
+Baryon Exotic Plasma S x2000
+        """,
+        "flugplan": [
+            ":red[**Warnung:** Das Risiko die Nergal hier zu verlieren ist hoch.]",
+            "**1:** Occult S laden, Armor Hardener und Repairer AN.",
+            "**2:** Sprungtor aktivieren.",
+            "**3:** Afterburner AN und Orbit 6.5km zur Jaguar.",
+            "**4:** Jaguar aufschalten.",
+            "**5:** *(< 14km)* Webifier AN.",
+            "**6:** *(< 7km)* Auf Jaguar feuern zerstören. Logistik-Fregatten ignorieren.",
+            "**7:** Zu viel Schaden kassiert? **:orange[Armor Hardener überhitzen, Booster nutzen,] :red[(Notfall) Armor Repairer überhitzen]**",
+            "**8:** Wrack plündern und Wertvollen Loot mitnehmen.",
+            ":green[**Alternative** (geringeres Risiko): Baryon laden, 13km Orbit]"
+        ],
+        # Optionale Details (Standardmäßig eingeklappt)
+        "details_warum_fit": "Die Nergal glänzt durch enormen Schaden nachdem die Waffe voll hochgespult ist. Es braucht also etwas Zeit, aber selbst die zwei Logistik-Fregatten des Teams können dem nicht standhalten. Das Fit ist ausgelegt, den Hauptgegner mit dem Webifier zu verlangsamen, um den Abstand kontrollieren zu können. Die Schadensart des Gegners ist hauptsächlich Explosiv. Von Haus aus hat die Nergal eine hohe Thermal-Resistenz. Wir schließen das Explosiv Loch in der Armor-Resistenz mit dem guten Resistenzhardener. Die Jaguar macht trotzdem sehr viel Schaden, deswegen kann es notwendig sein, der Hardener zu überhitzen.",
+        "details_resistenzen": "Gegner macht viel Explosiv-, und etwas Kinetik- und EM-Schaden. Dagegen fitten wir den Centus C-Type Explosive Armor Hardener. Die Disintegrator Waffe macht Thermal- und Explosiv-Schaden, gegen den die Jaguar etwas mehr als 50% Resistenz hat.",
+        "details_implants": "Die Mission ist ohne Implantate machbar, aber sehr risikoreich. Es wird empfohlen, Implantate zu verwenden, um das Risiko zu reduzieren. Ein Mid-grade Asklepian Set ist perfekt und unterstützt auch andere Armor-Tank Schiffe in Missionen. Zusätzlich könntest Du auch Implantate für mehr Gun-Feuerkraft einsetzen.",
         "details_skills": [
             {"Kategorie": "Assault Frigates", "Skill": "Precursor Fregatten", "Stufe": "V"},
             {"Kategorie": "Spaceship Command", "Skill": "Precursor Fregatten", "Stufe": "V"},
