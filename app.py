@@ -89,8 +89,7 @@ if gefilterte_keys:
         if daten["flugshow_url"]:
             st.video(daten["flugshow_url"])
         else:
-            st.info("📺 Das Video für diesen Guide ist aktuell noch in Arbeit und folgt in Kürze!")
-
+            st.info("📺 Das Video für diesen Guide ist noch in Arbeit.")
 
     st.markdown("---")
 
