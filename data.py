@@ -1,9 +1,82 @@
 # data.py
 
 MISSION_DATA = {
+
     # ---------------------------------------------------------------------------------------
     #
-    # --- AGENT Blood Raiders - Nergal ---
+    # --- AGENT Angel Cartel - Daredevil ---
+    #
+    "Agent Angel Cartel vs Daredevil": {
+        "flugshow_url": "https://youtu.be/05W8vJn56go", # Dein YouTube-Video
+        "fit": """[Daredevil, Agent Angel Burner]
+Magnetic Field Stabilizer II
+Magnetic Field Stabilizer II
+Photonic Upgraded Co-Processor
+Magnetic Field Stabilizer II
+
+Stasis Webifier II
+Republic Fleet Medium Shield Extender
+Fleeting Compact Stasis Webifier
+
+Light Neutron Blaster II
+[Empty High slot]
+Light Neutron Blaster II
+
+Small Core Defense Field Extender II
+Small EM Shield Reinforcer II
+Small Explosive Shield Reinforcer II
+
+
+
+Void S x2400
+        """
+        ,
+        "flugplan": [
+            "**1:** Void S laden.",
+            "**2:** Sprungtor aktivieren.",
+            "**3:** :orange[Waffen überhitzen!]",
+            "**4:** Kurs setzen: 1.5km - 2.0km Abstand halten.",
+            "**5:** Dramiel aufschalten.",
+            "**6:** Beide Webifier aktivieren.",
+            "**7:** Feuern und zerstören.",
+            "**8:** Wrack plündern und wertvollen Loot mitnehmen."
+        ],
+        # Optionale Details (Standardmäßig eingeklappt)
+        "details_warum_fit": "Dieses Fit zwingt den Gegner auf einen DPS Vergleich, und verweigert ihm seine überlegene Waffennachführung und niedrige Signatur auszunutzen. Wer mehr Schaden anrichtet, gewinnt. Etwa 500 DPS auf dem Papier (ohne überhitzen) reichen aus. Du kontrollierst die Distanz mit Deinen beiden Webifiern, die auf der Daredevil besonders stark wirken. Dadurch kannst Du nah (leicht über) der optimalen Reichweite der beiden Light Neutron Blaster II mit Void S Munition bleiben. Falls das zu knapp wirkt, solltest Du die Waffen überhitzen (am besten immer überhitzen bis Du weißt, dass es auch ohne geht). Der Kampf geht sehr schnell vorbei (ca. 30s). Als Tank nutzt Du den Schild Puffer, verstärkt durch den Faction Extender und die 3 Rigs, die Dir Schildstärke und Resistenzen geben. Die Low-Slots verstärken den Waffenschaden und der Co-Processor sorgt dafür, dass Du genug CPU hast, um all das überhaupt fitten zu können. Sollte es trotzdem knapp werden mit der CPU, kannst Du den T2 Webifier gegen einen Fleeting Compact Stasis Webifier tauschen, und/oder einen Magnetic Field Stabilizer II gegen einen Vortex Compact Magnetic Field Stabilizer tauschen.",
+        "details_resistenzen": "Gegner macht hauptsächlich Explosiv-Schaden, dazu ein wenig EM und Kinetik. Die mittelmäßige Thermal-Resistenz der Dramiel nutz unsere Waffe gut aus.",
+        "details_implants": "Es sind keine Implantate notwendig. Ein Implantat für mehr Schildstärke (Shield Management) ist hilfreich und evtl. musst Du damit die Waffen nicht mehr überhitzen.",
+        "details_skills": [
+            {"Kategorie": "Spaceship Command", "Skill": "Minmatar Frigates", "Stufe": "IV"},
+            {"Kategorie": "Spaceship Command", "Skill": "Gallente Frigates", "Stufe": "IV"},
+            {"Kategorie": "Armor", "Skill": "Hull Upgrades", "Stufe": "V"},
+            {"Kategorie": "Armor", "Skill": "Mechanics", "Stufe": "V"},
+            {"Kategorie": "Navigation", "Skill": "Navigation", "Stufe": "V"},
+            {"Kategorie": "Electronic System", "Skill": "Propulsion Jamming", "Stufe": "IV"},
+            {"Kategorie": "Engineering", "Skill": "Advanced Weapon Upgrades", "Stufe": "IV"},
+            {"Kategorie": "Engineering", "Skill": "Capacitor Management", "Stufe": "V"},
+            {"Kategorie": "Engineering", "Skill": "Capacitor Systems Operation", "Stufe": "IV"},
+            {"Kategorie": "Engineering", "Skill": "CPU Management", "Stufe": "V"},
+            {"Kategorie": "Engineering", "Skill": "Power Grid Management", "Stufe": "V"},
+            {"Kategorie": "Engineering", "Skill": "Weapon Upgrades", "Stufe": "V"},
+            {"Kategorie": "Engineering", "Skill": "Thermodynamics", "Stufe": "IV"},
+            {"Kategorie": "Gunnery", "Skill": "Small Hybrid Turret", "Stufe": "V"},
+            {"Kategorie": "Gunnery", "Skill": "Small Blaster Specialization", "Stufe": "IV"},
+            {"Kategorie": "Gunnery", "Skill": "Controlled Bursts", "Stufe": "IV"},
+            {"Kategorie": "Gunnery", "Skill": "Gunnery", "Stufe": "V"},
+            {"Kategorie": "Gunnery", "Skill": "Motion Prediction", "Stufe": "V"},
+            {"Kategorie": "Gunnery", "Skill": "Rapid Firing", "Stufe": "V"},
+            {"Kategorie": "Gunnery", "Skill": "Sharpshooter", "Stufe": "V"},
+            {"Kategorie": "Gunnery", "Skill": "Surgical Strike", "Stufe": "V"},
+            {"Kategorie": "Gunnery", "Skill": "Trajectory Analysis", "Stufe": "V"},
+            {"Kategorie": "Rigging", "Skill": "Shield Rigging", "Stufe": "IV"},
+            {"Kategorie": "Shield", "Skill": "Shield Management", "Stufe": "V"},
+            {"Kategorie": "Shield", "Skill": "Tactical Shield Manipulation", "Stufe": "V"},
+        ]
+    },
+
+    # ---------------------------------------------------------------------------------------
+    #
+    # --- AGENT Angel Cartel - Nergal ---
     #
     "Agent Angel Cartel vs Nergal": {
         "flugshow_url": "https://youtu.be/Yg3qu6zAP-w", # Dein YouTube-Video
@@ -44,8 +117,8 @@ Occult S x2500
         "details_resistenzen": "Gegner macht hauptsächlich Explosiv-Schaden, dazu ein wenig EM und Kinetik. Die mittelmäßige Thermal-Resistenz der Dramiel nutz unsere Waffe gut aus. ",
         "details_implants": "Es sind keine Implantate notwendig. Du kannst Dir aber das Leben mit der Nergal leichter machen, wenn Du den Armor-Tank durch Implantate verstärkst. Ein Mid-grade Asklepian Set ist perfekt und unterstützt auch andere Armor-Tank Schiffe in Missionen. Zusätzlich könntest Du auch Implantate für mehr Gun-Feuerkraft einsetzen.",
         "details_skills": [
-            {"Kategorie": "Assault Frigates", "Skill": "Precursor Fregatten", "Stufe": "V"},
-            {"Kategorie": "Spaceship Command", "Skill": "Precursor Fregatten", "Stufe": "V"},
+            {"Kategorie": "Spaceship Command", "Skill": "Assault Frigates", "Stufe": "V"},
+            {"Kategorie": "Spaceship Command", "Skill": "Precursor Frigates", "Stufe": "V"},
             {"Kategorie": "Armor", "Skill": "Hull Upgrades", "Stufe": "V"},
             {"Kategorie": "Armor", "Skill": "Mechanics", "Stufe": "V"},
             {"Kategorie": "Armor", "Skill": "Repair Systems", "Stufe": "V"},
@@ -57,12 +130,13 @@ Occult S x2500
             {"Kategorie": "Engineering", "Skill": "CPU Management", "Stufe": "V"},
             {"Kategorie": "Engineering", "Skill": "Power Grid Management", "Stufe": "V"},
             {"Kategorie": "Engineering", "Skill": "Weapon Upgrades", "Stufe": "V"},
+            {"Kategorie": "Engineering", "Skill": "Thermodynamics", "Stufe": "IV"},
             {"Kategorie": "Gunnery", "Skill": "Controlled Bursts", "Stufe": "V"},
             {"Kategorie": "Gunnery", "Skill": "Gunnery", "Stufe": "V"},
             {"Kategorie": "Gunnery", "Skill": "Motion Prediction", "Stufe": "V"},
             {"Kategorie": "Gunnery", "Skill": "Rapid Firing", "Stufe": "V"},
             {"Kategorie": "Gunnery", "Skill": "Sharpshooter", "Stufe": "V"},
-            {"Kategorie": "Gunnery", "Skill": "Small Precursor Weaponr", "Stufe": "V"},
+            {"Kategorie": "Gunnery", "Skill": "Small Precursor Weapon", "Stufe": "V"},
             {"Kategorie": "Gunnery", "Skill": "Small Disintegrator Specialization", "Stufe": "IV"},
             {"Kategorie": "Gunnery", "Skill": "Surgical Strike", "Stufe": "V"},
             {"Kategorie": "Rigging", "Skill": "Armor Rigging", "Stufe": "IV"},
@@ -74,6 +148,7 @@ Occult S x2500
             {"Kategorie": "Drones", "Skill": "Light Drone Operation", "Stufe": "V"},
         ]
     },
+
     # ---------------------------------------------------------------------------------------
     #
     # --- AGENT Blood Raiders - Nergal ---
@@ -117,8 +192,8 @@ Occult S x2000
         "details_resistenzen": "Gegner macht EM-Schaden, deswegen fitten wir die Centum A-Type EM Energized Membrane. Die Disintegrator Waffe macht Thermal- und Explosiv-Schaden aber mehr als genug, so dass die Resistenzen der Cruor nicht stören. ",
         "details_implants": "Es sind keine Implantate notwendig. Du kannst Dir aber das Leben mit der Nergal leichter machen, wenn Du den Armor-Tank durch Implantate verstärkst. Ein Mid-grade Asklepian Set ist perfekt und unterstützt auch andere Armor-Tank Schiffe in Missionen. Zusätzlich könntest Du auch Implantate für mehr Gun-Feuerkraft einsetzen.",
         "details_skills": [
-            {"Kategorie": "Assault Frigates", "Skill": "Precursor Fregatten", "Stufe": "V"},
-            {"Kategorie": "Spaceship Command", "Skill": "Precursor Fregatten", "Stufe": "V"},
+            {"Kategorie": "Spaceship Command", "Skill": "Assault Frigates", "Stufe": "V"},
+            {"Kategorie": "Spaceship Command", "Skill": "Precursor Frigates", "Stufe": "V"},
             {"Kategorie": "Armor", "Skill": "Hull Upgrades", "Stufe": "V"},
             {"Kategorie": "Armor", "Skill": "Mechanics", "Stufe": "V"},
             {"Kategorie": "Armor", "Skill": "Repair Systems", "Stufe": "V"},
@@ -130,12 +205,13 @@ Occult S x2000
             {"Kategorie": "Engineering", "Skill": "CPU Management", "Stufe": "V"},
             {"Kategorie": "Engineering", "Skill": "Power Grid Management", "Stufe": "V"},
             {"Kategorie": "Engineering", "Skill": "Weapon Upgrades", "Stufe": "V"},
+            {"Kategorie": "Engineering", "Skill": "Thermodynamics", "Stufe": "IV"},
             {"Kategorie": "Gunnery", "Skill": "Controlled Bursts", "Stufe": "V"},
             {"Kategorie": "Gunnery", "Skill": "Gunnery", "Stufe": "V"},
             {"Kategorie": "Gunnery", "Skill": "Motion Prediction", "Stufe": "V"},
             {"Kategorie": "Gunnery", "Skill": "Rapid Firing", "Stufe": "V"},
             {"Kategorie": "Gunnery", "Skill": "Sharpshooter", "Stufe": "V"},
-            {"Kategorie": "Gunnery", "Skill": "Small Precursor Weaponr", "Stufe": "V"},
+            {"Kategorie": "Gunnery", "Skill": "Small Precursor Weapon", "Stufe": "V"},
             {"Kategorie": "Gunnery", "Skill": "Small Disintegrator Specialization", "Stufe": "IV"},
             {"Kategorie": "Gunnery", "Skill": "Surgical Strike", "Stufe": "V"},
             {"Kategorie": "Rigging", "Skill": "Armor Rigging", "Stufe": "IV"},
@@ -193,8 +269,8 @@ Occult S x2000
         "details_resistenzen": "Gegner macht Kinetik-Schaden, deswegen fitten wir den Centus X-Type Kinetic Armor Hardener. Die Disintegrator Waffe macht Thermal- und Explosiv-Schaden aber mehr als genug, so dass die Resistenzen der Worm nicht stören. ",
         "details_implants": "Es sind keine Implantate notwendig. Du kannst Dir aber das Leben mit der Nergal leichter machen, wenn Du den Armor-Tank durch Implantate verstärkst. Ein Mid-grade Asklepian Set ist perfekt und unterstützt auch andere Armor-Tank Schiffe in Missionen. Zusätzlich könntest Du auch Implantate für mehr Gun-Feuerkraft einsetzen.",
         "details_skills": [
-            {"Kategorie": "Assault Frigates", "Skill": "Precursor Fregatten", "Stufe": "V"},
-            {"Kategorie": "Spaceship Command", "Skill": "Precursor Fregatten", "Stufe": "V"},
+            {"Kategorie": "Spaceship Command", "Skill": "Assault Frigates", "Stufe": "V"},
+            {"Kategorie": "Spaceship Command", "Skill": "Precursor Frigates", "Stufe": "V"},
             {"Kategorie": "Armor", "Skill": "Hull Upgrades", "Stufe": "V"},
             {"Kategorie": "Armor", "Skill": "Mechanics", "Stufe": "V"},
             {"Kategorie": "Armor", "Skill": "Repair Systems", "Stufe": "V"},
@@ -206,12 +282,13 @@ Occult S x2000
             {"Kategorie": "Engineering", "Skill": "CPU Management", "Stufe": "V"},
             {"Kategorie": "Engineering", "Skill": "Power Grid Management", "Stufe": "V"},
             {"Kategorie": "Engineering", "Skill": "Weapon Upgrades", "Stufe": "V"},
+            {"Kategorie": "Engineering", "Skill": "Thermodynamics", "Stufe": "IV"},
             {"Kategorie": "Gunnery", "Skill": "Controlled Bursts", "Stufe": "V"},
             {"Kategorie": "Gunnery", "Skill": "Gunnery", "Stufe": "V"},
             {"Kategorie": "Gunnery", "Skill": "Motion Prediction", "Stufe": "V"},
             {"Kategorie": "Gunnery", "Skill": "Rapid Firing", "Stufe": "V"},
             {"Kategorie": "Gunnery", "Skill": "Sharpshooter", "Stufe": "V"},
-            {"Kategorie": "Gunnery", "Skill": "Small Precursor Weaponr", "Stufe": "V"},
+            {"Kategorie": "Gunnery", "Skill": "Small Precursor Weapon", "Stufe": "V"},
             {"Kategorie": "Gunnery", "Skill": "Small Disintegrator Specialization", "Stufe": "IV"},
             {"Kategorie": "Gunnery", "Skill": "Surgical Strike", "Stufe": "V"},
             {"Kategorie": "Rigging", "Skill": "Armor Rigging", "Stufe": "IV"},
@@ -272,8 +349,8 @@ Optimal Range Script x1
         "details_resistenzen": "Gegner macht im Wesentlichen EM-Schaden, deswegen fitten wir den Centus C-Type EM Armor Hardener. Die Disintegrator Waffe macht Thermal- und Explosiv-Schaden der gut gegen den Schild-Tank der Succubus wirkt. ",
         "details_implants": "Es sind keine Implantate notwendig. Unterstütze den Tank notfalls mit einem Booster oder durch Überhitzen des EM Armor Hardeners. Du kannst Dir aber das Leben mit der Nergal leichter machen, wenn Du den Armor-Tank durch Implantate verstärkst. Ein Mid-grade Asklepian Set ist perfekt und unterstützt auch andere Armor-Tank Schiffe in Missionen. Zusätzlich könntest Du auch Implantate für mehr Gun-Feuerkraft einsetzen.",
         "details_skills": [
-            {"Kategorie": "Assault Frigates", "Skill": "Precursor Fregatten", "Stufe": "V"},
-            {"Kategorie": "Spaceship Command", "Skill": "Precursor Fregatten", "Stufe": "V"},
+            {"Kategorie": "Spaceship Command", "Skill": "Assault Frigates", "Stufe": "V"},
+            {"Kategorie": "Spaceship Command", "Skill": "Precursor Frigates", "Stufe": "V"},
             {"Kategorie": "Armor", "Skill": "Hull Upgrades", "Stufe": "V"},
             {"Kategorie": "Armor", "Skill": "Mechanics", "Stufe": "V"},
             {"Kategorie": "Armor", "Skill": "Repair Systems", "Stufe": "V"},
@@ -285,12 +362,13 @@ Optimal Range Script x1
             {"Kategorie": "Engineering", "Skill": "CPU Management", "Stufe": "V"},
             {"Kategorie": "Engineering", "Skill": "Power Grid Management", "Stufe": "V"},
             {"Kategorie": "Engineering", "Skill": "Weapon Upgrades", "Stufe": "V"},
+            {"Kategorie": "Engineering", "Skill": "Thermodynamics", "Stufe": "IV"},
             {"Kategorie": "Gunnery", "Skill": "Controlled Bursts", "Stufe": "V"},
             {"Kategorie": "Gunnery", "Skill": "Gunnery", "Stufe": "V"},
             {"Kategorie": "Gunnery", "Skill": "Motion Prediction", "Stufe": "V"},
             {"Kategorie": "Gunnery", "Skill": "Rapid Firing", "Stufe": "V"},
             {"Kategorie": "Gunnery", "Skill": "Sharpshooter", "Stufe": "V"},
-            {"Kategorie": "Gunnery", "Skill": "Small Precursor Weaponr", "Stufe": "V"},
+            {"Kategorie": "Gunnery", "Skill": "Small Precursor Weapon", "Stufe": "V"},
             {"Kategorie": "Gunnery", "Skill": "Small Disintegrator Specialization", "Stufe": "IV"},
             {"Kategorie": "Gunnery", "Skill": "Surgical Strike", "Stufe": "V"},
             {"Kategorie": "Rigging", "Skill": "Armor Rigging", "Stufe": "IV"},
@@ -347,8 +425,8 @@ Baryon Exotic Plasma S x2000
         "details_resistenzen": "Gegner macht im Wesentlichen Kinetik-Schaden, deswegen fitten wir die zwei Centus C-Type Kinetic Armor Hardener. Die Disintegrator Waffe macht Thermal- und Explosiv-Schaden der gut gegen den Armor-Tank der passabel wirkt. ",
         "details_implants": "Es sind keine Implantate notwendig. Unterstütze den Tank notfalls mit einem Booster oder durch Überhitzen der Armor Hardener. Du kannst Dir aber das Leben mit der Nergal leichter machen, wenn Du den Armor-Tank durch Implantate verstärkst. Ein Mid-grade Asklepian Set ist perfekt und unterstützt auch andere Armor-Tank Schiffe in Missionen. Zusätzlich könntest Du auch Implantate für mehr Gun-Feuerkraft einsetzen.",
         "details_skills": [
-            {"Kategorie": "Assault Frigates", "Skill": "Precursor Fregatten", "Stufe": "V"},
-            {"Kategorie": "Spaceship Command", "Skill": "Precursor Fregatten", "Stufe": "V"},
+            {"Kategorie": "Spaceship Command", "Skill": "Assault Frigates", "Stufe": "V"},
+            {"Kategorie": "Spaceship Command", "Skill": "Precursor Frigates", "Stufe": "V"},
             {"Kategorie": "Armor", "Skill": "Hull Upgrades", "Stufe": "V"},
             {"Kategorie": "Armor", "Skill": "Mechanics", "Stufe": "V"},
             {"Kategorie": "Armor", "Skill": "Repair Systems", "Stufe": "V"},
@@ -360,12 +438,13 @@ Baryon Exotic Plasma S x2000
             {"Kategorie": "Engineering", "Skill": "CPU Management", "Stufe": "V"},
             {"Kategorie": "Engineering", "Skill": "Power Grid Management", "Stufe": "V"},
             {"Kategorie": "Engineering", "Skill": "Weapon Upgrades", "Stufe": "V"},
+            {"Kategorie": "Engineering", "Skill": "Thermodynamics", "Stufe": "IV"},
             {"Kategorie": "Gunnery", "Skill": "Controlled Bursts", "Stufe": "V"},
             {"Kategorie": "Gunnery", "Skill": "Gunnery", "Stufe": "V"},
             {"Kategorie": "Gunnery", "Skill": "Motion Prediction", "Stufe": "V"},
             {"Kategorie": "Gunnery", "Skill": "Rapid Firing", "Stufe": "V"},
             {"Kategorie": "Gunnery", "Skill": "Sharpshooter", "Stufe": "V"},
-            {"Kategorie": "Gunnery", "Skill": "Small Precursor Weaponr", "Stufe": "V"},
+            {"Kategorie": "Gunnery", "Skill": "Small Precursor Weapon", "Stufe": "V"},
             {"Kategorie": "Gunnery", "Skill": "Small Disintegrator Specialization", "Stufe": "IV"},
             {"Kategorie": "Gunnery", "Skill": "Surgical Strike", "Stufe": "V"},
             {"Kategorie": "Rigging", "Skill": "Armor Rigging", "Stufe": "IV"},
@@ -421,8 +500,8 @@ Occult S x2000
         "details_resistenzen": "Gegner macht Thermal- und Kinetik-Schaden, deswegen fitten wir den Kinetik Armor Hardener. Die Disintegrator Waffe macht Thermal- und Explosiv-Schaden aber mehr als genug, so dass die Resistenzen der Enyo nicht stören.",
         "details_implants": "Es sind keine Implantate notwendig. Du kannst Dir aber das Leben mit der Nergal leichter machen, wenn Du den Armor-Tank durch Implantate verstärkst. Ein Mid-grade Asklepian Set ist perfekt und unterstützt auch andere Armor-Tank Schiffe in Missionen. Zusätzlich könntest Du auch Implantate für mehr Gun-Feuerkraft einsetzen.",
         "details_skills": [
-            {"Kategorie": "Assault Frigates", "Skill": "Precursor Fregatten", "Stufe": "V"},
-            {"Kategorie": "Spaceship Command", "Skill": "Precursor Fregatten", "Stufe": "V"},
+            {"Kategorie": "Spaceship Command", "Skill": "Assault Frigates", "Stufe": "V"},
+            {"Kategorie": "Spaceship Command", "Skill": "Precursor Frigates", "Stufe": "V"},
             {"Kategorie": "Armor", "Skill": "Hull Upgrades", "Stufe": "V"},
             {"Kategorie": "Armor", "Skill": "Mechanics", "Stufe": "V"},
             {"Kategorie": "Armor", "Skill": "Repair Systems", "Stufe": "V"},
@@ -434,12 +513,13 @@ Occult S x2000
             {"Kategorie": "Engineering", "Skill": "CPU Management", "Stufe": "V"},
             {"Kategorie": "Engineering", "Skill": "Power Grid Management", "Stufe": "V"},
             {"Kategorie": "Engineering", "Skill": "Weapon Upgrades", "Stufe": "V"},
+            {"Kategorie": "Engineering", "Skill": "Thermodynamics", "Stufe": "IV"},
             {"Kategorie": "Gunnery", "Skill": "Controlled Bursts", "Stufe": "V"},
             {"Kategorie": "Gunnery", "Skill": "Gunnery", "Stufe": "V"},
             {"Kategorie": "Gunnery", "Skill": "Motion Prediction", "Stufe": "V"},
             {"Kategorie": "Gunnery", "Skill": "Rapid Firing", "Stufe": "V"},
             {"Kategorie": "Gunnery", "Skill": "Sharpshooter", "Stufe": "V"},
-            {"Kategorie": "Gunnery", "Skill": "Small Precursor Weaponr", "Stufe": "V"},
+            {"Kategorie": "Gunnery", "Skill": "Small Precursor Weapon", "Stufe": "V"},
             {"Kategorie": "Gunnery", "Skill": "Small Disintegrator Specialization", "Stufe": "IV"},
             {"Kategorie": "Gunnery", "Skill": "Surgical Strike", "Stufe": "V"},
             {"Kategorie": "Rigging", "Skill": "Armor Rigging", "Stufe": "IV"},
@@ -500,8 +580,8 @@ Occult S x2000
         "details_resistenzen": "Gegner macht Kinetik-Schaden, deswegen fitten wir die zwei Centus C-Type Kinetic Armor Hardener. Gegen den Tank der Logistiker und der Hawk zusammen hat die Nergal einiges zu tun.",
         "details_implants": "Es sind keine Implantate notwendig. Du kannst Dir aber das Leben mit der Nergal leichter machen, wenn Du den Armor-Tank durch Implantate verstärkst. Ein Mid-grade Asklepian Set ist perfekt und unterstützt auch andere Armor-Tank Schiffe in Missionen. Zusätzlich könntest Du auch Implantate für mehr Gun-Feuerkraft einsetzen.",
         "details_skills": [
-            {"Kategorie": "Assault Frigates", "Skill": "Precursor Fregatten", "Stufe": "V"},
-            {"Kategorie": "Spaceship Command", "Skill": "Precursor Fregatten", "Stufe": "V"},
+            {"Kategorie": "Spaceship Command", "Skill": "Assault Frigates", "Stufe": "V"},
+            {"Kategorie": "Spaceship Command", "Skill": "Precursor Frigates", "Stufe": "V"},
             {"Kategorie": "Armor", "Skill": "Hull Upgrades", "Stufe": "V"},
             {"Kategorie": "Armor", "Skill": "Mechanics", "Stufe": "V"},
             {"Kategorie": "Armor", "Skill": "Repair Systems", "Stufe": "V"},
@@ -513,12 +593,13 @@ Occult S x2000
             {"Kategorie": "Engineering", "Skill": "CPU Management", "Stufe": "V"},
             {"Kategorie": "Engineering", "Skill": "Power Grid Management", "Stufe": "V"},
             {"Kategorie": "Engineering", "Skill": "Weapon Upgrades", "Stufe": "V"},
+            {"Kategorie": "Engineering", "Skill": "Thermodynamics", "Stufe": "IV"},
             {"Kategorie": "Gunnery", "Skill": "Controlled Bursts", "Stufe": "V"},
             {"Kategorie": "Gunnery", "Skill": "Gunnery", "Stufe": "V"},
             {"Kategorie": "Gunnery", "Skill": "Motion Prediction", "Stufe": "V"},
             {"Kategorie": "Gunnery", "Skill": "Rapid Firing", "Stufe": "V"},
             {"Kategorie": "Gunnery", "Skill": "Sharpshooter", "Stufe": "V"},
-            {"Kategorie": "Gunnery", "Skill": "Small Precursor Weaponr", "Stufe": "V"},
+            {"Kategorie": "Gunnery", "Skill": "Small Precursor Weapon", "Stufe": "V"},
             {"Kategorie": "Gunnery", "Skill": "Small Disintegrator Specialization", "Stufe": "IV"},
             {"Kategorie": "Gunnery", "Skill": "Surgical Strike", "Stufe": "V"},
             {"Kategorie": "Rigging", "Skill": "Armor Rigging", "Stufe": "IV"},
@@ -577,8 +658,8 @@ Baryon Exotic Plasma S x2000
         "details_resistenzen": "Gegner macht viel Explosiv-, und etwas Kinetik- und EM-Schaden. Dagegen fitten wir den Centus C-Type Explosive Armor Hardener. Die Disintegrator Waffe macht Thermal- und Explosiv-Schaden, gegen den die Jaguar etwas mehr als 50% Resistenz hat.",
         "details_implants": "Die Mission ist ohne Implantate machbar, aber sehr risikoreich. Es wird empfohlen, Implantate zu verwenden, um das Risiko zu reduzieren. Ein Mid-grade Asklepian Set ist perfekt und unterstützt auch andere Armor-Tank Schiffe in Missionen. Zusätzlich könntest Du auch Implantate für mehr Gun-Feuerkraft einsetzen.",
         "details_skills": [
-            {"Kategorie": "Assault Frigates", "Skill": "Precursor Fregatten", "Stufe": "V"},
-            {"Kategorie": "Spaceship Command", "Skill": "Precursor Fregatten", "Stufe": "V"},
+            {"Kategorie": "Spaceship Command", "Skill": "Assault Frigates", "Stufe": "V"},
+            {"Kategorie": "Spaceship Command", "Skill": "Precursor Frigates", "Stufe": "V"},
             {"Kategorie": "Armor", "Skill": "Hull Upgrades", "Stufe": "V"},
             {"Kategorie": "Armor", "Skill": "Mechanics", "Stufe": "V"},
             {"Kategorie": "Armor", "Skill": "Repair Systems", "Stufe": "V"},
@@ -590,12 +671,13 @@ Baryon Exotic Plasma S x2000
             {"Kategorie": "Engineering", "Skill": "CPU Management", "Stufe": "V"},
             {"Kategorie": "Engineering", "Skill": "Power Grid Management", "Stufe": "V"},
             {"Kategorie": "Engineering", "Skill": "Weapon Upgrades", "Stufe": "V"},
+            {"Kategorie": "Engineering", "Skill": "Thermodynamics", "Stufe": "IV"},
             {"Kategorie": "Gunnery", "Skill": "Controlled Bursts", "Stufe": "V"},
             {"Kategorie": "Gunnery", "Skill": "Gunnery", "Stufe": "V"},
             {"Kategorie": "Gunnery", "Skill": "Motion Prediction", "Stufe": "V"},
             {"Kategorie": "Gunnery", "Skill": "Rapid Firing", "Stufe": "V"},
             {"Kategorie": "Gunnery", "Skill": "Sharpshooter", "Stufe": "V"},
-            {"Kategorie": "Gunnery", "Skill": "Small Precursor Weaponr", "Stufe": "V"},
+            {"Kategorie": "Gunnery", "Skill": "Small Precursor Weapon", "Stufe": "V"},
             {"Kategorie": "Gunnery", "Skill": "Small Disintegrator Specialization", "Stufe": "IV"},
             {"Kategorie": "Gunnery", "Skill": "Surgical Strike", "Stufe": "V"},
             {"Kategorie": "Rigging", "Skill": "Armor Rigging", "Stufe": "IV"},
@@ -651,8 +733,8 @@ Occult S x2000
         "details_resistenzen": "Gegner macht EM-Schaden, deswegen fitten wir den EM Armor Hardener. Die Disintegrator Waffe macht Thermal- und Explosiv-Schaden aber mehr als genug, so dass die Resistenzen der Vengeance nicht stören. ",
         "details_implants": "Es sind keine Implantate notwendig. Du kannst Dir aber das Leben mit der Nergal leichter machen, wenn Du den Armor-Tank durch Implantate verstärkst. Ein Mid-grade Asklepian Set ist perfekt und unterstützt auch andere Armor-Tank Schiffe in Missionen. Zusätzlich könntest Du auch Implantate für mehr Gun-Feuerkraft einsetzen.",
         "details_skills": [
-            {"Kategorie": "Assault Frigates", "Skill": "Precursor Fregatten", "Stufe": "V"},
-            {"Kategorie": "Spaceship Command", "Skill": "Precursor Fregatten", "Stufe": "V"},
+            {"Kategorie": "Spaceship Command", "Skill": "Assault Frigates", "Stufe": "V"},
+            {"Kategorie": "Spaceship Command", "Skill": "Precursor Frigates", "Stufe": "V"},
             {"Kategorie": "Armor", "Skill": "Hull Upgrades", "Stufe": "V"},
             {"Kategorie": "Armor", "Skill": "Mechanics", "Stufe": "V"},
             {"Kategorie": "Armor", "Skill": "Repair Systems", "Stufe": "V"},
@@ -664,12 +746,13 @@ Occult S x2000
             {"Kategorie": "Engineering", "Skill": "CPU Management", "Stufe": "V"},
             {"Kategorie": "Engineering", "Skill": "Power Grid Management", "Stufe": "V"},
             {"Kategorie": "Engineering", "Skill": "Weapon Upgrades", "Stufe": "V"},
+            {"Kategorie": "Engineering", "Skill": "Thermodynamics", "Stufe": "IV"},
             {"Kategorie": "Gunnery", "Skill": "Controlled Bursts", "Stufe": "V"},
             {"Kategorie": "Gunnery", "Skill": "Gunnery", "Stufe": "V"},
             {"Kategorie": "Gunnery", "Skill": "Motion Prediction", "Stufe": "V"},
             {"Kategorie": "Gunnery", "Skill": "Rapid Firing", "Stufe": "V"},
             {"Kategorie": "Gunnery", "Skill": "Sharpshooter", "Stufe": "V"},
-            {"Kategorie": "Gunnery", "Skill": "Small Precursor Weaponr", "Stufe": "V"},
+            {"Kategorie": "Gunnery", "Skill": "Small Precursor Weapon", "Stufe": "V"},
             {"Kategorie": "Gunnery", "Skill": "Small Disintegrator Specialization", "Stufe": "IV"},
             {"Kategorie": "Gunnery", "Skill": "Surgical Strike", "Stufe": "V"},
             {"Kategorie": "Rigging", "Skill": "Armor Rigging", "Stufe": "IV"},
@@ -731,8 +814,8 @@ Occult S x2500
         "details_resistenzen": "Gegner macht Thermal- und Kinetik-Schaden, deswegen fitten wir extra eine Kinetik Energized Membrane. Zusätzlich wird der reaktive Hardener bei Treffern auf die Panzerung extra Resistenzen zu Thermal und Kinetik verschieben. Im wesentlichen wird der Exploiv-Schaden der Nergal den Panzerungs-Tank der Talos überwinden.",
         "details_implants": "Es sind keine Implantate notwendig. Du kannst Dir aber das Leben mit der Nergal leichter machen, wenn Du den Armor-Tank durch Implantate verstärkst. Ein Mid-grade Asklepian Set ist perfekt und unterstützt auch andere Armor-Tank Schiffe in Missionen. Zusätzlich könntest Du auch Implantate für mehr Gun-Feuerkraft einsetzen.",
         "details_skills": [
-            {"Kategorie": "Assault Frigates", "Skill": "Precursor Fregatten", "Stufe": "V"},
-            {"Kategorie": "Spaceship Command", "Skill": "Precursor Fregatten", "Stufe": "V"},
+            {"Kategorie": "Spaceship Command", "Skill": "Assault Frigates", "Stufe": "V"},
+            {"Kategorie": "Spaceship Command", "Skill": "Precursor Frigates", "Stufe": "V"},
             {"Kategorie": "Armor", "Skill": "Hull Upgrades", "Stufe": "V"},
             {"Kategorie": "Armor", "Skill": "Mechanics", "Stufe": "V"},
             {"Kategorie": "Armor", "Skill": "Repair Systems", "Stufe": "V"},
@@ -744,12 +827,13 @@ Occult S x2500
             {"Kategorie": "Engineering", "Skill": "CPU Management", "Stufe": "V"},
             {"Kategorie": "Engineering", "Skill": "Power Grid Management", "Stufe": "V"},
             {"Kategorie": "Engineering", "Skill": "Weapon Upgrades", "Stufe": "V"},
+            {"Kategorie": "Engineering", "Skill": "Thermodynamics", "Stufe": "IV"},
             {"Kategorie": "Gunnery", "Skill": "Controlled Bursts", "Stufe": "V"},
             {"Kategorie": "Gunnery", "Skill": "Gunnery", "Stufe": "V"},
             {"Kategorie": "Gunnery", "Skill": "Motion Prediction", "Stufe": "V"},
             {"Kategorie": "Gunnery", "Skill": "Rapid Firing", "Stufe": "V"},
             {"Kategorie": "Gunnery", "Skill": "Sharpshooter", "Stufe": "V"},
-            {"Kategorie": "Gunnery", "Skill": "Small Precursor Weaponr", "Stufe": "V"},
+            {"Kategorie": "Gunnery", "Skill": "Small Precursor Weapon", "Stufe": "V"},
             {"Kategorie": "Gunnery", "Skill": "Small Disintegrator Specialization", "Stufe": "IV"},
             {"Kategorie": "Gunnery", "Skill": "Surgical Strike", "Stufe": "V"},
             {"Kategorie": "Rigging", "Skill": "Armor Rigging", "Stufe": "IV"},
