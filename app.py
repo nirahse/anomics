@@ -93,7 +93,7 @@ if gefilterte_keys:
 
     st.markdown("---")
 
-    # --- DETAILS (Eingeklappt für interessierte Spieler) ---
+    # --- DETAILS (Eingeklappt für interessierte Spieler) ----
     st.subheader("🧠 Hintergrund-Infos")
 
     with st.expander("Warum ist das Fit so gewählt?"):
