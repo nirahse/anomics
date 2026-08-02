@@ -6,7 +6,7 @@ MISSION_DATA = {
     #
     # --- AGENT Angel Cartel - Daredevil ---
     #
-    "Agent Angel Cartel vs Daredevil": {
+    "Daredevil vs. Angel Cartel Agent": {
         "flugshow_url": "https://youtu.be/05W8vJn56go", # Dein YouTube-Video
         "fit": """[Daredevil, Agent Angel Burner]
 Magnetic Field Stabilizer II
@@ -78,7 +78,7 @@ Void S x2400
     #
     # --- AGENT Angel Cartel - Nergal ---
     #
-    "Agent Angel Cartel vs Nergal": {
+    "Nergal vs. Angel Cartel Agent": {
         "flugshow_url": "https://youtu.be/Yg3qu6zAP-w", # Dein YouTube-Video
         "fit": """[Nergal, Burner Agent: Angel]
 Centii A-Type Small Armor Repairer
@@ -153,7 +153,7 @@ Occult S x2500
     #
     # --- AGENT Blood Raiders - Nergal ---
     #
-    "Agent Blood Raiders vs Nergal": {
+    "Nergal vs. Blood Raiders Agent": {
         "flugshow_url": "https://youtu.be/c8wK3phVkdE", # Dein YouTube-Video
         "fit": """[Nergal, Burner Agent: Blood Raiders]
 Centii A-Type Small Armor Repairer
@@ -227,7 +227,7 @@ Occult S x2000
     #
     # --- AGENT Guristas - Nergal ---
     #
-    "Agent Guristas vs Nergal": {
+    "Nergal vs. Guristas Agent": {
         "flugshow_url": "https://youtu.be/GEnn2QDD1xE", # Dein YouTube-Video
         "fit": """[Nergal, Burner Agent: Guristas]
 Centii A-Type Small Armor Repairer
@@ -305,7 +305,7 @@ Occult S x2000
     #
     # --- AGENT Sansha - Nergal ---
     #
-    "Agent Sansha's Nation vs Nergal": {
+    "Nergal vs. Sansha's Nation Agent": {
         "flugshow_url": "https://youtu.be/FlxT7MEZD9M", # <-- YouTube-Video
         "fit": """[Nergal, Burner Agent: Sansha]
 Centii A-Type Small Armor Repairer
@@ -385,7 +385,7 @@ Optimal Range Script x1
     #
     # --- AGENT Serpentis - Nergal ---
     #
-    "Agent Serpentis vs Nergal": {
+    "Nergal vs. Serpentis Agent": {
         "flugshow_url": "", # <-- YouTube-Video
         "fit": """
 [Nergal, Burner Agent: Serpentis]
@@ -461,7 +461,7 @@ Baryon Exotic Plasma S x2000
     #
     # --- TEAM Enyo - Nergal ---
     #
-    "Team Enyo vs Nergal": {
+    "Nergal vs. Team Enyo": {
         "flugshow_url": "https://youtu.be/IYEPW7bdMJ0", # Dein YouTube-Video
         "fit": """
 [Nergal, Burner Team: Enyo]
@@ -536,7 +536,7 @@ Occult S x2000
     #
     # --- TEAM Hawk - Nergal ---
     #
-    "Team Hawk vs Nergal": {
+    "Nergal vs. Team Hawk": {
         "flugshow_url": "https://youtu.be/gj5GIopfmq8", # Dein YouTube-Video
         "fit": """
 [Nergal, Burner Team: Hawk]
@@ -616,7 +616,7 @@ Occult S x2000
     #
     # --- TEAM Jaguar - Nergal ---
     #
-    "Team Jaguar vs Nergal": {
+    "Nergal vs. Team Jaguar": {
         "flugshow_url": "https://youtu.be/S-DfpMZt9sU", # Dein YouTube-Video
         "fit": """
 [Nergal, Burner Team: Jaguar]
@@ -694,7 +694,7 @@ Baryon Exotic Plasma S x2000
     #
     # --- TEAM Vengeance - Nergal ---
     #
-    "Team Vengeance vs Nergal": {
+    "Nergal vs. Team Vengeance": {
         "flugshow_url": "https://youtu.be/ZpVujwTAP_w", # Dein YouTube-Video
         "fit": """[Nergal, Burner Team: Vengeance]
 Centii A-Type Small Armor Repairer
@@ -769,7 +769,7 @@ Occult S x2000
     #
     # --- Base Talos - Nergal ---
     #
-    "Base Talos vs Nergal": {
+    "Nergal vs. Base Talos": {
             "flugshow_url": "https://youtu.be/-2gsLViGDOo", # Dein YouTube-Video
             "fit": """[Nergal, Burner Base: Talos]
 Centii A-Type Small Armor Repairer
