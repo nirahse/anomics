@@ -118,3 +118,4 @@ else: # Kein Ergebnis nach Filter
     st.sidebar.warning("Keine Guides für diese Filter gefunden.")
     st.title("🛸 Burner Guides")
     st.info("Bitte passe die Filter in der Sidebar an, um einen Taktik-Guide anzuzeigen.")
+    
