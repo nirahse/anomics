@@ -107,7 +107,8 @@ if gefilterte_keys:
             
             st.dataframe(
                 df_skills, 
-                use_container_width=True, # volle Breite des Aufklappmenüs
+                #use_container_width=True, # volle Breite des Aufklappmenüs
+                width='stretch',         # volle Breite des Aufklappmenüs
                 hide_index=True          # Versteckt Zeilennummern
             )
 
@@ -118,4 +119,3 @@ else: # Kein Ergebnis nach Filter
     st.sidebar.warning("Keine Guides für diese Filter gefunden.")
     st.title("🛸 Burner Guides")
     st.info("Bitte passe die Filter in der Sidebar an, um einen Taktik-Guide anzuzeigen.")
-    
