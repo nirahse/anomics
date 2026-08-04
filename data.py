@@ -712,7 +712,7 @@ Scourge Fury Light Missile x2500
             "**1:** Scourge Fury Light Missile laden.",
             "**2:** Sprungtor aktivieren.",
             "**3:** MWD AN und Jaguar auf 32km Abstand halten.",
-            ":red[**Warnung:** Fliegst Du am Anfang direkt auf die Jaguar zu, könntest Du kurzzeitig in ihre Waffenreichweite gelangen. Evtl. manuell etwas seitlich fliegen und dann Abstand halten.]",
+            ":orange[**Warnung:** Fliegst Du am Anfang direkt auf die Jaguar zu, könntest Du kurzzeitig in ihre Waffenreichweite gelangen. Evtl. manuell etwas seitlich anfliegen und kurz vor 32km Distanz erst das Kommendo zum Abstand halten geben.]",
             "**4:** Jaguar und beide Burst aufschalten.",
             "**5:** ECM Jammer auf jede Burst.",
             "**6:** Target Painter auf Jaguar",
