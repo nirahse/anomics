@@ -223,6 +223,77 @@ Occult S x2000
             {"Kategorie": "Drones", "Skill": "Light Drone Operation", "Stufe": "V"},
         ]
     },
+
+    # ---------------------------------------------------------------------------------------
+    #
+    # --- AGENT Blood Raiders - Wolf ---
+    #
+    "Wolf vs. Blood Raiders Agent": {
+        "flugshow_url": "https://youtu.be/iZ-UXgQXB6M", # Dein YouTube-Video
+        "fit": """[Wolf, Agent Blood Raiders]
+Corpii A-Type Small Armor Repairer
+Gyrostabilizer II
+Gyrostabilizer II
+Coreli A-Type Thermal Coating
+Micro Auxiliary Power Core II
+
+Stasis Webifier II
+'Censer' Medium Cap Battery
+
+200mm AutoCannon II
+200mm AutoCannon II
+200mm AutoCannon II
+200mm AutoCannon II
+Rocket Launcher II
+
+Small Capacitor Control Circuit I
+Small Projectile Burst Aerator II
+
+
+
+
+Hail S x2000
+Caldari Navy Nova Rocket x2000
+    """
+    ,
+        "flugplan": [
+            "**1:** Hail S und Nova Rockets laden. Armor Repairer AN.",
+            "**2:** Sprungtor aktivieren.",
+            "**3:** Cruor aufschalten.",
+            "**4:** Doppelklick ins All, gerader Kurz von der Station weg.",
+            "**5:** Webifier AN.",
+            "**6:** Feuern und zerstören.",
+            "**7:** Nach dem Nachladen, sofort Waffe wieder aktivieren.",
+            "**8:** Wertvollen Loot mitnehmen."
+        ],
+        # Optionale Details (Standardmäßig eingeklappt)
+        "details_warum_fit": "Die Wolf hat von Haus aus sehr gute EM und gute Thermal-Resistenzen. Das zusätzliche Thermal Coating macht den Tank sehr stabil gegen den Schaden der Cruor. Mit den Autocannons und Hail S Munition solltest Du auf knapp 400 DPS kommen, um den Tank der Cruor brechen zu können. Der Webifier unterstützt die Nachführung der Waffe, so dass Du besser triffst. Die Cruor hat trotzdem eine höhere Geschwindigkeit, bleibt aber in Deiner Waffenreichweite. Die recht große und teure Batterie kontert den Neut under Power Core sorgt für genug Gridstärke für das Fit.",
+        "details_resistenzen": "Gegner macht EM- und Thermal-Schaden, letzerer wird reduziert durch das extra Thermal Coating im Fit. Die Armor Resistenzen der Cruor sind sehr gut, wodurch sich der Kampf etwas in die Länge zieht. ",
+        "details_implants": "Es sind keine Implantate notwendig.",
+        "details_skills": [
+            {"Kategorie": "Spaceship Command", "Skill": "Assault Frigates", "Stufe": "V"},
+            {"Kategorie": "Spaceship Command", "Skill": "Minmatar Frigates", "Stufe": "V"},
+            {"Kategorie": "Armor", "Skill": "Hull Upgrades", "Stufe": "V"},
+            {"Kategorie": "Armor", "Skill": "Mechanics", "Stufe": "V"},
+            {"Kategorie": "Armor", "Skill": "Repair Systems", "Stufe": "V"},
+            {"Kategorie": "Engineering", "Skill": "Advanced Weapon Upgrades", "Stufe": "IV"},
+            {"Kategorie": "Engineering", "Skill": "Capacitor Management", "Stufe": "V"},
+            {"Kategorie": "Engineering", "Skill": "Capacitor Systems Operation", "Stufe": "V"},
+            {"Kategorie": "Engineering", "Skill": "CPU Management", "Stufe": "V"},
+            {"Kategorie": "Engineering", "Skill": "Power Grid Management", "Stufe": "V"},
+            {"Kategorie": "Engineering", "Skill": "Weapon Upgrades", "Stufe": "V"},
+            {"Kategorie": "Gunnery", "Skill": "Controlled Bursts", "Stufe": "V"},
+            {"Kategorie": "Gunnery", "Skill": "Gunnery", "Stufe": "V"},
+            {"Kategorie": "Gunnery", "Skill": "Motion Prediction", "Stufe": "V"},
+            {"Kategorie": "Gunnery", "Skill": "Rapid Firing", "Stufe": "V"},
+            {"Kategorie": "Gunnery", "Skill": "Sharpshooter", "Stufe": "V"},
+            {"Kategorie": "Gunnery", "Skill": "Small Projectile Turret", "Stufe": "V"},
+            {"Kategorie": "Gunnery", "Skill": "Small Autocannon Specialization", "Stufe": "V"},
+            {"Kategorie": "Gunnery", "Skill": "Surgical Strike", "Stufe": "V"},
+            {"Kategorie": "Rigging", "Skill": "Projectile Weapon Rigging", "Stufe": "IV"},
+        ]
+    },
+
     # ---------------------------------------------------------------------------------------
     #
     # --- AGENT Guristas - Nergal ---
