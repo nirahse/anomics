@@ -109,7 +109,7 @@ if gefilterte_keys:
                 df_skills, 
                 #use_container_width=True, # volle Breite des Aufklappmenüs
                 width='stretch',         # volle Breite des Aufklappmenüs
-                hide_index=True          # Versteckt Zeilennummern 
+                hide_index=True          # Versteckt Zeilennummern
             )
 
     with st.expander("Implantate"):
