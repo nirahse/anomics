@@ -16,7 +16,7 @@ from guides.team_vengeance import TEAM_VENGEANCE
 from guides.base_talos import BASE_TALOS
 
 
-# Store root keys in new dict
+# Store root keys in new dict 
 MISSION_DATA = {
 
     **AGENT_ANGEL,
