@@ -4,6 +4,84 @@
 
 TEAM_HAWK = {
 
+    # ---------------------------------------------------------------------------------------
+    #
+    # --- TEAM Hawk - Kitsune ---
+    #
+    "Kitsune vs. Team Hawk": {
+        "flugshow_url": "https://youtu.be/8xjJiXu3iPw", # Dein YouTube-Video
+        "fit": """[Kitsune, Team Hawk]
+Ballistic Control System II
+Ballistic Control System II
+
+5MN Y-T8 Compact Microwarpdrive
+Gravimetric ECM II
+Gravimetric ECM II
+Cap Recharger II
+Domination Target Painter
+
+Light Missile Launcher II
+Light Missile Launcher II
+Light Missile Launcher II
+
+Small Particle Dispersion Augmentor II
+Small Ancillary Current Router I
+
+
+
+
+Mjolnir Fury Light Missile x2500
+        """,
+        "flugplan": [
+            "**1:** Mjolnir Fury Light Missile laden.",
+            "**2:** Sprungtor aktivieren.",
+            "**3:** MWD AN und Hawk auf 32km Abstand halten.",
+            "**4:** Hawk und beide Bantam aufschalten.",
+            "**5:** ECM Jammer auf jede Bantam.",
+            "**6:** Target Painter auf Hawk",
+            "**7:** Feuern und warten bis Hawk platzt.",
+            "**9:** Wrack plündern und wertvollen Loot mitnehmen."
+        ],
+        # Optionale Details (Standardmäßig eingeklappt)
+        "details_warum_fit": "Die Kitsune ist auf ECM-Jammer spezialisiert. Sobald du deine Jams erfolgreich auf die Logistik-Fregatten (Bantam) anwendest, können diese die Hawk nicht mehr aufschalten und reparieren. Halte mit der Kitsune so viel Abstand, dass deine Fury Light Missiles gerade noch treffen. Du solltest eine Distanz von mindestens 28 km (besser 30 km) wahren, weshalb deine Raketen eine entsprechende Reichweite benötigen. Dank deines MWD ist das Halten des Abstands kein Problem: Die Hawk erreicht maximal ca. 1.100 m/s, während deine Kitsune rund 2.500 m/s fliegt. Da der DPS der Kitsune nicht überragend ist, dauert der Kampf ein paar Minuten. Je besser deine Missile-Skills sind, desto schneller ist es vorbei. Das unschlagbare Argument für dieses Fit ist jedoch das extrem geringe finanzielle Risiko durch den niedrigen Preis von Schiff und Ausrüstung. Du kannst die selbe Kitsune für alle **Anomischen Team** Missionen benutzen: Die zwei ECM Module und die Raketen werden je nach Mission (Fraktion der Gegner) angepasst.",
+        "details_resistenzen": "Da der Gegner Dich nicht treffen sollte ist seine Schadensart nicht relevant. Die geringste Schild-Resistenz der Hawk ist EM, deswegen schießt Du am besten mit Mjolnir Missiles.",
+        "details_implants": "Die Mission ist komplett ohne Implantate machbar. Wenn überhaupt, kannst Du die Reichweite und den Schaden der Missiles durch Implantate erhöhen. Ein Hydra-Set wäre der absolute Luxus.",
+        "details_skills": [
+            {"Kategorie": "Spaceship Command", "Skill": "Electronic Attack Ships", "Stufe": "IV"},
+            {"Kategorie": "Spaceship Command", "Skill": "Caldari Frigates", "Stufe": "IV"},
+            {"Kategorie": "Armor", "Skill": "Hull Upgrades", "Stufe": "V"},
+            {"Kategorie": "Armor", "Skill": "Mechanics", "Stufe": "V"},
+            {"Kategorie": "Navigation", "Skill": "Acceleration Control", "Stufe": "V"},
+            {"Kategorie": "Navigation", "Skill": "Navigation", "Stufe": "V"},
+            {"Kategorie": "Navigation", "Skill": "High Speed Maneuvering", "Stufe": "IV"},
+            {"Kategorie": "Navigation", "Skill": "Evasive Maneuvering", "Stufe": "V"},
+            {"Kategorie": "Electronic Subsystems", "Skill": "Electronic Warfare", "Stufe": "IV"},
+            {"Kategorie": "Electronic Subsystems", "Skill": "Frequency Modulation", "Stufe": "III"},
+            {"Kategorie": "Electronic Subsystems", "Skill": "Long Distance Jamming", "Stufe": "IV"},
+            {"Kategorie": "Electronic Subsystems", "Skill": "Signal Dispersion", "Stufe": "IV"},
+            {"Kategorie": "Electronic Subsystems", "Skill": "Signature Focusing", "Stufe": "IV"},
+            {"Kategorie": "Electronic Subsystems", "Skill": "Target Painting", "Stufe": "IV"},
+            {"Kategorie": "Engineering", "Skill": "Advanced Weapon Upgrades", "Stufe": "IV"},
+            {"Kategorie": "Engineering", "Skill": "Capacitor Management", "Stufe": "V"},
+            {"Kategorie": "Engineering", "Skill": "Capacitor Systems Operation", "Stufe": "V"},
+            {"Kategorie": "Engineering", "Skill": "CPU Management", "Stufe": "V"},
+            {"Kategorie": "Engineering", "Skill": "Power Grid Management", "Stufe": "V"},
+            {"Kategorie": "Engineering", "Skill": "Weapon Upgrades", "Stufe": "V"},
+            {"Kategorie": "Missiles", "Skill": "Light Missiles", "Stufe": "V"},
+            {"Kategorie": "Missiles", "Skill": "Light Missile Specialization", "Stufe": "V"},
+            {"Kategorie": "Missiles", "Skill": "Guided Missile Precision", "Stufe": "IV"},
+            {"Kategorie": "Missiles", "Skill": "Missile Bombardment", "Stufe": "V"},
+            {"Kategorie": "Missiles", "Skill": "Missile Launcher Operation", "Stufe": "IV"},
+            {"Kategorie": "Missiles", "Skill": "Missile Projection", "Stufe": "V"},
+            {"Kategorie": "Missiles", "Skill": "Rapid Launch", "Stufe": "V"},
+            {"Kategorie": "Missiles", "Skill": "Target Navigation Prediction", "Stufe": "V"},
+            {"Kategorie": "Missiles", "Skill": "Warhead Upgrades", "Stufe": "IV"},
+            {"Kategorie": "Rigging", "Skill": "Launcher Rigging", "Stufe": "IV"},
+            {"Kategorie": "Rigging", "Skill": "Electronic Superiority Rigging", "Stufe": "III"},
+            {"Kategorie": "Targeting", "Skill": "Long Range Targeting", "Stufe": "V"},
+        ]
+    },
+
 
     # ---------------------------------------------------------------------------------------
     #
