@@ -95,7 +95,7 @@ if gefilterte_keys:
 
         st.markdown("---")
 
-        st.markdown("### Mit welchen Anomischen Missionen und Schiffen fange ich am besten an?")
+        st.markdown("### Mit welchen Missionen und Schiffen fange ich am besten an?")
         st.markdown(
             "- Fang am besten mit günstigen Schiffen an, die Dein derzeitiger Skillstand unterstützt.\n"
             "- Mit Ausnahme der Kitsune für die Team Missionen sind die meisten günstigen Fits weniger flexibel. Schaffe günstige Schiffe nach und nach an, um Dein Spektrum zu erweitern.\n"
