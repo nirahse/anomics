@@ -1,35 +1,24 @@
 import streamlit as st
 import pandas as pd
-import sys
-import importlib
+import sys, importlib
 
-# 1. Sicherstellen, dass das Modul überhaupt erst einmal existiert
-try:
-    import data
-except ImportError:
-    pass
-
-# 2. Alle aktuell geladenen Untermodule aus dem "data"-Ordner aufspüren
-data_submodules = [
+# 1. Alle aktuell geladenen Module aus den Ordnern "guides" und "data" finden
+modules_to_reload = [
     name for name in list(sys.modules.keys())
-    if name.startswith("data.") and sys.modules[name] is not None
+    if (name == "data" or name.startswith("data.") or 
+        name == "guides" or name.startswith("guides."))
+    and sys.modules[name] is not None
 ]
 
-# 3. Erst die Untermodule in den Unterordnern aktualisieren
-for sub_mod in data_submodules:
+# 2. Diese Module von innen nach außen (rekursiv) neu laden
+# Wir sortieren sie nach der Länge des Namens rückwärts, damit Untermodule zuerst geladen werden
+for mod_name in sorted(modules_to_reload, key=len, reverse=True):
     try:
-        importlib.reload(sys.modules[sub_mod])
+        importlib.reload(sys.modules[mod_name])
     except Exception:
         pass
 
-# 4. Erst danach das Hauptmodul "data" selbst aktualisieren
-if "data" in sys.modules and sys.modules["data"] is not None:
-    try:
-        importlib.reload(sys.modules["data"])
-    except Exception:
-        pass
-
-# 5. Jetzt absolut fehlerfrei und frisch importieren
+# 3. Jetzt absolut fehlerfrei und frisch importieren
 from data import MISSION_DATA
 
 st.set_page_config(
