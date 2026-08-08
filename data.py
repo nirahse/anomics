@@ -13,6 +13,7 @@ from guides.team_hawk import TEAM_HAWK
 from guides.team_jaguar import TEAM_JAGUAR
 from guides.team_vengeance import TEAM_VENGEANCE
 
+from guides.base_ashimmu import BASE_ASHIMMU
 from guides.base_talos import BASE_TALOS
 
 
@@ -30,6 +31,7 @@ MISSION_DATA = {
     **TEAM_JAGUAR,
     **TEAM_VENGEANCE,
 
+    **BASE_ASHIMMU,
     **BASE_TALOS
     
 }

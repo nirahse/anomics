@@ -30,8 +30,6 @@ Small Capacitor Control Circuit II
 
 
 Occult S x2500
-
-
 """
 ,
         "flugplan": [
@@ -39,14 +37,14 @@ Occult S x2500
             "**2:** Sprungtor nutzen.",
             "**3:** MWD AN. Rechts aus Türme-Feld fliegen (Doppelklick). :red[NIEMALS direkt auf Talos zuhalten! Transversal fliegen!]",
             "**4:** Annäherung via Doppelklick / Q-Taste. Kurs schrittweise anpassen.",
-            "**6:** *(< 30km)* Orbit 10km + Armor Repairer AN.",
-            "**7:** *(< 10km)* Orbit 2.5km + MWD AUS + Afterburner AN.",
-            "**8:** Talos aufschalten und zerstören.",
-            "**9:** Lootbox eng umkreisen + Looten.",
-            "**10:** Kurs neben nächste Talos (Doppelklick). AB AUS + MWD AN. Türme weiträumig (>10km) umfliegen.",
-            "**11:** Annäherung: Armor Repairer AUS (Cap sparen).",
-            "**12:** Ab Schritt **4** für nächste Talos wiederholen.",
-            "**13:** Letzte Talos: Kein Armor Repairer nötig.",
+            "**5:** *(< 30km)* Orbit 10km + Armor Repairer AN.",
+            "**6:** *(< 10km)* Orbit 2.5km + MWD AUS + Afterburner AN.",
+            "**7:** Talos aufschalten und zerstören.",
+            "**8:** Lootbox eng umkreisen + Looten.",
+            "**9:** Kurs neben nächste Talos (Doppelklick). AB AUS + MWD AN. Türme weiträumig (>10km) umfliegen.",
+            "**10:** Annäherung: Armor Repairer AUS (Cap sparen).",
+            "**11:** Ab Schritt **4** für nächste Talos wiederholen.",
+            "**12:** Letzte Talos: Kein Armor Repairer nötig.",
             "**Zusatz:** Turm aggro? Transversal halten + Armor Repairer dauerhaft AN. Max. 1 Turm tankbar."
         ],
         # Optionale Details (Standardmäßig eingeklappt)
