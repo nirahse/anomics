@@ -104,7 +104,6 @@ if gefilterte_keys:
             "- Die Nergal ist nicht nur extrem flexibel einsetzbar, sondern kann auch besonders gut mit Armor-Tank Schlachtschiffen (Paladin, Kronos, Apocalypse Navy Issue, etc) kombiniert werden, denn alle profitieren von einem Asklepian Implantat-Set und meistens auch von Gunnery Skill Implantaten. Du könntest also alles mit einem Klon fliegen."
         )
 
-        # Eine kompakte Tabelle erstellen
         st.markdown("### Günstige Lösungen für den Start:")
         df_uebersicht = pd.DataFrame([
             {"Mission" : "Angel Cartel Agent", "Schiff" : "Enyo (~100m ISK)", "Skill-Set" : "Gunnery, Blaster, Armor Tank"},
@@ -114,6 +113,25 @@ if gefilterte_keys:
         ])
 
         st.dataframe(df_uebersicht, width='stretch', hide_index=True)
+
+        st.markdown("---")
+
+        st.markdown("### ✉️ Kontakt & Feedback")
+
+        # Layout mit 3 Spalten für die verschiedenen Kontaktwege
+        col_ingame, col_yt, col_mail = st.columns(3)
+
+        with col_ingame:
+            st.markdown("**🎮 Ingame Name**")
+            st.markdown(":orange[**Nirahse Haginen**]")
+
+        with col_yt:
+            st.markdown("**📺 YouTube Channel**")
+            st.markdown("[@nirahse](https://youtube.com/@Nirahse)")
+
+        with col_mail:
+            st.markdown("**📧 E-Mail**")
+            st.markdown("[nirahse@gmail.com](mailto:nirahse@gmail.com)")
 
     else:
 
