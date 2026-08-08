@@ -3,26 +3,33 @@ import pandas as pd
 import sys
 import importlib
 
-# Alle geladenen Submodule aus dem "data"-Ordner sicher aufspüren
+# 1. Sicherstellen, dass das Modul überhaupt erst einmal existiert
+try:
+    import data
+except ImportError:
+    pass
+
+# 2. Alle aktuell geladenen Untermodule aus dem "data"-Ordner aufspüren
 data_submodules = [
-    name for name in sys.modules 
+    name for name in list(sys.modules.keys())
     if name.startswith("data.") and sys.modules[name] is not None
 ]
 
-# 1. Erst die Untermodule in den Unterordnern aktualisieren
+# 3. Erst die Untermodule in den Unterordnern aktualisieren
 for sub_mod in data_submodules:
     try:
         importlib.reload(sys.modules[sub_mod])
     except Exception:
-        pass  # Ignorieren, falls ein Untermodul noch nicht voll geladen war
+        pass
 
-# 2. Erst danach das Hauptmodul "data" selbst aktualisieren
-if "data" in sys.modules:
+# 4. Erst danach das Hauptmodul "data" selbst aktualisieren
+if "data" in sys.modules and sys.modules["data"] is not None:
     try:
         importlib.reload(sys.modules["data"])
     except Exception:
         pass
 
+# 5. Jetzt absolut fehlerfrei und frisch importieren
 from data import MISSION_DATA
 
 st.set_page_config(
