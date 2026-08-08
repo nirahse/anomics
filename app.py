@@ -89,7 +89,7 @@ if gefilterte_keys:
 
         st.markdown("---")
 
-        st.info("ℹ️ Nutze die Sidebar auf der linken Seite, um gezielt nach bestimmten Agenten oder Schiffen zu suchen. Jeder Guide liefert Dir das passende Fit, die Taktik und Video-Beispiele.")
+        st.info("ℹ️ Nutze die Sidebar auf der linken Seite, um gezielt nach bestimmten Agenten oder Schiffen zu suchen. Jeder Guide liefert Dir das passende Fit, die Taktik und ein Video-Beispiel.")
 
         st.warning("⚠️ Wichtig: Anomische (Burner) Missionen verzeihen wenig Fehler. Sie zählen nicht zum Anfänger-Content in EVE Online. Prüfe Deine Skills, Konzentriere Dich, Überhitze rechtzeitig!")
 
