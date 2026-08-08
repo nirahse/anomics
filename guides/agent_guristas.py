@@ -4,6 +4,84 @@
 
 AGENT_GURISTAS = {
 
+
+    # ---------------------------------------------------------------------------------------
+    #
+    # --- AGENT Guristas - Enyo ---
+    #
+    "Enyo vs. Guristas Agent": {
+        "flugshow_url": "https://youtu.be/bJLX-Paym5A", # Dein YouTube-Video
+        "fit": """[Enyo, Guristas Agent]
+Coreli B-Type Small Armor Repairer
+Overdrive Injector System II
+Magnetic Field Stabilizer II
+Overdrive Injector System II
+
+Faint Epsilon Scoped Warp Scrambler
+Eutectic Compact Cap Recharger
+Coreli A-Type 5MN Microwarpdrive
+
+Rocket Launcher II
+Light Neutron Blaster II
+Light Neutron Blaster II
+Light Neutron Blaster II
+Light Neutron Blaster II
+
+Small Auxiliary Thrusters II
+Small Auxiliary Thrusters II
+
+
+
+Hornet II x1
+
+Mjolnir Rage Rocket x1500
+Void S x3000""",
+        "flugplan": [
+            ":red[**Warnung:** Die Taktik kann durch ungünstigen Hitzeschaden fehlschlagen.]",
+            "**1:** Void S und Raketen laden.",
+            "**2:** Armor Repairer AN.",
+            "**3:** Sprungtor aktivieren.",
+            "**4:** Kurs auf 2km Abstand + MWD AN (1 normaler Zyklus).",
+            "**5:** MWD Überhitzen (für max. 2 Zyklen, mitzählen!).",
+            "**6:** Worm aufschalten.",
+            "**7:** *(<8.2km)*: Warp Scrambler AN, MWD aus.",
+            "**8:** Feuern und Worm zerstören.",
+            "**9:** Wertvollen Loot mitnehmen.",
+            ":orange[**Notausgang:**] Wenn der Scrambler oder der MWD durch das Überhitzen durchbrennt: Rep laufen lassen, MWD AUS/offline, Client schliessen (Alt+F4), 10 min warten, wieder einloggen (ihr landet am Gate zur Mission), Schiff reparieren und neu versuchen. Es gibt Berichte, dass diese Taktik leider nicht immer erfolgreich ist."
+        ],
+        # Optionale Details (Standardmäßig eingeklappt)
+        "details_warum_fit": "Die Enyo hat extrem gute Kinetik-Resistenzen, was ihren Tank sehr stabil macht. Zudem ist sie mit diesem Fit extrem schnell und schafft es in der Regel mühelos, die Worm mit dem Warp Scrambler einzufangen. Dank der ca. 400 DPS aus den vier Blastern ist der Kampf schnell erledigt. Damit das Aufschließen gelingt, wird die Geschwindigkeit der Enyo durch den MWD, die Rigs und die Overdrive Injectors massiv erhöht. Mit überhitztem MWD erreichst Du ein Tempo von über 5 km/s, während die Worm versucht, mit 3,5 km/s auf 30 km Abstand zu bleiben. Zwei überhitzte MWD-Zyklen reichen in der Regel aus. Bei unter 8,2 km Abstand aktivierst Du den Warp Scrambler, um den MWD der Worm auszuschalten. Dadurch wird sie schlagartig langsamer als Deine Enyo - selbst wenn Dein eigener MWD aus ist. Du kontrollierst ab jetzt den Abstand und hältst mit Void S die optimale Reichweite der Blaster. Schalte in dieser Situation Deinen MWD ab, um Deinen Signaturradius klein zu halten. Damit MWD und Warp Scrambler nicht gegenseitig überhitzen und verbrennen, solltest Du die beiden Module jeweils an die äußeren Enden der Medium-Slots bauen. Mit einem Preis von ca. 100 Mio. ISK ist das Fit zudem vergleichsweise günstig.",
+        "details_resistenzen": "Gegner macht Kinetik-Schaden, was perfekt zu den hohen Resistenzen der Enyo passt. Die Thermal- und Kinetic-Resistenzen der Worm sind gut, aber kein Problem für die Enyo.",
+        "details_implants": "Es sind keine Implantate notwendig.",
+        "details_skills": [
+            {"Kategorie": "Spaceship Command", "Skill": "Assault Frigates", "Stufe": "I"},
+            {"Kategorie": "Spaceship Command", "Skill": "Gallente Frigates", "Stufe": "V"},
+            {"Kategorie": "Armor", "Skill": "Hull Upgrades", "Stufe": "V"},
+            {"Kategorie": "Armor", "Skill": "Mechanics", "Stufe": "V"},
+            {"Kategorie": "Armor", "Skill": "Repair Systems", "Stufe": "V"},
+            {"Kategorie": "Navigation", "Skill": "Acceleration Control", "Stufe": "IV"},
+            {"Kategorie": "Navigation", "Skill": "Navigation", "Stufe": "V"},
+            {"Kategorie": "Engineering", "Skill": "Advanced Weapon Upgrades", "Stufe": "IV"},
+            {"Kategorie": "Engineering", "Skill": "Capacitor Management", "Stufe": "V"},
+            {"Kategorie": "Engineering", "Skill": "Capacitor Systems Operation", "Stufe": "V"},
+            {"Kategorie": "Engineering", "Skill": "CPU Management", "Stufe": "V"},
+            {"Kategorie": "Engineering", "Skill": "Power Grid Management", "Stufe": "V"},
+            {"Kategorie": "Engineering", "Skill": "Weapon Upgrades", "Stufe": "V"},
+            {"Kategorie": "Engineering", "Skill": "Thermodynamics", "Stufe": "IV"},
+            {"Kategorie": "Gunnery", "Skill": "Controlled Bursts", "Stufe": "V"},
+            {"Kategorie": "Gunnery", "Skill": "Gunnery", "Stufe": "V"},
+            {"Kategorie": "Gunnery", "Skill": "Motion Prediction", "Stufe": "IV"},
+            {"Kategorie": "Gunnery", "Skill": "Rapid Firing", "Stufe": "IV"},
+            {"Kategorie": "Gunnery", "Skill": "Sharpshooter", "Stufe": "IV"},
+            {"Kategorie": "Gunnery", "Skill": "Small Hybrid Turret", "Stufe": "V"},
+            {"Kategorie": "Gunnery", "Skill": "Small Blaster Specialization", "Stufe": "III"},
+            {"Kategorie": "Gunnery", "Skill": "Surgical Strike", "Stufe": "IV"},
+            {"Kategorie": "Gunnery", "Skill": "Trajectory Analysis", "Stufe": "IV"},
+            {"Kategorie": "Rigging", "Skill": "Astronautics Rigging", "Stufe": "III"},
+        ]
+    },
+
+
     # ---------------------------------------------------------------------------------------
     #
     # --- AGENT Guristas - Nergal ---

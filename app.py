@@ -5,25 +5,15 @@ import sys, importlib
 # Streamlit Community Cloud App Reload Logik
 # 1. Wir löschen die alten Modul-Referenzen radikal aus Pythons RAM-Register
 for folder_name in ["data", "guides"]:
-    # Hauptordner/Dateien löschen
     if folder_name in sys.modules:
         del sys.modules[folder_name]
     
-    # Alle Untermodule (z.B. guides.agent_angel) löschen
     for name in list(sys.modules.keys()):
         if name.startswith(f"{folder_name}."):
             del sys.modules[name]
 
-# 2. Jetzt importieren wir die Daten komplett isoliert und frisch
-try:
-    from data import MISSION_DATA
-except ImportError as e:
-    # Falls Streamlit sich im RAM komplett verschluckt hat,
-    # erzwingen wir einen sauberen Fallback, damit die App nicht crashed
-    import st_clear_cache_fallback_placeholder_if_needed 
-    # (Falls der Fehler anhält, hilft einmaliges manuelles "Reboot App" im Dashboard,
-    # danach fängt dieser Code JEDEN zukünftigen GitHub-Push perfekt ab!)
-    raise e
+# 2. Jetzt importieren wir die Daten
+from data import MISSION_DATA
 
 
 st.set_page_config(
