@@ -106,9 +106,9 @@ if gefilterte_keys:
 
         st.markdown("### Günstige Lösungen für den Start:")
         df_uebersicht = pd.DataFrame([
-            {"Mission" : "Angel Cartel Agent", "Schiff" : "Enyo (~100m ISK)", "Skill-Set" : "Gunnery, Blaster, Armor Tank"},
-            {"Mission" : "Guristas Agent", "Schiff" : "Enyo (~100m ISK)", "Skill-Set" : "Gunnery, Blaster, Armor Tank"},
-            {"Mission" : "Sansha's Nation Agent", "Schiff" : "Wolf (~60m ISK)", "Skill-Set" : "Gunnery, Auto-Cannons, Armor Tank"},
+            {"Mission" : "Angel Cartel Agent", "Schiff" : "Enyo (~100m ISK)", "Skill-Set" : "Gunnery, Small Blaster, Armor Tank"},
+            {"Mission" : "Guristas Agent", "Schiff" : "Enyo (~100m ISK)", "Skill-Set" : "Gunnery, Blaster, Small Armor Tank"},
+            {"Mission" : "Sansha's Nation Agent", "Schiff" : "Wolf (~60m ISK)", "Skill-Set" : "Gunnery, Small Auto-Cannons, Armor Tank"},
             {"Mission" : "Alle Teams", "Schiff" : "Kitsune (~50m ISK)", "Skill-Set" : "Light Missiles, ECM"},
         ])
 
