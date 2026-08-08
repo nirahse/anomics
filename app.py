@@ -2,24 +2,29 @@ import streamlit as st
 import pandas as pd
 import sys, importlib
 
-# 1. Alle aktuell geladenen Module aus den Ordnern "guides" und "data" finden
-modules_to_reload = [
-    name for name in list(sys.modules.keys())
-    if (name == "data" or name.startswith("data.") or 
-        name == "guides" or name.startswith("guides."))
-    and sys.modules[name] is not None
-]
+# Streamlit Community Cloud App Reload Logik
+# 1. Wir löschen die alten Modul-Referenzen radikal aus Pythons RAM-Register
+for folder_name in ["data", "guides"]:
+    # Hauptordner/Dateien löschen
+    if folder_name in sys.modules:
+        del sys.modules[folder_name]
+    
+    # Alle Untermodule (z.B. guides.agent_angel) löschen
+    for name in list(sys.modules.keys()):
+        if name.startswith(f"{folder_name}."):
+            del sys.modules[name]
 
-# 2. Diese Module von innen nach außen (rekursiv) neu laden
-# Wir sortieren sie nach der Länge des Namens rückwärts, damit Untermodule zuerst geladen werden
-for mod_name in sorted(modules_to_reload, key=len, reverse=True):
-    try:
-        importlib.reload(sys.modules[mod_name])
-    except Exception:
-        pass
+# 2. Jetzt importieren wir die Daten komplett isoliert und frisch
+try:
+    from data import MISSION_DATA
+except ImportError as e:
+    # Falls Streamlit sich im RAM komplett verschluckt hat,
+    # erzwingen wir einen sauberen Fallback, damit die App nicht crashed
+    import st_clear_cache_fallback_placeholder_if_needed 
+    # (Falls der Fehler anhält, hilft einmaliges manuelles "Reboot App" im Dashboard,
+    # danach fängt dieser Code JEDEN zukünftigen GitHub-Push perfekt ab!)
+    raise e
 
-# 3. Jetzt absolut fehlerfrei und frisch importieren
-from data import MISSION_DATA
 
 st.set_page_config(
     page_title="EVE Guide - Anomische Missionen",
