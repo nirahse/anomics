@@ -84,4 +84,78 @@ Optimal Range Script x1
         ]
     },
 
+    
+    # ---------------------------------------------------------------------------------------
+    #
+    # --- AGENT Sansha - Wolf ---
+    #
+    "Wolf vs. Sansha's Nation Agent": {
+        "flugshow_url": "https://youtu.be/v3AQMDLtZ6Y", # <-- YouTube-Video
+        "fit": """[Wolf, Agent Sansha]
+Coreli A-Type Small Armor Repairer
+Gyrostabilizer II
+Gyrostabilizer II
+Tracking Enhancer II
+Tracking Enhancer II
+
+Small Compact Pb-Acid Cap Battery
+Tracking Computer II
+
+200mm AutoCannon II
+200mm AutoCannon II
+200mm AutoCannon II
+200mm AutoCannon II
+
+Small Projectile Ambit Extension I
+Small Projectile Collision Accelerator II
+
+
+
+
+Republic Fleet EMP S x3000
+Optimal Range Script x1
+Agency 'Pyrolancea' DB3 Dose I x1    
+        """
+        ,
+        "flugplan": [
+            "**1:** Republic Fleet EMP S in Waffe laden.",
+            "**2:** Optimal Range Script in Tracking Computer laden.",
+            "**3:** Armor Repairer und Tracking Computer AN.",
+            "**4:** Sprungtor aktivieren.",
+            "**5:** Geraden Kurs setzen (Doppelklick ins All).",
+            "**6:** Succubus aufschalten.",
+            "**7:** Feuern und zerstören.",
+            ":orange[**Kurskorrektur:**] Wenn der Gegner mit der Station kollidiert, fliege in gerader Linie (Doppelklick) senkrecht zu seinem Orbit und weg von der Station.",
+            ":orange[**Waffen wieder aktivieren**] wenn nachgeladen wurde."
+            "**9:** Wertvollen Loot mitnehmen.",
+        ],
+        # Optionale Details (Standardmäßig eingeklappt)
+        "details_warum_fit": "Das Fit ist günstig und fokussiert stark auf hohe Nachführungsgeschwindigkeit der Auto-Cannons. Die Succubus hält einen Orbit von ca. 15km Radius und fliegt dabei mit ca. 3km/s. Versuche einen Kurs einzustellen der senkrecht zu ihrem Orbit und gleichzeitig von der Station weg geht. Durch das Optimal Range Script erreichen die EMP S Schüsse das Ziel gerade so im *Falloff* der Waffen. Der Kampf dauert dadurch relative lange, so dass die Waffen evtl. leer geschossen werden. Nach dem Nachladen solltest Du die Waffen sofort wieder aktivieren. Falls Deine Gunnery Skills noch nicht voll entwickelt sind, kannst Du den *Agency 'Pyrolancea'* Booster zur Unterstützung einsetzen. Durch die gute EM Resistenz ist der Tank der Wolf stabil.",
+        "details_resistenzen": "Gegner macht im Wesentlichen EM-Schaden gegen den die Wolf sehr gute Resistenz hat. Die EMP Munition richtet sich gegen die schwache EM Resistenz der Succubus.",
+        "details_implants": "Es sind keine Implantate notwendig. Gunnery Implantate könnten helfen, die Dauer des Kampfs zu reduzieren.",
+        "details_skills": [
+            {"Kategorie": "Spaceship Command", "Skill": "Assault Frigates", "Stufe": "V"},
+            {"Kategorie": "Spaceship Command", "Skill": "Minmatar Frigates", "Stufe": "V"},
+            {"Kategorie": "Armor", "Skill": "Hull Upgrades", "Stufe": "V"},
+            {"Kategorie": "Armor", "Skill": "Mechanics", "Stufe": "V"},
+            {"Kategorie": "Armor", "Skill": "Repair Systems", "Stufe": "V"},
+            {"Kategorie": "Engineering", "Skill": "Advanced Weapon Upgrades", "Stufe": "IV"},
+            {"Kategorie": "Engineering", "Skill": "Capacitor Management", "Stufe": "V"},
+            {"Kategorie": "Engineering", "Skill": "Capacitor Systems Operation", "Stufe": "V"},
+            {"Kategorie": "Engineering", "Skill": "CPU Management", "Stufe": "V"},
+            {"Kategorie": "Engineering", "Skill": "Power Grid Management", "Stufe": "III"},
+            {"Kategorie": "Engineering", "Skill": "Weapon Upgrades", "Stufe": "V"},
+            {"Kategorie": "Gunnery", "Skill": "Controlled Bursts", "Stufe": "V"},
+            {"Kategorie": "Gunnery", "Skill": "Gunnery", "Stufe": "V"},
+            {"Kategorie": "Gunnery", "Skill": "Motion Prediction", "Stufe": "V"},
+            {"Kategorie": "Gunnery", "Skill": "Rapid Firing", "Stufe": "V"},
+            {"Kategorie": "Gunnery", "Skill": "Sharpshooter", "Stufe": "V"},
+            {"Kategorie": "Gunnery", "Skill": "Small Projectile Turret", "Stufe": "V"},
+            {"Kategorie": "Gunnery", "Skill": "Small Autocannon Specialization", "Stufe": "V"},
+            {"Kategorie": "Gunnery", "Skill": "Surgical Strike", "Stufe": "V"},
+            {"Kategorie": "Rigging", "Skill": "Projectile Weapon Rigging", "Stufe": "IV"},
+        ]
+    },
+
+
 }

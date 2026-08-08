@@ -121,7 +121,7 @@ Caldari Navy Nova Rocket x2000
             "**8:** Wertvollen Loot mitnehmen."
         ],
         # Optionale Details (Standardmäßig eingeklappt)
-        "details_warum_fit": "Die Wolf hat von Haus aus sehr gute EM und gute Thermal-Resistenzen. Das zusätzliche Thermal Coating macht den Tank sehr stabil gegen den Schaden der Cruor. Mit den Autocannons und Hail S Munition solltest Du auf knapp 400 DPS kommen, um den Tank der Cruor brechen zu können. Der Webifier unterstützt die Nachführung der Waffe, so dass Du besser triffst. Die Cruor hat trotzdem eine höhere Geschwindigkeit, bleibt aber in Deiner Waffenreichweite. Die recht große und teure Batterie kontert den Neut under Power Core sorgt für genug Gridstärke für das Fit.",
+        "details_warum_fit": "Die Wolf hat von Haus aus sehr gute EM-Resistenzen. Das zusätzliche Thermal Coating macht den Tank sehr stabil gegen den Schaden der Cruor. Mit den Autocannons und Hail S Munition solltest Du auf knapp 400 DPS kommen, um den Tank der Cruor brechen zu können. Der Webifier unterstützt die Nachführung der Waffe, so dass Du besser triffst. Die Cruor hat trotzdem eine höhere Geschwindigkeit, bleibt aber in Deiner Waffenreichweite. Die recht große und teure Batterie kontert den Neut under Power Core sorgt für genug Gridstärke für das Fit.",
         "details_resistenzen": "Gegner macht EM- und Thermal-Schaden, letzerer wird reduziert durch das extra Thermal Coating im Fit. Die Armor Resistenzen der Cruor sind sehr gut, wodurch sich der Kampf etwas in die Länge zieht. ",
         "details_implants": "Es sind keine Implantate notwendig.",
         "details_skills": [
