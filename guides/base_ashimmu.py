@@ -10,6 +10,7 @@ BASE_ASHIMMU = {
     #
     "Vagabond vs. Base Ashimmu": {
             "flugshow_url": "https://youtu.be/2b-j9Y7fEUs", # Dein YouTube-Video
+            "fit_misk" : 420,
             "fit": """[Vagabond, Base Ashimmu]
 Gyrostabilizer II
 Capacitor Flux Coil II

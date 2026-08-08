@@ -11,6 +11,7 @@ AGENT_SERPENTIS = {
     #
     "Nergal vs. Serpentis Agent": {
         "flugshow_url": "", # <-- YouTube-Video
+        "fit_misk" : 1100,
         "fit": """[Nergal, Burner Agent: Serpentis]
 Centii A-Type Small Armor Repairer
 Entropic Radiation Sink II

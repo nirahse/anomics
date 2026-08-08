@@ -9,6 +9,7 @@ AGENT_ANGEL = {
     #
     "Daredevil vs. Angel Cartel Agent": {
         "flugshow_url": "https://youtu.be/05W8vJn56go", # Dein YouTube-Video
+        "fit_misk" : 130,
         "fit": """[Daredevil, Agent Angel Burner]
 Magnetic Field Stabilizer II
 Magnetic Field Stabilizer II
@@ -81,6 +82,7 @@ Void S x2400
     #
     "Nergal vs. Angel Cartel Agent": {
         "flugshow_url": "https://youtu.be/Yg3qu6zAP-w", # Dein YouTube-Video
+        "fit_misk" : 600,
         "fit": """[Nergal, Burner Agent: Angel]
 Centii A-Type Small Armor Repairer
 Multispectrum Energized Membrane II

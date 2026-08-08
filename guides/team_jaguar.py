@@ -11,6 +11,7 @@ TEAM_JAGUAR = {
     #
     "Kitsune vs. Team Jaguar": {
         "flugshow_url": "https://youtu.be/RrpfklwbrVU", # Dein YouTube-Video
+        "fit_misk" : 50,
         "fit": """[Kitsune, Team Jaguar]
 Ballistic Control System II
 Ballistic Control System II
@@ -90,6 +91,7 @@ Scourge Fury Light Missile x2500
     #
     "Nergal vs. Team Jaguar": {
         "flugshow_url": "https://youtu.be/S-DfpMZt9sU", # Dein YouTube-Video
+        "fit_misk" : 700,
         "fit": """[Nergal, Burner Team: Jaguar]
 Centii A-Type Small Armor Repairer
 Capacitor Power Relay II

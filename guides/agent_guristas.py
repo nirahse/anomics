@@ -11,6 +11,7 @@ AGENT_GURISTAS = {
     #
     "Enyo vs. Guristas Agent": {
         "flugshow_url": "https://youtu.be/bJLX-Paym5A", # Dein YouTube-Video
+        "fit_misk" : 100,
         "fit": """[Enyo, Guristas Agent]
 Coreli B-Type Small Armor Repairer
 Overdrive Injector System II
@@ -88,6 +89,7 @@ Void S x3000""",
     #
     "Nergal vs. Guristas Agent": {
         "flugshow_url": "https://youtu.be/GEnn2QDD1xE", # Dein YouTube-Video
+        "fit_misk" : 700,
         "fit": """[Nergal, Burner Agent: Guristas]
 Centii A-Type Small Armor Repairer
 Overdrive Injector System II

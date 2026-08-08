@@ -10,6 +10,7 @@ TEAM_HAWK = {
     #
     "Kitsune vs. Team Hawk": {
         "flugshow_url": "https://youtu.be/8xjJiXu3iPw", # Dein YouTube-Video
+        "fit_misk" : 50,
         "fit": """[Kitsune, Team Hawk]
 Ballistic Control System II
 Ballistic Control System II
@@ -89,6 +90,7 @@ Mjolnir Fury Light Missile x2500
     #
     "Nergal vs. Team Hawk": {
         "flugshow_url": "https://youtu.be/gj5GIopfmq8", # Dein YouTube-Video
+        "fit_misk" : 1100,
         "fit": """[Nergal, Burner Team: Hawk]
 Centii A-Type Small Armor Repairer
 Entropic Radiation Sink II

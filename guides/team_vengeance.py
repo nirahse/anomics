@@ -11,6 +11,7 @@ TEAM_VENGEANCE = {
     #
     "Nergal vs. Team Vengeance": {
         "flugshow_url": "https://youtu.be/ZpVujwTAP_w", # Dein YouTube-Video
+        "fit_misk" : 640,
         "fit": """[Nergal, Burner Team: Vengeance]
 Centii A-Type Small Armor Repairer
 Centus C-Type EM Armor Hardener

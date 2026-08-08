@@ -11,6 +11,7 @@ TEAM_ENYO = {
     #
     "Nergal vs. Team Enyo": {
         "flugshow_url": "https://youtu.be/IYEPW7bdMJ0", # Dein YouTube-Video
+        "fit_misk" : 850,
         "fit": """[Nergal, Burner Team: Enyo]
 Centii A-Type Small Armor Repairer
 Entropic Radiation Sink II

@@ -11,6 +11,7 @@ BASE_TALOS = {
     #
     "Nergal vs. Base Talos": {
             "flugshow_url": "https://youtu.be/-2gsLViGDOo", # Dein YouTube-Video
+            "fit_misk" : 600,
             "fit": """[Nergal, Burner Base: Talos]
 Centii A-Type Small Armor Repairer
 Entropic Radiation Sink II

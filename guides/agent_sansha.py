@@ -10,6 +10,7 @@ AGENT_SANSHA = {
     #
     "Nergal vs. Sansha's Nation Agent": {
         "flugshow_url": "https://youtu.be/FlxT7MEZD9M", # <-- YouTube-Video
+        "fit_misk" : 520,
         "fit": """[Nergal, Burner Agent: Sansha]
 Centii A-Type Small Armor Repairer
 Centus C-Type EM Armor Hardener
@@ -91,6 +92,7 @@ Optimal Range Script x1
     #
     "Wolf vs. Sansha's Nation Agent": {
         "flugshow_url": "https://youtu.be/v3AQMDLtZ6Y", # <-- YouTube-Video
+        "fit_misk" : 60,
         "fit": """[Wolf, Agent Sansha]
 Coreli A-Type Small Armor Repairer
 Gyrostabilizer II

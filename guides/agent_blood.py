@@ -9,6 +9,7 @@ AGENT_BLOOD = {
     #
     "Nergal vs. Blood Raiders Agent": {
         "flugshow_url": "https://youtu.be/c8wK3phVkdE", # Dein YouTube-Video
+        "fit_misk" : 600,
         "fit": """[Nergal, Burner Agent: Blood Raiders]
 Centii A-Type Small Armor Repairer
 Entropic Radiation Sink II
@@ -84,6 +85,7 @@ Occult S x2000
     #
     "Wolf vs. Blood Raiders Agent": {
         "flugshow_url": "https://youtu.be/iZ-UXgQXB6M", # Dein YouTube-Video
+        "fit_misk" : 220,
         "fit": """[Wolf, Agent Blood Raiders]
 Corpii A-Type Small Armor Repairer
 Gyrostabilizer II
