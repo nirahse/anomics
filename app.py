@@ -1,5 +1,12 @@
 import streamlit as st
 import pandas as pd
+import sys
+
+# Bereinigt das Hauptmodul und ALLE verschachtelten Unterordner/Dateien
+for module_name in list(sys.modules.keys()):
+    if module_name == "data" or module_name.startswith("data."):
+        del sys.modules[module_name]
+
 from data import MISSION_DATA
 
 st.set_page_config(
