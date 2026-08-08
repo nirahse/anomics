@@ -1,11 +1,27 @@
 import streamlit as st
 import pandas as pd
 import sys
+import importlib
 
-# Bereinigt das Hauptmodul und ALLE verschachtelten Unterordner/Dateien
-for module_name in list(sys.modules.keys()):
-    if module_name == "data" or module_name.startswith("data."):
-        del sys.modules[module_name]
+# Alle geladenen Submodule aus dem "data"-Ordner sicher aufspüren
+data_submodules = [
+    name for name in sys.modules 
+    if name.startswith("data.") and sys.modules[name] is not None
+]
+
+# 1. Erst die Untermodule in den Unterordnern aktualisieren
+for sub_mod in data_submodules:
+    try:
+        importlib.reload(sys.modules[sub_mod])
+    except Exception:
+        pass  # Ignorieren, falls ein Untermodul noch nicht voll geladen war
+
+# 2. Erst danach das Hauptmodul "data" selbst aktualisieren
+if "data" in sys.modules:
+    try:
+        importlib.reload(sys.modules["data"])
+    except Exception:
+        pass
 
 from data import MISSION_DATA
 
