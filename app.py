@@ -77,20 +77,82 @@ st.sidebar.title("Burner Guides")
 
 # --- SIDEBAR: FILTER-ELEMENTE ---
 st.sidebar.subheader("🔍 Filter:")
-suchbegriff = st.sidebar.text_input("Suche:", "", label_visibility="collapsed").lower().strip()
 
-# --- FILTER-LOGIK ---
+# # Einfacher Filter mit Rücksetzen
+# # Lokaler Callback zum Zurücksetzen des state labels
+# def reset_search():
+#     st.session_state["suchbegriff_state"] = ""
+# # Container aus Eingabefeld und Reset Button
+# filter_container = st.sidebar.container(gap="small")
+# with filter_container:
+#     # Eingabefeld
+#     suchbegriff = st.sidebar.text_input(
+#         "Suche:", 
+#         label_visibility="collapsed",
+#         key="suchbegriff_state",
+#         placeholder="Suche..."  # Ein dezenter Platzhalter-Text für bessere Optik
+#     ).lower().strip()
+#     # Reset-Button: nur wenn Text im Feld steht
+#     if st.session_state.get("suchbegriff_state", "") != "":
+#         st.sidebar.button(
+#             ":material/close: Suche zurücksetzen", 
+#             on_click=reset_search,
+#             type="tertiary", # Macht den Button zu einem dezenten Text-Link ohne klobigen Rahmen
+#             use_container_width=False
+#         )
+#
+# # --- FILTER-LOGIK ---
+# gefilterte_keys = []
+# for key in MISSION_DATA.keys():
+#     key_lower = key.lower()
+#     if suchbegriff in key_lower:
+#         gefilterte_keys.append(key)
+#
+# # --- GRUNDLAGEN ---
+# # Grundlagen-Seite standardmäßig ganz oben
+# grundlagen_label = "🏠 Grundlagen"
+# if not suchbegriff or suchbegriff in "grundlagen":
+#     gefilterte_keys.insert(0, grundlagen_label)
+
+
+# 1. Wir sammeln alle möglichen Begriffe, die der Nutzer als "Vorschlag" sehen könnte
+# (z.B. alle Missionsnamen, Schiffsnamen oder Fraktionen)
+alle_such_optionen = ["Agent", "Base", "Team", 
+                      "Nergal", "Garmur", "Enyo", "Hawk", "Kitsune", "Jaguar", "Vengeance", "Wolf",
+                      "Angel", "Blood Raiders", "Guristas", "Sansha's Nation", "Serpentis"]
+
+# 2. Das Multiselect-Feld als modernes Tag-Eingabefeld
+# Der Nutzer kann tippen, Enter drücken und so mehrere Tags sammeln
+gewaehlte_tags = st.sidebar.multiselect(
+    "Suche nach Tags:",
+    options=alle_such_optionen,
+    default=[],
+    label_visibility="collapsed",
+    placeholder="Tippe Filter-Begriffe...",
+    accept_new_options=True
+)
+
+# --- FILTER-LOGIK FÜR MEHRERE TAGS ---
 gefilterte_keys = []
-for key in MISSION_DATA.keys():
-    key_lower = key.lower()
-    if suchbegriff in key_lower:
-        gefilterte_keys.append(key)
 
-# --- GRUNDLAGEN ---
-# Grundlagen-Seite standardmäßig ganz oben
-grundlagen_label = "🏠 Grundlagen"
-if not suchbegriff or suchbegriff in "grundlagen":
+# Wenn keine Tags gewählt sind, zeigen wir alle Guides an
+if not gewaehlte_tags:
+    gefilterte_keys = list(MISSION_DATA.keys())
+else:
+    # Wenn Tags gewählt sind, muss JEDER gewählte Tag im Namen des Guides vorkommen (AND-Verknüpfung)
+    for key in MISSION_DATA.keys():
+        key_lower = key.lower()
+        # Prüfen, ob alle gewählten Tags in diesem Guide-Namen existieren
+        if all(tag.lower() in key_lower for tag in gewaehlte_tags):
+            gefilterte_keys.append(key)
+
+# --- GRUNDLAGEN-LOGIK INJECTION (Unverändert) ---
+# Die Grundlagen-Seite bleibt oben, wenn nicht gesucht wird oder explizit danach gesucht wird
+grundlagen_label = "🏠 Grundlagen & Anleitung"
+if not gewaehlte_tags or any(t.lower() in "grundlagen" for t in gewaehlte_tags):
     gefilterte_keys.insert(0, grundlagen_label)
+
+
 
 # --- ANZEIGE IN DER SIDEBAR ---
 st.sidebar.subheader("📋 Auswahl")
@@ -105,7 +167,7 @@ if gefilterte_keys:
 
         st.info("ℹ️ Nutze die Sidebar auf der linken Seite, um gezielt nach bestimmten Agenten oder Schiffen zu suchen. Jeder Guide liefert Dir das passende Fit, die Taktik und ein Video-Beispiel.")
 
-        st.warning("⚠️ Wichtig: Anomische (Burner) Missionen verzeihen wenig Fehler. Sie zählen nicht zum Anfänger-Content in EVE Online. Prüfe Deine Skills, Konzentriere Dich, Überhitze rechtzeitig!")
+        st.warning("⚠️ Wichtig: Anomische (Burner) Missionen verzeihen wenig Fehler. Sie zählen nicht zum Anfänger-Content in EVE Online. Prüfe Deine Skills, Konzentriere Dich, Überhitze rechtzeitig! Lehne Anomische Missionen lieber ab, wenn Du nicht sicher bist ob Du sie schaffst.")
 
         st.markdown("---")
 
