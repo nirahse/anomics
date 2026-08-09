@@ -126,8 +126,8 @@ Scourge Fury Light Missile x2500
         "flugplan": [
             "**1:** Scourge Fury Light Missile laden.",
             "**2:** Sprungtor aktivieren.",
-            "**3:** MWD AN und Jaguar auf 32km Abstand halten.",
-            ":orange[**Warnung:** Fliegst Du am Anfang direkt auf die Jaguar zu, könntest Du kurzzeitig in ihre Waffenreichweite gelangen. Evtl. manuell etwas seitlich anfliegen und kurz vor 32km Distanz erst das Kommando zum Abstand halten geben.]",
+            "**3:** MWD AN und Jaguar auf 34km Abstand halten.",
+            ":orange[**Warnung:** Fliegst Du am Anfang direkt auf die Jaguar zu, könntest Du kurzzeitig in ihre Waffenreichweite gelangen. Evtl. manuell etwas seitlich anfliegen und kurz vor 34km Distanz erst das Kommando zum Abstand halten geben.]",
             "**4:** Jaguar und beide Burst aufschalten.",
             "**5:** ECM Jammer auf jede Burst.",
             "**6:** Target Painter auf Jaguar",
@@ -135,7 +135,7 @@ Scourge Fury Light Missile x2500
             "**9:** Wrack plündern und wertvollen Loot mitnehmen."
         ],
         # Optionale Details (Standardmäßig eingeklappt)
-        "details_warum_fit": "Das gegnerische Team besteht aus einer Assault Fregatte und zwei Logistikern. Die Kitsune ist auf ECM-Jammer spezialisiert. Sobald du deine Jams erfolgreich auf die Logistik-Fregatten (Burst) anwendest, können diese die Jaguar nicht mehr aufschalten und reparieren. Halte mit der Kitsune so viel Abstand, dass deine Fury Light Missiles gerade noch treffen. Du solltest eine Distanz von mindestens 28 km (besser 30 km) wahren, weshalb deine Missiles eine entsprechende Reichweite benötigen. Dank deines MWD ist das Halten des Abstands kein Problem: Die Jaguar erreicht maximal ca. 1.200 m/s, während deine Kitsune rund 2.500 m/s fliegt. Da der DPS der Kitsune nicht überragend ist, dauert der Kampf einige Minuten. Je besser deine Missile-Skills sind, desto schneller ist es vorbei. Das unschlagbare Argument für dieses Fit ist jedoch das extrem geringe finanzielle Risiko durch den niedrigen Preis von Schiff und Ausrüstung. Du kannst die selbe Kitsune für alle **Anomischen Team** Missionen benutzen: Die zwei ECM Module und die Missiles werden je nach Mission (Fraktion der Gegner) angepasst.",
+        "details_warum_fit": "Das gegnerische Team besteht aus einer Assault Fregatte und zwei Logistikern. Die Kitsune ist auf ECM-Jammer spezialisiert. Sobald du deine Jams erfolgreich auf die Logistik-Fregatten (Burst) anwendest, können diese die Jaguar nicht mehr aufschalten und reparieren. Halte mit der Kitsune so viel Abstand, dass deine Fury Light Missiles gerade noch treffen. Du solltest eine Distanz von mindestens 30 km (besser 34 km) wahren, weshalb deine Missiles eine entsprechende Reichweite benötigen. Dadurch dass die Jaguar dich mit ca. 1200 m/s verfolgt, triffst Du auch etwas außerhalb Deiner Missile Reichweite. Dank deines MWD ist das Halten des Abstands kein Problem: Die Jaguar erreicht maximal ca. 1.200 m/s, während deine Kitsune rund 2.500 m/s fliegt. Da der DPS der Kitsune nicht überragend ist, dauert der Kampf einige Minuten. Je besser deine Missile-Skills sind, desto schneller ist es vorbei. Das unschlagbare Argument für dieses Fit ist jedoch das extrem geringe finanzielle Risiko durch den niedrigen Preis von Schiff und Ausrüstung. Du kannst die selbe Kitsune für alle **Anomischen Team** Missionen benutzen: Die zwei ECM Module und die Missiles werden je nach Mission (Fraktion der Gegner) angepasst.",
         "details_resistenzen": "Da der Gegner Dich nicht treffen sollte ist seine Schadensart nicht relevant. Die geringste Schild-Resistenz der Jaguar ist Kinetik, deswegen schießt Du am besten mit Scourge Missiles.",
         "details_implants": "Die Mission ist komplett ohne Implantate machbar. Wenn überhaupt, kannst Du die Reichweite und den Schaden der Missiles durch Implantate erhöhen. Ein Hydra-Set wäre der absolute Luxus.",
         "details_skills": [
