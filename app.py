@@ -57,7 +57,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-# --- SIDE BAR --- 
+# --- SIDE BAR ---
 st.logo("logo_120.png")
 st.sidebar.title("Burner Guides")
 

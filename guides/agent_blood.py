@@ -116,7 +116,7 @@ Caldari Navy Nova Rocket x2000
             "**1:** Hail S und Nova Rockets laden. Armor Repairer AN.",
             "**2:** Sprungtor aktivieren.",
             "**3:** Cruor aufschalten.",
-            "**4:** Doppelklick ins All, gerader Kurz von der Station weg.",
+            "**4:** Doppelklick ins All, gerader Kurs von der Station weg.",
             "**5:** Webifier AN.",
             "**6:** Feuern und zerstören.",
             "**7:** Nach dem Nachladen, sofort Waffe wieder aktivieren.",
