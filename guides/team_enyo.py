@@ -4,6 +4,95 @@
 
 TEAM_ENYO = {
 
+    # ---------------------------------------------------------------------------------------
+    #
+    # --- TEAM Enyo - Garmur ---
+    #
+    "Garmur vs. Team Enyo": {
+        "flugshow_url": "https://youtu.be/IYEPW7bdMJ0", # Dein YouTube-Video
+        "fit_misk" : 500,
+        "fit": """[Garmur, Alle Teams]
+Caldari Navy Ballistic Control System
+Caldari Navy Ballistic Control System
+Caldari Navy Ballistic Control System
+
+5MN Quad LiF Restrained Microwarpdrive
+Missile Guidance Computer II
+Missile Guidance Computer II
+Peripheral Compact Target Painter
+
+Polarized Rocket Launcher
+Polarized Rocket Launcher
+Polarized Rocket Launcher
+
+Small Hydraulic Bay Thrusters II
+Small Rocket Fuel Cache Partition II
+Small Warhead Flare Catalyst I
+
+
+
+
+Mjolnir Rage Rocket x2000
+Caldari Navy Scourge Rocket x2000
+Mjolnir Javelin Rocket x2000
+Missile Range Script x2
+Caldari Navy Mjolnir Rocket x2000
+Nova Rage Rocket x2000
+Inferno Rage Rocket x2000
+Caldari Navy Nova Rocket x3000
+        """,
+        "flugplan": [
+            "**1:** :yellow[Caldari Navy Nova Rocket] & 1 Missile Range Script laden.",
+            "**2:** Missile Guidance Computer AN.",
+            "**3:** Default Orbit auf :orange[**20km!!**] setzen!",
+            "**4:** Sprungtor aktivieren.",
+            "**5:** :red[MWD AN!]",
+            "**6:** :orange[**20km(!)**] :red[Orbit um **Enyo !!**]",
+            "**7:** Enyo und beide Navitas aufschalten.",
+            "**8:** Beide Navitas nacheinander zerstören.",
+            "**9:** Immer Target Painter auf das aktuelle Ziel",
+            "**10:** :yellow[Nova Rage Rocket] laden",
+            "**11:** Target Painter auf Enyo.",
+            "**12:** Enyo zerstören.",
+            "**13:** Wrack plündern und wertvollen Loot mitnehmen."
+        ],
+        # Optionale Details (Standardmäßig eingeklappt)
+        "details_warum_fit": "Das gegnerische Team besteht aus einer Assault Fregatte und zwei Logistikern. Mit der Garmur zerstören wir erst die Logistik-Fregatten und dann den Hauptgegner. Das Fit ist auf hohe Geschwindigkeit und hohen Schaden ausgelegt. Der Tank ist praktisch nicht vorhanden. Du fliegst einen weiten Orbit (20km) auf dem Dich die Waffen der Enyo hoffentlich nicht treffen. Guidance Computer (einer mit Missile Range Script) und Rigs sorgen für genug Reichweite Deiner Rockets. Das selbe Fit kann mit leicht angepasstem Orbit und anderen Rockets (alle Varianten im Cargo) genau so gegen alle Teams eingesetzt werden. Allerdings ist der Preis mit 500 Mio ISK relativ hoch.",
+        "details_resistenzen": "Da der Gegner Dich nicht treffen sollte ist seine Schadensart nicht relevant. Die geringste Armor-Resistenz der Navitas ist gegen Explosiv-Schaden, deswegen Nova Rockets einsetzen. Die geringste Armor-Resistenz der Enyo ist Explosiv, deswegen schießt Du auch auf den Hauptgegner mit Nova Rockets.",
+        "details_implants": "Die Mission ist komplett ohne Implantate machbar. Wenn überhaupt, kannst Du die Reichweite und den Schaden der Missiles durch Implantate erhöhen.",
+        "details_skills": [
+            {"Kategorie": "Spaceship Command", "Skill": "Caldari Frigates", "Stufe": "V"},
+            {"Kategorie": "Spaceship Command", "Skill": "Gallente Frigates", "Stufe": "I"},
+            {"Kategorie": "Armor", "Skill": "Hull Upgrades", "Stufe": "V"},
+            {"Kategorie": "Armor", "Skill": "Mechanics", "Stufe": "V"},
+            {"Kategorie": "Navigation", "Skill": "Acceleration Control", "Stufe": "IV"},
+            {"Kategorie": "Navigation", "Skill": "Navigation", "Stufe": "V"},
+            {"Kategorie": "Navigation", "Skill": "High Speed Maneuvering", "Stufe": "IV"},
+            {"Kategorie": "Navigation", "Skill": "Evasive Maneuvering", "Stufe": "IV"},
+            {"Kategorie": "Electronic Systems", "Skill": "Target Painting", "Stufe": "IV"},
+            {"Kategorie": "Electronic Systems", "Skill": "Signature Focusing", "Stufe": "IV"},
+            {"Kategorie": "Engineering", "Skill": "Advanced Weapon Upgrades", "Stufe": "IV"},
+            {"Kategorie": "Engineering", "Skill": "Capacitor Management", "Stufe": "V"},
+            {"Kategorie": "Engineering", "Skill": "Capacitor Systems Operation", "Stufe": "V"},
+            {"Kategorie": "Engineering", "Skill": "CPU Management", "Stufe": "V"},
+            {"Kategorie": "Engineering", "Skill": "Power Grid Management", "Stufe": "V"},
+            {"Kategorie": "Engineering", "Skill": "Weapon Upgrades", "Stufe": "V"},
+            {"Kategorie": "Missiles", "Skill": "Rockets", "Stufe": "V"},
+            {"Kategorie": "Missiles", "Skill": "Rocket Specialization", "Stufe": "IV"},
+            {"Kategorie": "Missiles", "Skill": "Guided Missile Precision", "Stufe": "IV"},
+            {"Kategorie": "Missiles", "Skill": "Missile Bombardment", "Stufe": "V"},
+            {"Kategorie": "Missiles", "Skill": "Missile Launcher Operation", "Stufe": "V"},
+            {"Kategorie": "Missiles", "Skill": "Missile Projection", "Stufe": "V"},
+            {"Kategorie": "Missiles", "Skill": "Rapid Launch", "Stufe": "IV"},
+            {"Kategorie": "Missiles", "Skill": "Target Navigation Prediction", "Stufe": "IV"},
+            {"Kategorie": "Missiles", "Skill": "Warhead Upgrades", "Stufe": "IV"},
+            {"Kategorie": "Shields", "Skill": "Shield Management", "Stufe": "V"},
+            {"Kategorie": "Shields", "Skill": "Tactical Shield Manipulation", "Stufe": "IV"},
+            {"Kategorie": "Rigging", "Skill": "Launcher Rigging", "Stufe": "IV"},
+            {"Kategorie": "Targeting", "Skill": "Long Range Targeting", "Stufe": "V"},
+        ]
+    },
+
 
     # ---------------------------------------------------------------------------------------
     #

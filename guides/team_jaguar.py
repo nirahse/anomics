@@ -10,7 +10,7 @@ TEAM_JAGUAR = {
     # --- TEAM Jaguar - Garmur ---
     #
     "Garmur vs. Team Jaguar": {
-        "flugshow_url": "https://youtu.be/XNLRtb7yPOE", # Dein YouTube-Video
+        "flugshow_url": "https://youtu.be/toQRBdTfWLk", # Dein YouTube-Video
         "fit_misk" : 500,
         "fit": """[Garmur, Alle Teams]
 Caldari Navy Ballistic Control System
@@ -33,14 +33,14 @@ Small Warhead Flare Catalyst I
 
 
 
-Mjolnir Rage Rocket x1900
-Caldari Navy Scourge Rocket x2302
-Mjolnir Javelin Rocket x2226
+Mjolnir Rage Rocket x2000
+Caldari Navy Scourge Rocket x2000
+Mjolnir Javelin Rocket x2000
 Missile Range Script x2
-Caldari Navy Mjolnir Rocket x2006
-Nova Rage Rocket x1977
-Inferno Rage Rocket x1891
-Caldari Navy Nova Rocket x2840
+Caldari Navy Mjolnir Rocket x2000
+Nova Rage Rocket x2000
+Inferno Rage Rocket x2000
+Caldari Navy Nova Rocket x3000
         """,
         "flugplan": [
             "**1:** :color[Mjolnir Javelin Rocket]{foreground='#20FFFF'} & 1 Missile Range Script laden.",

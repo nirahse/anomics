@@ -126,7 +126,7 @@ if gefilterte_keys:
             {"Mission" : "Alle Teams", "Schiff" : "Kitsune (~50m ISK)", "Skill-Set" : "Caldari Frigates, Electronic Attack Ships, Light Missiles, ECM"},
         ])
 
-        #st.dataframe(df_uebersicht, width='stretch', hide_index=True) # pd frame looks not as good
+        #st.dataframe(df_uebersicht, width='stretch', hide_index=True) # pd frame looks not as good 
         st.table(df_uebersicht)
 
         st.markdown("---")
