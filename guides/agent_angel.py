@@ -49,7 +49,7 @@ Void S x2400
         "details_implants": "Es sind keine Implantate notwendig. Ein Implantat für mehr Schildstärke (Shield Management) ist hilfreich und evtl. musst Du damit die Waffen nicht mehr überhitzen.",
         "details_skills": [
             {"Kategorie": "Spaceship Command", "Skill": "Minmatar Frigates", "Stufe": "IV"},
-            {"Kategorie": "Spaceship Command", "Skill": "Gallente Frigates", "Stufe": "IV"},
+            {"Kategorie": "Spaceship Command", "Skill": "Gallente Frigates", "Stufe": "III"},
             {"Kategorie": "Armor", "Skill": "Hull Upgrades", "Stufe": "V"},
             {"Kategorie": "Armor", "Skill": "Mechanics", "Stufe": "V"},
             {"Kategorie": "Navigation", "Skill": "Navigation", "Stufe": "V"},

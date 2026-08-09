@@ -120,7 +120,7 @@ if gefilterte_keys:
 
         st.markdown("### Günstige Lösungen für den Start:")
         df_uebersicht = pd.DataFrame([
-            {"Mission" : "Angel Cartel Agent", "Schiff" : "Enyo (~100m ISK)", "Skill-Set" : "Gallente Frigates, Assault Frigates, Gunnery, Small Blaster, Armor Tank"},
+            {"Mission" : "Angel Cartel Agent", "Schiff" : "Daredevil (~130m ISK)", "Skill-Set" : "Minmatar Frigates, Gallente Frigates, Gunnery, Small Blaster, "},
             {"Mission" : "Guristas Agent", "Schiff" : "Enyo (~100m ISK)", "Skill-Set" : "Gallente Frigates, Assault Frigates, Gunnery, Small Blaster, Armor Tank"},
             {"Mission" : "Sansha's Nation Agent", "Schiff" : "Wolf (~60m ISK)", "Skill-Set" : "Minmatar Frigates, Assault Frigates, Gunnery, Small Auto-Cannons, Armor Tank"},
             {"Mission" : "Alle Teams", "Schiff" : "Kitsune (~50m ISK)", "Skill-Set" : "Caldari Frigates, Electronic Attack Ships, Light Missiles, ECM"},
