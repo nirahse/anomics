@@ -2,17 +2,31 @@ import streamlit as st
 import pandas as pd
 import sys, importlib
 
-# Streamlit Community Cloud App Reload Logik
-# 1. Wir löschen die alten Modul-Referenzen radikal aus Pythons RAM-Register
-for folder_name in ["data", "guides"]:
-    if folder_name in sys.modules:
-        del sys.modules[folder_name]
-    
-    for name in list(sys.modules.keys()):
-        if name.startswith(f"{folder_name}."):
-            del sys.modules[name]
+# 1. Wir importieren die Module einmalig, damit sie Python sicher im RAM bekannt sind
+try:
+    import guides
+    import data
+except ImportError:
+    pass
 
-# 2. Jetzt importieren wir die Daten
+# 2. Wir listen alle geladenen Submodule auf (z.B. guides.agent_angel)
+modules_to_reload = [
+    name for name in list(sys.modules.keys())
+    if (name == "data" or name.startswith("data.") or 
+        name == "guides" or name.startswith("guides."))
+    and sys.modules[name] is not None
+]
+
+# 3. WICHTIG: Wir sortieren die Module nach der Länge ihres Namens RÜCKWÄRTS.
+# Dadurch werden die tiefsten Dateien (z.B. guides.agent_angel) zuerst aktualisiert,
+# und ganz am Schluss das Hauptmodul "data".
+for mod_name in sorted(modules_to_reload, key=len, reverse=True):
+    try:
+        importlib.reload(sys.modules[mod_name])
+    except Exception:
+        pass
+
+# 4. Jetzt erst ziehen wir die absolut frisch geladene Variable in die app.py
 from data import MISSION_DATA
 
 
