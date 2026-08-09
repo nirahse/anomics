@@ -7,6 +7,95 @@ TEAM_JAGUAR = {
 
     # ---------------------------------------------------------------------------------------
     #
+    # --- TEAM Jaguar - Garmur ---
+    #
+    "Garmur vs. Team Jaguar": {
+        "flugshow_url": "https://youtu.be/XNLRtb7yPOE", # Dein YouTube-Video
+        "fit_misk" : 500,
+        "fit": """[Garmur, Alle Teams]
+Caldari Navy Ballistic Control System
+Caldari Navy Ballistic Control System
+Caldari Navy Ballistic Control System
+
+5MN Quad LiF Restrained Microwarpdrive
+Missile Guidance Computer II
+Missile Guidance Computer II
+Peripheral Compact Target Painter
+
+Polarized Rocket Launcher
+Polarized Rocket Launcher
+Polarized Rocket Launcher
+
+Small Hydraulic Bay Thrusters II
+Small Rocket Fuel Cache Partition II
+Small Warhead Flare Catalyst I
+
+
+
+
+Mjolnir Rage Rocket x1900
+Caldari Navy Scourge Rocket x2302
+Mjolnir Javelin Rocket x2226
+Missile Range Script x2
+Caldari Navy Mjolnir Rocket x2006
+Nova Rage Rocket x1977
+Inferno Rage Rocket x1891
+Caldari Navy Nova Rocket x2840
+        """,
+        "flugplan": [
+            "**1:** :color[Mjolnir Javelin Rocket]{foreground='#20FFFF'} & 1 Missile Range Script laden.",
+            "**2:** Missile Guidance Computer AN.",
+            "**3:** Default Orbit auf :orange[**28km!!**] setzen!",
+            "**4:** Sprungtor aktivieren.",
+            "**5:** :red[MWD AN!]",
+            "**6:** :orange[**28km(!)**] :red[Orbit um **Jaguar !!**]",
+            "**7:** Jaguar und beide Burst aufschalten.",
+            "**8:** Beide Bursts nacheinander zerstören.",
+            "**9:** Immer Target Painter auf das aktuelle Ziel",
+            "**10:** :color[Caldari Navy Scourge Rocket]{foreground='#A0FFA0'} laden",
+            "**11:** Target Painter auf Jaguar.",
+            "**12:** Jaguar zerstören.",
+            "**13:** Wrack plündern und wertvollen Loot mitnehmen."
+        ],
+        # Optionale Details (Standardmäßig eingeklappt)
+        "details_warum_fit": "Das gegnerische Team besteht aus einer Assault Fregatte und zwei Logistikern. Mit der Garmur zerstören wir erst die Logistik-Fregatten und dann den Hauptgegner. Das Fit ist auf hohe Geschwindigkeit und hohen Schaden ausgelegt. Der Tank ist praktisch nicht vorhanden. Du fliegst einen weiten Orbit (28km) auf dem Dich die Waffen der Jaguar hoffentlich nicht treffen. Guidance Computer (einer mit Missile Range Script) und Rigs sorgen für genug Reichweite Deiner Rockets. Bei einem weiten Orbit wie hier, musst Du auf Javelin und Fraktions Rockets zurückgreifen. Außerdem bist Du in den ersten Sekunden oft nicht nah genug an den Bursts, um sie aufschalten zu können. Der Abstand stabilisiert sich aber in der Regel nach ca. einem Orbit. Das selbe Fit kann mit leicht angepasstem Orbit und anderen Rockets (alle Varianten im Cargo) genau so gegen alle Teams eingesetzt werden. Allerdings ist der Preis mit 500 Mio ISK relativ hoch.",
+        "details_resistenzen": "Da der Gegner Dich nicht treffen sollte ist seine Schadensart nicht relevant. Die geringste Schild-Resistenz der Bursts ist gegen EM-Schaden, deswegen Mjolnir Javelin Rocket einsetzen. Die geringste Schild-Resistenz der Jaguar ist Kinetik, deswegen schießt Du mit Caldari Navy Scourge Rockets.",
+        "details_implants": "Die Mission ist komplett ohne Implantate machbar. Wenn überhaupt, kannst Du die Reichweite und den Schaden der Missiles durch Implantate erhöhen.",
+        "details_skills": [
+            {"Kategorie": "Spaceship Command", "Skill": "Caldari Frigates", "Stufe": "V"},
+            {"Kategorie": "Spaceship Command", "Skill": "Gallente Frigates", "Stufe": "I"},
+            {"Kategorie": "Armor", "Skill": "Hull Upgrades", "Stufe": "V"},
+            {"Kategorie": "Armor", "Skill": "Mechanics", "Stufe": "V"},
+            {"Kategorie": "Navigation", "Skill": "Acceleration Control", "Stufe": "IV"},
+            {"Kategorie": "Navigation", "Skill": "Navigation", "Stufe": "V"},
+            {"Kategorie": "Navigation", "Skill": "High Speed Maneuvering", "Stufe": "IV"},
+            {"Kategorie": "Navigation", "Skill": "Evasive Maneuvering", "Stufe": "IV"},
+            {"Kategorie": "Electronic Systems", "Skill": "Target Painting", "Stufe": "IV"},
+            {"Kategorie": "Electronic Systems", "Skill": "Signature Focusing", "Stufe": "IV"},
+            {"Kategorie": "Engineering", "Skill": "Advanced Weapon Upgrades", "Stufe": "IV"},
+            {"Kategorie": "Engineering", "Skill": "Capacitor Management", "Stufe": "V"},
+            {"Kategorie": "Engineering", "Skill": "Capacitor Systems Operation", "Stufe": "V"},
+            {"Kategorie": "Engineering", "Skill": "CPU Management", "Stufe": "V"},
+            {"Kategorie": "Engineering", "Skill": "Power Grid Management", "Stufe": "V"},
+            {"Kategorie": "Engineering", "Skill": "Weapon Upgrades", "Stufe": "V"},
+            {"Kategorie": "Missiles", "Skill": "Rockets", "Stufe": "V"},
+            {"Kategorie": "Missiles", "Skill": "Rocket Specialization", "Stufe": "IV"},
+            {"Kategorie": "Missiles", "Skill": "Guided Missile Precision", "Stufe": "IV"},
+            {"Kategorie": "Missiles", "Skill": "Missile Bombardment", "Stufe": "V"},
+            {"Kategorie": "Missiles", "Skill": "Missile Launcher Operation", "Stufe": "V"},
+            {"Kategorie": "Missiles", "Skill": "Missile Projection", "Stufe": "V"},
+            {"Kategorie": "Missiles", "Skill": "Rapid Launch", "Stufe": "IV"},
+            {"Kategorie": "Missiles", "Skill": "Target Navigation Prediction", "Stufe": "IV"},
+            {"Kategorie": "Missiles", "Skill": "Warhead Upgrades", "Stufe": "IV"},
+            {"Kategorie": "Shields", "Skill": "Shield Management", "Stufe": "V"},
+            {"Kategorie": "Shields", "Skill": "Tactical Shield Manipulation", "Stufe": "IV"},
+            {"Kategorie": "Rigging", "Skill": "Launcher Rigging", "Stufe": "IV"},
+            {"Kategorie": "Targeting", "Skill": "Long Range Targeting", "Stufe": "V"},
+        ]
+    },
+
+    # ---------------------------------------------------------------------------------------
+    #
     # --- TEAM Jaguar - Kitsune ---
     #
     "Kitsune vs. Team Jaguar": {
@@ -46,7 +135,7 @@ Scourge Fury Light Missile x2500
             "**9:** Wrack plündern und wertvollen Loot mitnehmen."
         ],
         # Optionale Details (Standardmäßig eingeklappt)
-        "details_warum_fit": "Die Kitsune ist auf ECM-Jammer spezialisiert. Sobald du deine Jams erfolgreich auf die Logistik-Fregatten (Burst) anwendest, können diese die Jaguar nicht mehr aufschalten und reparieren. Halte mit der Kitsune so viel Abstand, dass deine Fury Light Missiles gerade noch treffen. Du solltest eine Distanz von mindestens 28 km (besser 30 km) wahren, weshalb deine Raketen eine entsprechende Reichweite benötigen. Dank deines MWD ist das Halten des Abstands kein Problem: Die Jaguar erreicht maximal ca. 1.200 m/s, während deine Kitsune rund 2.500 m/s fliegt. Da der DPS der Kitsune nicht überragend ist, dauert der Kampf einige Minuten. Je besser deine Missile-Skills sind, desto schneller ist es vorbei. Das unschlagbare Argument für dieses Fit ist jedoch das extrem geringe finanzielle Risiko durch den niedrigen Preis von Schiff und Ausrüstung. Du kannst die selbe Kitsune für alle **Anomischen Team** Missionen benutzen: Die zwei ECM Module und die Raketen werden je nach Mission (Fraktion der Gegner) angepasst.",
+        "details_warum_fit": "Das gegnerische Team besteht aus einer Assault Fregatte und zwei Logistikern. Die Kitsune ist auf ECM-Jammer spezialisiert. Sobald du deine Jams erfolgreich auf die Logistik-Fregatten (Burst) anwendest, können diese die Jaguar nicht mehr aufschalten und reparieren. Halte mit der Kitsune so viel Abstand, dass deine Fury Light Missiles gerade noch treffen. Du solltest eine Distanz von mindestens 28 km (besser 30 km) wahren, weshalb deine Raketen eine entsprechende Reichweite benötigen. Dank deines MWD ist das Halten des Abstands kein Problem: Die Jaguar erreicht maximal ca. 1.200 m/s, während deine Kitsune rund 2.500 m/s fliegt. Da der DPS der Kitsune nicht überragend ist, dauert der Kampf einige Minuten. Je besser deine Missile-Skills sind, desto schneller ist es vorbei. Das unschlagbare Argument für dieses Fit ist jedoch das extrem geringe finanzielle Risiko durch den niedrigen Preis von Schiff und Ausrüstung. Du kannst die selbe Kitsune für alle **Anomischen Team** Missionen benutzen: Die zwei ECM Module und die Raketen werden je nach Mission (Fraktion der Gegner) angepasst.",
         "details_resistenzen": "Da der Gegner Dich nicht treffen sollte ist seine Schadensart nicht relevant. Die geringste Schild-Resistenz der Jaguar ist Kinetik, deswegen schießt Du am besten mit Scourge Missiles.",
         "details_implants": "Die Mission ist komplett ohne Implantate machbar. Wenn überhaupt, kannst Du die Reichweite und den Schaden der Missiles durch Implantate erhöhen. Ein Hydra-Set wäre der absolute Luxus.",
         "details_skills": [
