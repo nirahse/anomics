@@ -22,7 +22,7 @@ st.set_page_config(
     layout="wide"
 )
 
-# CSS: Abstände für das Hauptfenster UND die Sidebar reduzieren
+# CSS: Abstände für das Hauptfenster UND die Sidebar reduzieren 
 st.markdown(
     """
     <style>
