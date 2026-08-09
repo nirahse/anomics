@@ -9,7 +9,7 @@ TEAM_ENYO = {
     # --- TEAM Enyo - Garmur ---
     #
     "Garmur vs. Team Enyo": {
-        "flugshow_url": "https://youtu.be/IYEPW7bdMJ0", # Dein YouTube-Video
+        "flugshow_url": "https://youtu.be/toQRBdTfWLk", # Dein YouTube-Video
         "fit_misk" : 500,
         "fit": """[Garmur, Alle Teams]
 Caldari Navy Ballistic Control System
