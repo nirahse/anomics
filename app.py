@@ -175,9 +175,9 @@ if gefilterte_keys:
         st.markdown(
             "- Fang am besten mit günstigen Schiffen an, die Dein derzeitiger Skillstand unterstützt.\n"
             "- Mit Ausnahme der Kitsune für die Team Missionen sind die meisten günstigen Fits weniger flexibel. Schaffe günstige Schiffe nach und nach an, um Dein Spektrum zu erweitern.\n"
-            "- Garmur und Nergal sind teuer in der Anschaffung können aber in mehrere Missionen eingesetzt werden.\n"
+            "- Garmur und Nergal sind teuer in der Anschaffung können aber in mehreren Missionen eingesetzt werden.\n"
             "- Wenn Dein Konto gefüllt ist und Skills kein Problem sind, bietet sich die Nergal an. Für ca. 1.5b Investition kannst Du mit einem Schiff fast alle Anomischen Missionen fliegen. Die Module für alle Fits passen in einen Standard Container. Den Container kann ein Marauder im Cargo mitnehmen, während die Nergal in der *Frigate Escape Bay* gelagert wird. Damit hast Du ein flexibles und mobiles Setup, das sich leicht verlegen lässt.\n" 
-            "- Die Nergal ist nicht nur extrem flexibel einsetzbar, sondern kann auch besonders gut mit Armor-Tank Schlachtschiffen (Paladin, Kronos, Apocalypse Navy Issue, etc) kombiniert werden, denn alle profitieren von einem Asklepian Implantat-Set und meistens auch von Gunnery Skill Implantaten. Du könntest also alles mit einem Klon fliegen."
+            "- Die Nergal ist nicht nur extrem flexibel einsetzbar, sondern kann auch besonders gut mit Armor-Tank Schlachtschiffen (Paladin, Kronos, Apocalypse Navy Issue, etc) kombiniert werden, denn alle profitieren von einem Asklepian Implantat-Set und meistens auch von Gunnery Skill Implantaten. Du könntest also alles entspannt mit einem Klon fliegen."
         )
 
         st.markdown("### Günstige Lösungen für den Start:")
