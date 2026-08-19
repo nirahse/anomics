@@ -41,7 +41,7 @@ Mjolnir Fury Light Missile x2500
             "**5:** ECM Jammer auf jede Bantam.",
             "**6:** Target Painter auf Hawk",
             "**7:** Feuern und warten bis Hawk platzt.",
-            "**9:** Wrack plündern und wertvollen Loot mitnehmen."
+            "**8:** Wrack plündern und wertvollen Loot mitnehmen."
         ],
         # Optionale Details (Standardmäßig eingeklappt)
         "details_warum_fit": "Die Kitsune ist auf ECM-Jammer spezialisiert. Sobald du deine Jams erfolgreich auf die Logistik-Fregatten (Bantam) anwendest, können diese die Hawk nicht mehr aufschalten und reparieren. Halte mit der Kitsune so viel Abstand, dass deine Fury Light Missiles gerade noch treffen. Du solltest eine Distanz von mindestens 28 km (besser 30 km) wahren, weshalb deine Missiles eine entsprechende Reichweite benötigen. Dank deines MWD ist das Halten des Abstands kein Problem: Die Hawk erreicht maximal ca. 1.100 m/s, während deine Kitsune rund 2.500 m/s fliegt. Da der DPS der Kitsune nicht überragend ist, dauert der Kampf ein paar Minuten. Je besser deine Missile-Skills sind, desto schneller ist es vorbei. Das unschlagbare Argument für dieses Fit ist jedoch das extrem geringe finanzielle Risiko durch den niedrigen Preis von Schiff und Ausrüstung. Du kannst die selbe Kitsune für alle **Anomischen Team** Missionen benutzen: Die zwei ECM Module und die Missiles werden je nach Mission (Fraktion der Gegner) angepasst.",

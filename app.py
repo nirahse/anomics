@@ -169,8 +169,6 @@ if gefilterte_keys:
 
         st.warning("⚠️ Wichtig: Anomische (Burner) Missionen verzeihen wenig Fehler. Sie zählen nicht zum Anfänger-Content in EVE Online. Prüfe Deine Skills, Konzentriere Dich, Überhitze rechtzeitig! Lehne Anomische Missionen lieber ab, wenn Du nicht sicher bist ob Du sie schaffst.")
 
-        st.markdown("---")
-
         st.markdown("### Mit welchen Missionen und Schiffen fange ich am besten an?")
         st.markdown(
             "- Fang am besten mit günstigen Schiffen an, die Dein derzeitiger Skillstand unterstützt.\n"
