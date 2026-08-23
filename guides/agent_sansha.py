@@ -128,7 +128,7 @@ Agency 'Pyrolancea' DB3 Dose I x1
             "**6:** Succubus aufschalten.",
             "**7:** Feuern und zerstören.",
             ":orange[**Kurskorrektur:**] Wenn der Gegner mit der Station kollidiert, fliege in gerader Linie (Doppelklick) senkrecht zu seinem Orbit und weg von der Station.",
-            ":orange[**Waffen wieder aktivieren**] wenn nachgeladen wurde."
+            ":orange[**Waffen wieder aktivieren**] wenn nachgeladen wurde.",
             "**9:** Wertvollen Loot mitnehmen.",
         ],
         # Optionale Details (Standardmäßig eingeklappt)

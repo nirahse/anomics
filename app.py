@@ -31,7 +31,7 @@ from data import MISSION_DATA
 
 
 st.set_page_config(
-    page_title="EVE Guide - Anomische Missionen",
+    page_title="EVE Guides - Anomische Missionen",
     page_icon="🔥",
     layout="wide"
 )
