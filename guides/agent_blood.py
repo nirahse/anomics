@@ -34,7 +34,7 @@ Occult S x2000
     """
     ,
         "flugplan": [
-            "**1:** Occult S laden.",
+            "**1:** Occult S laden. Armor Repairer AN.",
             "**2:** Sprungtor nutzen.",
             "**3:** Cruor aufschalten.",
             "**4:** 4.5 km Abstand halten.",
