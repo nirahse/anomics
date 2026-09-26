@@ -7,7 +7,7 @@ Willkommen bei **Nira's Anomics Guides**! Diese interaktive Web-App hilft dir be
 
 ---
 
-## 🌎 Project Overview (English for Search Engine Optimization)
+## 🌎 Project Overview
 
 **Nira's Anomics Guides** is a dynamic web application built for EVE Online players looking for specialized Level 4 Anomic (Burner) Mission Guides. 
 
