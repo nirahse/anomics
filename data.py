@@ -15,6 +15,7 @@ from guides.team_vengeance import TEAM_VENGEANCE
 
 from guides.base_ashimmu import BASE_ASHIMMU
 from guides.base_talos import BASE_TALOS
+from guides.base_angel_transport import BASE_ANGELTRANSP
 
 
 # Store root keys in new dict 
@@ -31,6 +32,7 @@ MISSION_DATA = {
     **TEAM_JAGUAR,
     **TEAM_VENGEANCE,
 
+    **BASE_ANGELTRANSP,
     **BASE_ASHIMMU,
     **BASE_TALOS
     

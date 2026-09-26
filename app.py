@@ -182,7 +182,7 @@ if gefilterte_keys:
 
         #st.markdown("---")
 
-        st.info("ℹ️ Nutze die Sidebar auf der linken Seite, um gezielt nach bestimmten Agenten oder Schiffen zu suchen. Jeder Guide liefert Dir das passende Fit, die Taktik und ein Video-Beispiel.")
+        st.info("ℹ️ Nutze die Sidebar auf der linken Seite, um gezielt nach bestimmten Agenten oder Schiffen zu suchen. Jeder Guide liefert Dir das passende Fit, die Taktik und ein Video-Beispiel. Falls Du in den Guides Fehler findest, meldet Dich bitte! Ich beanspruche nicht dass die Guides perfekt und vollständig sind. Die Information habe ich aus anderen, meist englischen Quellen zusammengetragen und durch meine Erfahrungen und Feedback aus der Community ergänzt.")
 
         st.warning("⚠️ Wichtig: Anomische (Burner) Missionen verzeihen wenig Fehler. Sie zählen nicht zum Anfänger-Content in EVE Online. Prüfe Deine Skills, Konzentriere Dich, Überhitze rechtzeitig! Lehne Anomische Missionen lieber ab, wenn Du nicht sicher bist ob Du sie schaffst.")
 
@@ -287,7 +287,7 @@ if gefilterte_keys:
         with st.expander("Implantate"):
             st.write(daten["details_implants"])
 
-else: # Kein Ergebnis nach Filter 
+else: # Kein Ergebnis nach Filter
     st.sidebar.warning("Keine Guides für diese Filter gefunden.")
     st.title("🛸 Burner Guides")
     st.info("Bitte passe die Filter in der Sidebar an, um einen Taktik-Guide anzuzeigen.")
