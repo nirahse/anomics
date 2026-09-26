@@ -32,7 +32,6 @@ from data import MISSION_DATA
 
 st.set_page_config(
     page_title="EVE Online Guides - Anomische Missionen",
-    page_description="Interaktive Fittings, Taktiken und Schiffskonfigurationen für anomische Missionen (Burner) in EVE Online.",
     page_icon="🔥",
     layout="wide"
 )
@@ -41,6 +40,21 @@ st.set_page_config(
 # CSS: Abstände für das Hauptfenster UND die Sidebar reduzieren
 st.markdown(
     """
+    <!-- ============================================================================== -->
+    <!-- SEO-BLOCK FÜR GOOGLE (Unsichtbar für normale Nutzer) -->
+    <!-- ============================================================================== -->
+    <div style="display: none; height: 0px; width: 0px; overflow: hidden;">
+        <h1>Nira's EVE Online Burner & Anomic Mission Guides</h1>
+        <h2>Interaktive Fittings & Taktiken für anomische Missionen</h2>
+        <p>Willkommen bei Nira's Anomics Guides! Diese Web-App bietet der deutschen 
+        und internationalen EVE Online-Community optimierte Schiffskonfigurationen, 
+        Schadensprofile, Pyfa-Fittings und Taktiken für alle Level 4 Burner-Missionen 
+        (Anomic Agent, Team & Base).</p>
+        <p>Guides für Schiffe wie Daredevil, Talos, Hawk, Nergal, Worm, Dramiel, 
+        Cruor, Succubus, Vengeance, Harpy, Enyo, Wyvern, Drake und Scarab.</p>
+    </div>
+    <!-- ============================================================================== -->
+
     <style>
         /* 1. Abstand oben im Hauptfenster entfernen */
         .block-container {
@@ -75,6 +89,7 @@ st.markdown(
 
 # --- SIDE BAR ---
 st.logo("logo_120.png")
+
 st.sidebar.title("Burner Guides")
 
 # --- SIDEBAR: FILTER-ELEMENTE ---
@@ -165,7 +180,7 @@ if gefilterte_keys:
     if auswahl == grundlagen_label:
         st.image("logo_title_bigbar.png")
 
-        st.markdown("---")
+        #st.markdown("---")
 
         st.info("ℹ️ Nutze die Sidebar auf der linken Seite, um gezielt nach bestimmten Agenten oder Schiffen zu suchen. Jeder Guide liefert Dir das passende Fit, die Taktik und ein Video-Beispiel.")
 
@@ -192,7 +207,7 @@ if gefilterte_keys:
         #st.dataframe(df_uebersicht, width='stretch', hide_index=True) # pd frame looks not as good
         st.table(df_uebersicht)
 
-        st.markdown("---")
+        #st.markdown("---")
 
         st.markdown("### ✉️ Kontakt & Feedback")
 
