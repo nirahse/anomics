@@ -31,10 +31,12 @@ from data import MISSION_DATA
 
 
 st.set_page_config(
-    page_title="EVE Guides - Anomische Missionen",
+    page_title="EVE Online Guides - Anomische Missionen",
+    page_description="Interaktive Fittings, Taktiken und Schiffskonfigurationen für anomische Missionen (Burner) in EVE Online.",
     page_icon="🔥",
     layout="wide"
 )
+
 
 # CSS: Abstände für das Hauptfenster UND die Sidebar reduzieren
 st.markdown(
