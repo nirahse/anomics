@@ -185,6 +185,8 @@ if gefilterte_keys:
         st.info("ℹ️ Nutze die Sidebar auf der linken Seite, um gezielt nach bestimmten Agenten oder Schiffen zu suchen. Jeder Guide liefert Dir das passende Fit, die Taktik und ein Video-Beispiel. Falls Du in den Guides Fehler findest, meldet Dich bitte! Ich beanspruche nicht dass die Guides perfekt und vollständig sind. Die Information habe ich aus anderen, meist englischen Quellen zusammengetragen und durch meine Erfahrungen und Feedback aus der Community ergänzt.")
 
         st.warning("⚠️ Wichtig: Anomische (Burner) Missionen verzeihen wenig Fehler. Sie zählen nicht zum Anfänger-Content in EVE Online. Prüfe Deine Skills, Konzentriere Dich, Überhitze rechtzeitig! Lehne Anomische Missionen lieber ab, wenn Du nicht sicher bist ob Du sie schaffst.")
+        
+        st.warning("⚠️ Warnung: Wegen Änderungen in der Reichweite mit dem 'Cradle of War' Update vom 22. Sept. 2026 funktioniert die Harpy nicht mehr in der Mission gegen den Serpentis Agenten. Der entsprechende Guide wurde hier entfernt.")
 
         st.markdown("### Mit welchen Missionen und Schiffen fange ich am besten an?")
         st.markdown(
