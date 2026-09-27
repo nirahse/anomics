@@ -180,7 +180,7 @@ if gefilterte_keys:
     if auswahl == grundlagen_label:
         st.image("logo_title_bigbar.png")
 
-        #st.markdown("---")
+        #st.markdown("---") 
 
         st.info("ℹ️ Nutze die Sidebar auf der linken Seite, um gezielt nach bestimmten Agenten oder Schiffen zu suchen. Jeder Guide liefert Dir das passende Fit, die Taktik und ein Video-Beispiel. Falls Du in den Guides Fehler findest, meldet Dich bitte! Ich beanspruche nicht dass die Guides perfekt und vollständig sind. Die Information habe ich aus anderen, meist englischen Quellen zusammengetragen und durch meine Erfahrungen und Feedback aus der Community ergänzt.")
 

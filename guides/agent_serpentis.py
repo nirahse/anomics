@@ -4,79 +4,89 @@
 
 AGENT_SERPENTIS = {
 
-#
-# The solution of AGENT Serpentis vs Harpy has been depricated by the removal of optimal
-# range buffs from the Harpy. This is no longer going to work since 2026-Sep-22 until
-# someone is publishing the opposite.
-#
-#     # ---------------------------------------------------------------------------------------
-#     #
-#     # --- AGENT Serpentis - Harpy ---
-#     #
-#     "Harpy vs. Serpentis Agent": {
-#         "flugshow_url": "https://youtu.be/-EFJPWlNb9c", # <-- YouTube-Video
-#         "fit_misk" : 200,
-#         "fit": """[Harpy, Agent Serpentis]
-# Vortex Compact Magnetic Field Stabilizer
-# Magnetic Field Stabilizer II
-# Fourier Compact Tracking Enhancer
 
-# Gistum C-Type Medium Shield Booster
-# Small Compact Pb-Acid Cap Battery
-# Federation Navy Stasis Webifier
-# Pithum B-Type Kinetic Shield Amplifier
 
-# Light Neutron Blaster II
-# Light Neutron Blaster II
-# Light Neutron Blaster II
-# Light Neutron Blaster II
+    # ---------------------------------------------------------------------------------------
+    #
+    # --- AGENT Serpentis - Hawk ---
+    #
+    "Hawk vs. Serpentis Agent": {
+        "flugshow_url": "", # <-- YouTube-Video
+        "fit_misk" : 270,
+        "fit": """[Hawk, Agent Serpentis]
+Ballistic Control System II
+Ballistic Control System II
 
-# Small Hybrid Locus Coordinator II
-# Small Hybrid Locus Coordinator II
+Gistum C-Type Medium Shield Booster
+Republic Fleet Small Cap Battery
+Dread Guristas Stasis Webifier
+Peripheral Compact Target Painter
+Dread Guristas Stasis Webifier
+
+Rocket Launcher II
+Rocket Launcher II
+Corpii A-Type Small Energy Nosferatu
+Rocket Launcher II
+Rocket Launcher II
+
+Small Processor Overclocking Unit II
+Small Kinetic Shield Reinforcer II
 
 
 
-# Null S x4000
-#         """,
-#         "flugplan": [
-#             "**1:** Null S laden, Schild Booster AN.",
-#             "**2:** Sprungtor aktivieren.",
-#             "**3:** Kurs auf Gegner setzen (Annähern).",
-#             "**4:** Gegner aufschalten.",
-#             "**5:** Webifier AN.",
-#             "**6:** Feuern und zerstören.",
-#             "**7:** Wertvollen Loot aus Wrack plündern.",
-#         ],
-#         # Optionale Details (Standardmäßig eingeklappt)
-#         "details_warum_fit": "Der Gegner hat einen extrem starken Webifier, der dich praktisch auf der Stelle festnagelt. Zum Glück will er dich nah genug umkreisen, so dass er für die Null S Munition knapp über optimaler Reichweite ist. Dein Webfier unterstützt die Blaster bei der Nachführung. Gegen den hohen Schaden des Gegners ist ein Kinetik Schild Amplifier eingebaut, die Thermal-Resistenz der Schilde der Harpy sind ohne Verstärkung gut genug. Trotzdem ist ein recht teurer Schield-Booster notwendig, um gegen den Schaden der Daredevil klar zu kommen.",
-#         "details_resistenzen": "Gegner macht Kinetik- und Thermal-Schadendeswegen. Die Kinetik Resistenz der Harpy wird durch den Pithum B-Type Kinetic Shield Amplifier verstärkt. Die Resistenzen der Daredevil sind relativ gut gegen den Thermal+Kinetik Schaden Deiner Blaster. ",
-#         "details_implants": "Es sind keine Implantate notwendig. Unterstütze den Tank notfalls mit einem Booster. Mit einem luxuriösen Crystal-Set entsteht erst gar kein Stress. Du könntest auch Implantate für mehr Gun-Feuerkraft einsetzen, um die Missionszeit zu verkürzen.",
-#         "details_skills": [
-#             {"Kategorie": "Spaceship Command", "Skill": "Assault Frigates", "Stufe": "V"},
-#             {"Kategorie": "Spaceship Command", "Skill": "Caldari Frigates", "Stufe": "V"},
-#             {"Kategorie": "Armor", "Skill": "Hull Upgrades", "Stufe": "V"},
-#             {"Kategorie": "Armor", "Skill": "Mechanics", "Stufe": "V"},
-#             {"Kategorie": "Navigation", "Skill": "Acceleration Control", "Stufe": "V"},
-#             {"Kategorie": "Navigation", "Skill": "Navigation", "Stufe": "V"},
-#             {"Kategorie": "Engineering", "Skill": "Advanced Weapon Upgrades", "Stufe": "IV"},
-#             {"Kategorie": "Engineering", "Skill": "Capacitor Management", "Stufe": "V"},
-#             {"Kategorie": "Engineering", "Skill": "Capacitor Systems Operation", "Stufe": "V"},
-#             {"Kategorie": "Engineering", "Skill": "CPU Management", "Stufe": "V"},
-#             {"Kategorie": "Engineering", "Skill": "Power Grid Management", "Stufe": "V"},
-#             {"Kategorie": "Engineering", "Skill": "Weapon Upgrades", "Stufe": "V"},
-#             {"Kategorie": "Engineering", "Skill": "Thermodynamics", "Stufe": "III"},
-#             {"Kategorie": "Gunnery", "Skill": "Controlled Bursts", "Stufe": "V"},
-#             {"Kategorie": "Gunnery", "Skill": "Gunnery", "Stufe": "V"},
-#             {"Kategorie": "Gunnery", "Skill": "Motion Prediction", "Stufe": "V"},
-#             {"Kategorie": "Gunnery", "Skill": "Rapid Firing", "Stufe": "V"},
-#             {"Kategorie": "Gunnery", "Skill": "Sharpshooter", "Stufe": "V"},
-#             {"Kategorie": "Gunnery", "Skill": "Small Hybrid Turrets", "Stufe": "V"},
-#             {"Kategorie": "Gunnery", "Skill": "Small Blaster Specialization", "Stufe": "IV"},
-#             {"Kategorie": "Gunnery", "Skill": "Surgical Strike", "Stufe": "V"},
-#             {"Kategorie": "Gunnery", "Skill": "Trajectory Analysis", "Stufe": "IV"},
-#             {"Kategorie": "Rigging", "Skill": "Hybrid Weapon Rigging", "Stufe": "III"},
-#         ]
-#     },
+
+Nova Rage Rocket x3000
+        """,
+        "flugplan": [
+            "**1:** :yellow[Nova Rage Rocket] laden, Schild Booster AN.",
+            "**2:** Sprungtor aktivieren.",
+            "**3:** Kurs auf Gegner setzen (Annähern).",
+            "**4:** Daredevil aufschalten.",
+            "**5:** Webifier, Target Painter, Nosferatu AN.",
+            "**6:** Feuern und zerstören.",
+            "**7:** Wertvollen Loot aus Wrack plündern.",
+        ],
+        # Optionale Details (Standardmäßig eingeklappt)
+        "details_warum_fit": "Die Daredevil hat einen extrem starken Webifier, der dich praktisch auf der Stelle festnagelt. Zum Glück will er dich nah genug umkreisen (11km), so dass er für die Rage Rockets noch Reichweite ist. Du braucht zwei Webfier, damit die Rakten den schnellen Gegner überhaupt erreichen. Der Target Painter verbessert zusätzlich die Wirksamkeit der Raketen. Gegen den hohen Schaden des Gegners ist ein Kinetik Schild Rig an Board. Die Thermal-Resistenz der Schilde der Hawk sind ohne Verstärkung gut genug. Trotzdem ist ein recht teurer Schield-Booster notwendig, um gegen den Schaden der Daredevil klar zu kommen.",
+        "details_resistenzen": "Die Daredevil macht Kinetik- und Thermal-Schaden. Die Kinetik Resistenz der Hawk wird durch den Small Kinetic Shield Reinforcer II verstärkt. Die Resistenzen der Daredevil sind am niedrigsten gegen Explosiv-Schaden, deswegen setzt Du am besten Nova Raketen ein. ",
+        "details_implants": "Es sind keine Implantate notwendig. Unterstütze den Tank notfalls mit einem Blue Pill Booster. Mit einem luxuriösen Crystal-Set entsteht erst gar kein Stress. Du könntest auch Implantate für mehr Reichweite, Feuerkraft und Treffsicherheit der Raketen einsetzen, um die Missionszeit zu verkürzen.",
+        "details_skills": [
+            {"Kategorie": "Spaceship Command", "Skill": "Assault Frigates", "Stufe": "V"},
+            {"Kategorie": "Spaceship Command", "Skill": "Caldari Frigates", "Stufe": "V"},
+            {"Kategorie": "Armor", "Skill": "Hull Upgrades", "Stufe": "V"},
+            {"Kategorie": "Armor", "Skill": "Mechanics", "Stufe": "V"},
+            {"Kategorie": "Navigation", "Skill": "Navigation", "Stufe": "V"},
+            {"Kategorie": "Electronic Systems", "Skill": "Propulsion Jamming", "Stufe": "IV"},
+            {"Kategorie": "Electronic Systems", "Skill": "Signature Focusing", "Stufe": "IV"},
+            {"Kategorie": "Electronic Systems", "Skill": "Target Painting", "Stufe": "IV"},
+            {"Kategorie": "Engineering", "Skill": "Advanced Weapon Upgrades", "Stufe": "III"},
+            {"Kategorie": "Engineering", "Skill": "Capacitor Emission Systems", "Stufe": "III"},
+            {"Kategorie": "Engineering", "Skill": "Capacitor Management", "Stufe": "V"},
+            {"Kategorie": "Engineering", "Skill": "Capacitor Systems Operation", "Stufe": "V"},
+            {"Kategorie": "Engineering", "Skill": "CPU Management", "Stufe": "V"},
+            {"Kategorie": "Engineering", "Skill": "Energy Grid Upgrades", "Stufe": "V"},
+            {"Kategorie": "Engineering", "Skill": "Power Grid Management", "Stufe": "V"},
+            {"Kategorie": "Engineering", "Skill": "Weapon Upgrades", "Stufe": "V"},
+            {"Kategorie": "Engineering", "Skill": "Thermodynamics", "Stufe": "IV"},
+            {"Kategorie": "Missiles", "Skill": "Rockets", "Stufe": "V"},
+            {"Kategorie": "Missiles", "Skill": "Rocket Specialization", "Stufe": "IV"},
+            {"Kategorie": "Missiles", "Skill": "Guided Missile Precision", "Stufe": "IV"},
+            {"Kategorie": "Missiles", "Skill": "Missile Bombardment", "Stufe": "V"},
+            {"Kategorie": "Missiles", "Skill": "Missile Launcher Operation", "Stufe": "V"},
+            {"Kategorie": "Missiles", "Skill": "Missile Projection", "Stufe": "V"},
+            {"Kategorie": "Missiles", "Skill": "Rapid Launch", "Stufe": "IV"},
+            {"Kategorie": "Missiles", "Skill": "Target Navigation Prediction", "Stufe": "IV"},
+            {"Kategorie": "Missiles", "Skill": "Warhead Upgrades", "Stufe": "IV"},
+            {"Kategorie": "Shields", "Skill": "Shield Compensation", "Stufe": "V"},
+            {"Kategorie": "Shields", "Skill": "Shield Management", "Stufe": "IV"},
+            {"Kategorie": "Shields", "Skill": "Shield Operation", "Stufe": "IV"},
+            {"Kategorie": "Shields", "Skill": "Shield Upgrades", "Stufe": "IV"},
+            {"Kategorie": "Shields", "Skill": "Tactical Shield Manipulation", "Stufe": "V"},
+            {"Kategorie": "Rigging", "Skill": "Shield Rigging", "Stufe": "IV"},
+        ]
+    },
+
+
 
     # ---------------------------------------------------------------------------------------
     #
@@ -154,5 +164,78 @@ Baryon Exotic Plasma S x2000
         ]
     },
 
+#
+# The solution of AGENT Serpentis vs Harpy has been depricated by the removal of optimal
+# range buffs from the Harpy. This is no longer going to work since 2026-Sep-22 until
+# someone is publishing the opposite.
+#
+#     # ---------------------------------------------------------------------------------------
+#     #
+#     # --- AGENT Serpentis - Harpy ---
+#     #
+#     "Harpy vs. Serpentis Agent": {
+#         "flugshow_url": "https://youtu.be/-EFJPWlNb9c", # <-- YouTube-Video
+#         "fit_misk" : 200,
+#         "fit": """[Harpy, Agent Serpentis]
+# Vortex Compact Magnetic Field Stabilizer
+# Magnetic Field Stabilizer II
+# Fourier Compact Tracking Enhancer
+
+# Gistum C-Type Medium Shield Booster
+# Small Compact Pb-Acid Cap Battery
+# Federation Navy Stasis Webifier
+# Pithum B-Type Kinetic Shield Amplifier
+
+# Light Neutron Blaster II
+# Light Neutron Blaster II
+# Light Neutron Blaster II
+# Light Neutron Blaster II
+
+# Small Hybrid Locus Coordinator II
+# Small Hybrid Locus Coordinator II
+
+
+
+# Null S x4000
+#         """,
+#         "flugplan": [
+#             "**1:** Null S laden, Schild Booster AN.",
+#             "**2:** Sprungtor aktivieren.",
+#             "**3:** Kurs auf Gegner setzen (Annähern).",
+#             "**4:** Gegner aufschalten.",
+#             "**5:** Webifier AN.",
+#             "**6:** Feuern und zerstören.",
+#             "**7:** Wertvollen Loot aus Wrack plündern.",
+#         ],
+#         # Optionale Details (Standardmäßig eingeklappt)
+#         "details_warum_fit": "Der Gegner hat einen extrem starken Webifier, der dich praktisch auf der Stelle festnagelt. Zum Glück will er dich nah genug umkreisen, so dass er für die Null S Munition knapp über optimaler Reichweite ist. Dein Webfier unterstützt die Blaster bei der Nachführung. Gegen den hohen Schaden des Gegners ist ein Kinetik Schild Amplifier eingebaut, die Thermal-Resistenz der Schilde der Harpy sind ohne Verstärkung gut genug. Trotzdem ist ein recht teurer Schield-Booster notwendig, um gegen den Schaden der Daredevil klar zu kommen.",
+#         "details_resistenzen": "Gegner macht Kinetik- und Thermal-Schadendeswegen. Die Kinetik Resistenz der Harpy wird durch den Pithum B-Type Kinetic Shield Amplifier verstärkt. Die Resistenzen der Daredevil sind relativ gut gegen den Thermal+Kinetik Schaden Deiner Blaster. ",
+#         "details_implants": "Es sind keine Implantate notwendig. Unterstütze den Tank notfalls mit einem Booster. Mit einem luxuriösen Crystal-Set entsteht erst gar kein Stress. Du könntest auch Implantate für mehr Gun-Feuerkraft einsetzen, um die Missionszeit zu verkürzen.",
+#         "details_skills": [
+#             {"Kategorie": "Spaceship Command", "Skill": "Assault Frigates", "Stufe": "V"},
+#             {"Kategorie": "Spaceship Command", "Skill": "Caldari Frigates", "Stufe": "V"},
+#             {"Kategorie": "Armor", "Skill": "Hull Upgrades", "Stufe": "V"},
+#             {"Kategorie": "Armor", "Skill": "Mechanics", "Stufe": "V"},
+#             {"Kategorie": "Navigation", "Skill": "Acceleration Control", "Stufe": "V"},
+#             {"Kategorie": "Navigation", "Skill": "Navigation", "Stufe": "V"},
+#             {"Kategorie": "Engineering", "Skill": "Advanced Weapon Upgrades", "Stufe": "IV"},
+#             {"Kategorie": "Engineering", "Skill": "Capacitor Management", "Stufe": "V"},
+#             {"Kategorie": "Engineering", "Skill": "Capacitor Systems Operation", "Stufe": "V"},
+#             {"Kategorie": "Engineering", "Skill": "CPU Management", "Stufe": "V"},
+#             {"Kategorie": "Engineering", "Skill": "Power Grid Management", "Stufe": "V"},
+#             {"Kategorie": "Engineering", "Skill": "Weapon Upgrades", "Stufe": "V"},
+#             {"Kategorie": "Engineering", "Skill": "Thermodynamics", "Stufe": "III"},
+#             {"Kategorie": "Gunnery", "Skill": "Controlled Bursts", "Stufe": "V"},
+#             {"Kategorie": "Gunnery", "Skill": "Gunnery", "Stufe": "V"},
+#             {"Kategorie": "Gunnery", "Skill": "Motion Prediction", "Stufe": "V"},
+#             {"Kategorie": "Gunnery", "Skill": "Rapid Firing", "Stufe": "V"},
+#             {"Kategorie": "Gunnery", "Skill": "Sharpshooter", "Stufe": "V"},
+#             {"Kategorie": "Gunnery", "Skill": "Small Hybrid Turrets", "Stufe": "V"},
+#             {"Kategorie": "Gunnery", "Skill": "Small Blaster Specialization", "Stufe": "IV"},
+#             {"Kategorie": "Gunnery", "Skill": "Surgical Strike", "Stufe": "V"},
+#             {"Kategorie": "Gunnery", "Skill": "Trajectory Analysis", "Stufe": "IV"},
+#             {"Kategorie": "Rigging", "Skill": "Hybrid Weapon Rigging", "Stufe": "III"},
+#         ]
+#     },
 
 }
